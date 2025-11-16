@@ -1,0 +1,21 @@
+lzc-sdk-version: 0.1
+name: Log Viewer
+package: cloud.lazycat.app.logviewer
+version: 1.0.1
+description: 日志分析器
+license: MIT
+homepage: 
+author: 
+application:
+  subdomain: logviewer
+  routes:
+    - /=http://webapp:5000
+services:
+  webapp:
+    image: registry.cn-hangzhou.aliyuncs.com/axy5920/logview:1.4
+    commands: python app.py
+    environment:
+      - PYTHONUNBUFFERED=1
+    binds:
+      - /lzcapp/var:/storage/zips
+      - /lzcapp/pkg/content:/app

@@ -1,0 +1,24 @@
+{
+  "spec": {
+    "board": "YENTEK STX-LN110 _",
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "disk-data": "WDC_WD10SPZX-22Z10T1 && WDC_WD10SPZX-22Z10T1",
+    "disk-system": "SOLIDIGM SSDPFKNU512GZ",
+    "ethernet": "0x8086 0x125c 0x8086 0x0000",
+    "memory": "0x0E15 DDR4 3200 MT/s 1.2 V SODIMM 16 GB",
+    "wireless": "0x8086 0x2725 0x8086 0x4020"
+  },
+  "id": {
+    "board": "9b940d9acab36706e19eea02a798bac5",
+    "cpu": "0",
+    "disk-data": "WD-WX42A23PM742 && WD-WXL2A135XFD2",
+    "disk-system": "BTEH322109UM512A",
+    "ethernet": "0",
+    "memory": "985F695C",
+    "wireless": "0"
+  }
+}
+
+real	0m0.043s
+user	0m0.039s
+sys	0m0.001s

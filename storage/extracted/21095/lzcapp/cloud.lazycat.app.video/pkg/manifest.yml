@@ -1,0 +1,52 @@
+lzc-sdk-version: v0.2.3-1120-g5682ee4d
+package: cloud.lazycat.app.video
+version: 0.1.6
+name: 视频播放器
+description: 懒猫微服播放器
+license: https://choosealicense.com/licenses/mit/
+homepage: https://appstore.lazycat.cloud/#/shop/detail/cloud.lazycat.app.video
+author: leiluhua@linakesi.com
+locales:
+  zh:
+    name: 视频播放器
+    description: 懒猫微服播放器
+  zh_CN:
+    name: 视频播放器
+    description: 懒猫微服播放器
+  en:
+    name: Video Player
+    description: Lazycat MicroServer Video Player
+application:
+  subdomain: video
+  gpu_accel: true
+  file_handler:
+    mime:
+      - video/mp4
+      - application/x-mpegURL
+      - video/x-matroska
+      - video/mp2t
+      - video/mj2
+      - video/x-nsv
+      - video/vnd.mpegurl
+      - video/vnd.rn-realvideo
+      - video/vnd.avi
+      - video/3gpp
+      - video/x-mng
+      - video/mj2
+      - video/mpeg
+      - video/x-sgi-movie
+      - video/webm
+      - video/vnd.vivo
+      - video/x-matroska-3d
+      - video/quicktime
+      - video/x-flv
+    actions:
+      open: /open?url=%u
+  routes:
+    - /=file:///lzcapp/pkg/content/dist
+  handlers:
+    error_page_templates:
+      '502': /lzcapp/pkg/content/502.html.tpl
+ext_config:
+  enable_document_access: true
+  enable_media_access: true

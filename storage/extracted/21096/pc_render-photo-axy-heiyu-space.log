@@ -1,0 +1,1301 @@
+[2025-10-31 20:04:13.936] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-10-31 20:04:13.937] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-10-31 20:04:14.054] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-10-31 20:04:14.131] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-10-31 20:04:14.132] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-10-31 20:04:14.160] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-10-31 20:04:14.273] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.044921875 ms'
+]
+[2025-10-31 20:04:14.275] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-10-31 20:04:14.330] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 0'
+]
+[2025-10-31 20:04:14.330] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.044921875 ms'
+]
+[2025-10-31 20:04:14.331] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-10-31 20:04:14.331] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-10-31 20:04:14.331] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud init start task color: green; font-size: 16px;'
+]
+[2025-10-31 20:04:14.356] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud init took 25 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":25} color: green; font-size: 16px;'
+]
+[2025-10-31 20:04:14.359] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-10-31 20:04:14.371] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 39 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":39} color: green; font-size: 16px;'
+]
+[2025-10-31 20:04:14.371] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-10-31 20:04:14.391] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.19287109375 ms'
+]
+[2025-10-31 20:04:14.392] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-10-31 20:04:15.331] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-10-31 20:04:15.566] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] offline ready'
+]
+[2025-10-31 20:04:19.386] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-10-31 20:04:19.395] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-0'
+]
+[2025-10-31 20:04:19.399] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":6,"modified":0,"removed":0}'
+]
+[2025-11-02 13:12:20.950] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-02 13:12:20.952] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-02 13:12:21.080] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-02 13:12:21.201] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-02 13:12:21.201] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-02 13:12:21.217] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.10498046875 ms'
+]
+[2025-11-02 13:12:21.218] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-02 13:12:21.265] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-02 13:12:21.284] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.06884765625 ms'
+]
+[2025-11-02 13:12:21.293] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 6'
+]
+[2025-11-02 13:12:21.293] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.046142578125 ms'
+]
+[2025-11-02 13:12:21.295] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-02 13:12:21.296] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-02 13:12:21.296] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-02 13:12:21.300] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-02 13:12:21.310] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 13 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":13} color: green; font-size: 16px;'
+]
+[2025-11-02 13:12:21.311] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  6'
+]
+[2025-11-02 13:12:21.372] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 75 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":75} color: green; font-size: 16px;'
+]
+[2025-11-02 13:12:21.372] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-02 13:12:21.448] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.04296875 ms'
+]
+[2025-11-02 13:12:22.296] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-02 13:12:26.451] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-02 13:12:26.458] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-6'
+]
+[2025-11-02 13:12:26.462] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-02 13:12:27.450] [info]  [
+  '懒猫相册-axy|292|https://photo.axy.heiyu.space/assets/index.2c130212.js|support set:  AI训练时间调整 文件选择器'
+]
+[2025-11-02 13:12:29.173] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:12:29.174] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:12:29.183] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:16:01.939] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:16:01.939] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:16:01.945] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:29:03.457] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: refresh'
+]
+[2025-11-02 13:29:03.457] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh start task color: green; font-size: 16px;'
+]
+[2025-11-02 13:29:03.457] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-02 13:29:03.461] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh took 4 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":4} color: green; font-size: 16px;'
+]
+[2025-11-02 13:29:03.474] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 16 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":16} color: green; font-size: 16px;'
+]
+[2025-11-02 13:29:03.474] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-02 13:29:03.517] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.073974609375 ms'
+]
+[2025-11-02 13:29:08.518] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-02 13:29:08.519] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-6'
+]
+[2025-11-02 13:29:08.521] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-02 13:29:11.514] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:29:11.514] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-02 13:29:11.520] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-05 10:52:31.696] [info]  [
+  '懒猫相册 启动中-axy|145|https://photo.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-05 10:53:15.868] [info]  [
+  '懒猫相册 启动中-axy|200|https://photo.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-11-05 10:53:16.066] [info]  [
+  '懒猫相册 启动中-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 10:53:16.066] [info]  [
+  '懒猫相册 启动中-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 10:53:16.187] [info]  [
+  '懒猫相册 启动中-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 10:53:16.234] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 10:53:16.235] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 10:53:16.252] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.118896484375 ms'
+]
+[2025-11-05 10:53:16.253] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 10:53:16.329] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-05 10:53:16.360] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.076904296875 ms'
+]
+[2025-11-05 10:53:16.369] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 6'
+]
+[2025-11-05 10:53:16.369] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.069091796875 ms'
+]
+[2025-11-05 10:53:16.372] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-05 10:53:16.372] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-05 10:53:16.373] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 10:53:16.388] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 16 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":16} color: green; font-size: 16px;'
+]
+[2025-11-05 10:53:16.390] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 16 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":16} color: green; font-size: 16px;'
+]
+[2025-11-05 10:53:16.391] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  6'
+]
+[2025-11-05 10:53:16.391] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 10:53:16.425] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.160888671875 ms'
+]
+[2025-11-05 10:53:16.641] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-05 10:53:17.374] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-05 10:53:21.428] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 10:53:21.437] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-6'
+]
+[2025-11-05 10:53:21.441] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-05 10:56:12.366] [info]  [
+  '懒猫相册-axy|292|https://photo.axy.heiyu.space/assets/index.2c130212.js|support set:  AI训练时间调整 文件选择器'
+]
+[2025-11-05 10:56:13.734] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-05 10:56:13.734] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-05 10:56:13.744] [info]  [
+  '懒猫相册-axy|843|https://photo.axy.heiyu.space/assets/index.2c130212.js|[media sort]  takenDate true'
+]
+[2025-11-05 10:56:16.871] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: refresh'
+]
+[2025-11-05 10:56:16.871] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 10:56:16.871] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 10:56:16.876] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh took 4 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":4} color: green; font-size: 16px;'
+]
+[2025-11-05 10:56:16.894] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 23 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":23} color: green; font-size: 16px;'
+]
+[2025-11-05 10:56:16.895] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 10:56:16.932] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.134033203125 ms'
+]
+[2025-11-05 11:23:52.997] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:23:52.997] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:23:53.112] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:23:53.163] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:23:53.163] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:23:53.182] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.106201171875 ms'
+]
+[2025-11-05 11:23:53.182] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 11:23:53.220] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-05 11:23:53.490] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.18017578125 ms'
+]
+[2025-11-05 11:23:53.508] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 6'
+]
+[2025-11-05 11:23:53.508] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.06005859375 ms'
+]
+[2025-11-05 11:23:53.512] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-05 11:23:53.512] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-05 11:23:53.512] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 11:23:53.655] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 142 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":142} color: green; font-size: 16px;'
+]
+[2025-11-05 11:23:53.658] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  0'
+]
+[2025-11-05 11:23:53.665] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 153 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":153} color: green; font-size: 16px;'
+]
+[2025-11-05 11:23:53.666] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 11:23:53.670] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.10986328125 ms'
+]
+[2025-11-05 11:23:53.745] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-05 11:23:54.519] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-05 11:23:58.671] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 11:23:58.678] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-6'
+]
+[2025-11-05 11:23:58.682] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-05 11:24:12.701] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:24:12.701] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:24:12.816] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:24:12.863] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:24:12.870] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 11:24:12.882] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.114013671875 ms'
+]
+[2025-11-05 11:24:12.883] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 11:24:12.936] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-05 11:24:12.955] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.09912109375 ms'
+]
+[2025-11-05 11:24:12.965] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-05 11:24:12.965] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 6'
+]
+[2025-11-05 11:24:12.965] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.06298828125 ms'
+]
+[2025-11-05 11:24:12.968] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-05 11:24:12.968] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-05 11:24:12.969] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 11:24:12.974] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  0'
+]
+[2025-11-05 11:24:12.975] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 7 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":7} color: green; font-size: 16px;'
+]
+[2025-11-05 11:24:12.978] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 9 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":9} color: green; font-size: 16px;'
+]
+[2025-11-05 11:24:12.978] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 11:24:13.020] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.156005859375 ms'
+]
+[2025-11-05 11:24:13.969] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-05 14:05:11.035] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 14:05:11.037] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 14:05:11.154] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 14:05:11.214] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 14:05:11.215] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 14:05:11.235] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.139892578125 ms'
+]
+[2025-11-05 14:05:11.235] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 14:05:11.288] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-05 14:05:11.312] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-05 14:05:11.316] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.076904296875 ms'
+]
+[2025-11-05 14:05:11.327] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 6'
+]
+[2025-11-05 14:05:11.327] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.050048828125 ms'
+]
+[2025-11-05 14:05:11.330] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-05 14:05:11.330] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:11.331] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:11.347] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 16 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":16} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:11.348] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  0'
+]
+[2025-11-05 14:05:11.349] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 19 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":19} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:11.349] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 14:05:11.383] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.132080078125 ms'
+]
+[2025-11-05 14:05:12.331] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-05 14:05:16.386] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 14:05:16.396] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 6-6'
+]
+[2025-11-05 14:05:16.400] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":6,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-05 14:05:22.427] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  1'
+]
+[2025-11-05 14:05:22.427] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.09716796875 ms'
+]
+[2025-11-05 14:05:22.427] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 14:05:22.427] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 14:05:23.464] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: refresh'
+]
+[2025-11-05 14:05:23.464] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.052001953125 ms'
+]
+[2025-11-05 14:05:23.464] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:23.464] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:23.472] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh took 8 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":8} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:23.486] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 21 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":21} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:23.486] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 14:05:23.531] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.1171875 ms'
+]
+[2025-11-05 14:05:28.534] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 14:05:28.535] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 7-6'
+]
+[2025-11-05 14:05:28.539] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":7,"added":1,"modified":0,"removed":0}'
+]
+[2025-11-05 14:05:47.421] [info]  [
+  '懒猫相册-axy|1|https://photo.axy.heiyu.space/assets/index.3b79c6b4.js|Uncaught (in promise) Error: 请求未完成'
+]
+[2025-11-05 14:05:48.426] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: refresh'
+]
+[2025-11-05 14:05:48.426] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:48.426] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:48.432] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh took 6 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":6} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:48.444] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 18 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":18} color: green; font-size: 16px;'
+]
+[2025-11-05 14:05:48.445] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 14:05:48.489] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.091064453125 ms'
+]
+[2025-11-05 14:05:49.042] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  3'
+]
+[2025-11-05 14:05:49.042] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.10498046875 ms'
+]
+[2025-11-05 14:05:49.043] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 14:05:49.049] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 14:05:53.491] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 14:05:53.493] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 9-7'
+]
+[2025-11-05 14:05:53.497] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":9,"added":2,"modified":0,"removed":0}'
+]
+[2025-11-05 23:02:31.781] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 23:02:31.782] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 23:02:31.911] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 23:02:31.974] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 23:02:31.974] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-05 23:02:32.005] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.166015625 ms'
+]
+[2025-11-05 23:02:32.006] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 23:02:32.084] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|[sw] on register success'
+]
+[2025-11-05 23:02:32.097] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.2c130212.js|本地存储已同步到远程'
+]
+[2025-11-05 23:02:32.099] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.06494140625 ms'
+]
+[2025-11-05 23:02:32.110] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|DB缓存总数: 9'
+]
+[2025-11-05 23:02:32.111] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.06103515625 ms'
+]
+[2025-11-05 23:02:32.113] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: init'
+]
+[2025-11-05 23:02:32.114] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:32.114] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:32.120] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  3'
+]
+[2025-11-05 23:02:32.124] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 10 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":10} color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:32.126] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal init took 12 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":12} color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:32.126] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 23:02:32.166] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.191162109375 ms'
+]
+[2025-11-05 23:02:33.115] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-05 23:02:37.169] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 23:02:37.181] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 9-9'
+]
+[2025-11-05 23:02:37.186] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":9,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-05 23:02:40.049] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  1'
+]
+[2025-11-05 23:02:40.049] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.119140625 ms'
+]
+[2025-11-05 23:02:40.049] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 23:02:40.060] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 23:02:40.859] [info]  [
+  '懒猫相册-axy|292|https://photo.axy.heiyu.space/assets/index.2c130212.js|support set:  AI训练时间调整 文件选择器'
+]
+[2025-11-05 23:02:41.462] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|onChangeMedias: refresh'
+]
+[2025-11-05 23:02:41.462] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.093994140625 ms'
+]
+[2025-11-05 23:02:41.463] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:41.463] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:41.483] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%clocal refresh took 20 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":20} color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:41.503] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|%ccloud refresh took 41 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":41} color: green; font-size: 16px;'
+]
+[2025-11-05 23:02:41.504] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 23:02:41.545] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.14794921875 ms'
+]
+[2025-11-05 23:02:46.545] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-05 23:02:46.547] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 10-9'
+]
+[2025-11-05 23:02:46.550] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":10,"added":1,"modified":0,"removed":0}'
+]
+[2025-11-05 23:02:51.802] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|云端更新图片数量:  2'
+]
+[2025-11-05 23:02:51.802] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.125 ms'
+]
+[2025-11-05 23:02:51.803] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 23:02:51.816] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-05 23:03:05.072] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.0791015625 ms'
+]
+[2025-11-05 23:03:05.073] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|保存时间线首屏数据'
+]
+[2025-11-05 23:03:05.405] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.2c130212.js|转换store数据: 0.154052734375 ms'
+]
+[2025-11-05 23:03:05.405] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.2c130212.js|清除DB缓存数据:  2'
+]
+[2025-11-05 23:03:05.407] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.2c130212.js|删除: 334.883056640625 ms'
+]
+[2025-11-09 21:59:18.359] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-09 21:59:18.359] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-09 21:59:18.487] [info]  [
+  'photo.axy.heiyu.space-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-09 21:59:18.544] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-09 21:59:18.545] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-09 21:59:18.803] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|转换store数据: 0.68603515625 ms'
+]
+[2025-11-09 21:59:18.805] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|保存时间线首屏数据'
+]
+[2025-11-09 21:59:18.902] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.45c24348.js|[sw] on register success'
+]
+[2025-11-09 21:59:18.936] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|转换store数据: 0.083984375 ms'
+]
+[2025-11-09 21:59:18.949] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|DB缓存总数: 9'
+]
+[2025-11-09 21:59:18.949] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|转换store数据: 0.079833984375 ms'
+]
+[2025-11-09 21:59:18.953] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.45c24348.js|onChangeMedias: init'
+]
+[2025-11-09 21:59:18.953] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|%clocal init start task color: green; font-size: 16px;'
+]
+[2025-11-09 21:59:18.953] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|%ccloud refresh start task color: green; font-size: 16px;'
+]
+[2025-11-09 21:59:18.967] [info]  [
+  '懒猫相册-axy|289|https://photo.axy.heiyu.space/assets/index.45c24348.js|云端更新图片数量:  0'
+]
+[2025-11-09 21:59:18.971] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|%ccloud refresh took 18 ms result:\n' +
+    '{"name":"refresh","finished":false,"takeTime":18} color: green; font-size: 16px;'
+]
+[2025-11-09 21:59:18.974] [info]  [
+  '懒猫相册-axy|288|https://photo.axy.heiyu.space/assets/index.45c24348.js|%clocal init took 21 ms result:\n' +
+    '{"name":"init","finished":false,"takeTime":21} color: green; font-size: 16px;'
+]
+[2025-11-09 21:59:18.974] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|messageQueue: {"isLock":false,"msgLen":0}'
+]
+[2025-11-09 21:59:19.009] [info]  [
+  '懒猫相册-axy|873|https://photo.axy.heiyu.space/assets/index.45c24348.js|本地存储已同步到远程'
+]
+[2025-11-09 21:59:19.010] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|转换store数据: 0.11083984375 ms'
+]
+[2025-11-09 21:59:19.954] [info]  [
+  '懒猫相册-axy|271|https://photo.axy.heiyu.space/assets/index.45c24348.js|LzcAppSdk: The current platform does not support the GetClientAuthorizationStatus method'
+]
+[2025-11-09 21:59:24.012] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|获取DB缓存列表'
+]
+[2025-11-09 21:59:24.021] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|diff 数据: 9-9'
+]
+[2025-11-09 21:59:24.026] [info]  [
+  '懒猫相册-axy|18|https://photo.axy.heiyu.space/assets/calc.worker.3abed7b1.js|保存本地缓存: {"total":9,"added":0,"modified":0,"removed":0}'
+]
+[2025-11-14 12:16:52.142] [info]  [
+  'photo.axy.heiyu.space-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 12:16:52.144] [info]  [
+  'photo.axy.heiyu.space-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 12:16:52.160] [info]  [
+  'photo.axy.heiyu.space-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.478 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 12:16:52.211] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 12:16:52.213] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 12:16:52.239] [info]  [
+  '懒猫相册-axy|402|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地存储已同步到远程'
+]
+[2025-11-14 12:16:52.369] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|悬浮球已销毁'
+]
+[2025-11-14 12:16:52.409] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|执行完成，清空触发次数: 1'
+]
+[2025-11-14 12:16:52.410] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.04296875 ms'
+]
+[2025-11-14 12:16:52.410] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.052978515625 ms'
+]
+[2025-11-14 12:16:52.453] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|清理V1版本缓存'
+]
+[2025-11-14 12:16:52.457] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|[IndexDB] MediaDatabase MediaDatabase 已删除'
+]
+[2025-11-14 12:16:52.466] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 12:16:52.467] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 12:16:52.467] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|加载缓存: 26.591064453125 ms'
+]
+[2025-11-14 12:16:52.480] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.00390625 ms'
+]
+[2025-11-14 12:16:52.480] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.014892578125 ms'
+]
+[2025-11-14 12:16:52.514] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|MediaTask'
+]
+[2025-11-14 12:16:52.515] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh start task color: green; font-size: 16px;'
+]
+[2025-11-14 12:16:52.515] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|任务已存在，跳过: refresh: '
+]
+[2025-11-14 12:16:52.516] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-14 12:16:52.545] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 293'
+]
+[2025-11-14 12:16:52.545] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|刷新任务：数据量小，直接刷新 293'
+]
+[2025-11-14 12:16:52.545] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.468017578125 ms'
+]
+[2025-11-14 12:16:52.552] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|执行完成，清空触发次数: 1'
+]
+[2025-11-14 12:16:52.552] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.43798828125 ms'
+]
+[2025-11-14 12:16:52.553] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.430908203125 ms'
+]
+[2025-11-14 12:16:52.563] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|Cloud Refresh completed [object Object]'
+]
+[2025-11-14 12:16:52.563] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|云端数据刷新结束: {"totalUpdated":293,"totalFailed":0}'
+]
+[2025-11-14 12:16:52.563] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 12:16:52.563] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh took 49 ms color: green; font-size: 16px;'
+]
+[2025-11-14 12:16:52.564] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|console.groupEnd'
+]
+[2025-11-14 12:16:52.620] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.758056640625 ms'
+]
+[2025-11-14 12:16:52.620] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.56103515625 ms'
+]
+[2025-11-14 12:16:55.425] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.23095703125 ms'
+]
+[2025-11-14 12:16:55.425] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.322021484375 ms'
+]
+[2025-11-14 12:16:55.564] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.220947265625 ms'
+]
+[2025-11-14 12:16:55.564] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.27001953125 ms'
+]
+[2025-11-14 12:16:59.796] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|执行完成，清空触发次数: 1'
+]
+[2025-11-14 12:16:59.797] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.27294921875 ms'
+]
+[2025-11-14 12:16:59.797] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.197998046875 ms'
+]
+[2025-11-14 12:16:59.803] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|MediaTask'
+]
+[2025-11-14 12:16:59.803] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh start task color: green; font-size: 16px;'
+]
+[2025-11-14 12:16:59.804] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-14 12:17:00.448] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|Cloud Refresh completed [object Object]'
+]
+[2025-11-14 12:17:00.449] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|云端数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-14 12:17:00.449] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 12:17:00.449] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh took 645 ms color: green; font-size: 16px;'
+]
+[2025-11-14 12:17:00.450] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|console.groupEnd'
+]
+[2025-11-14 12:17:03.691] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 12:17:03.691] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 294'
+]
+[2025-11-14 12:17:04.692] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 12:17:04.692] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.635009765625 ms'
+]
+[2025-11-14 12:17:04.748] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 1.113037109375 ms'
+]
+[2025-11-14 12:17:04.748] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.9599609375 ms'
+]
+[2025-11-14 12:17:15.834] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 12:17:15.835] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 295'
+]
+[2025-11-14 12:17:16.834] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 12:17:16.835] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.652099609375 ms'
+]
+[2025-11-14 12:17:16.890] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 1.008056640625 ms'
+]
+[2025-11-14 12:17:16.891] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 1.058837890625 ms'
+]
+[2025-11-14 12:17:39.598] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 12:17:39.598] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 296'
+]
+[2025-11-14 12:17:40.599] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 12:17:40.599] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.748046875 ms'
+]
+[2025-11-14 12:17:40.653] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.6669921875 ms'
+]
+[2025-11-14 12:17:40.654] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.735107421875 ms'
+]
+[2025-11-14 12:17:41.051] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 12:17:41.051] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 297'
+]
+[2025-11-14 12:17:42.051] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 12:17:42.052] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.51806640625 ms'
+]
+[2025-11-14 12:17:42.104] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.755859375 ms'
+]
+[2025-11-14 12:17:42.105] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.681884765625 ms'
+]
+[2025-11-14 12:17:53.662] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 12:17:53.663] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 298'
+]
+[2025-11-14 12:17:54.663] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 12:17:54.664] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.65283203125 ms'
+]
+[2025-11-14 12:17:54.718] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.77294921875 ms'
+]
+[2025-11-14 12:17:54.719] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.77099609375 ms'
+]
+[2025-11-14 12:18:34.855] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|移除云端图片 298 数组变化: true'
+]
+[2025-11-14 12:18:34.855] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|移除操作：数据量小，直接过滤 0'
+]
+[2025-11-14 12:18:34.907] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.093017578125 ms'
+]
+[2025-11-14 12:18:34.908] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.130859375 ms'
+]
+[2025-11-14 14:32:31.823] [info]  [
+  'photo.axy.heiyu.space-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 14:32:31.824] [info]  [
+  'photo.axy.heiyu.space-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 14:32:31.840] [info]  [
+  'photo.axy.heiyu.space-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.478 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 14:32:31.923] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 14:32:31.924] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-14 14:32:32.120] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|悬浮球已销毁'
+]
+[2025-11-14 14:32:32.162] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|执行完成，清空触发次数: 1'
+]
+[2025-11-14 14:32:32.162] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.078857421875 ms'
+]
+[2025-11-14 14:32:32.162] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.109130859375 ms'
+]
+[2025-11-14 14:32:32.175] [info]  [
+  '懒猫相册-axy|402|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地存储已同步到远程'
+]
+[2025-11-14 14:32:32.345] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 14:32:32.347] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 14:32:32.347] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|加载缓存: 28.965087890625 ms'
+]
+[2025-11-14 14:32:32.786] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|MediaTask'
+]
+[2025-11-14 14:32:32.787] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh start task color: green; font-size: 16px;'
+]
+[2025-11-14 14:32:32.787] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|任务已存在，跳过: refresh: '
+]
+[2025-11-14 14:32:32.790] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-14 14:32:32.910] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|Cloud Refresh completed [object Object]'
+]
+[2025-11-14 14:32:32.910] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|云端数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-14 14:32:32.911] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-14 14:32:32.911] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh took 124 ms color: green; font-size: 16px;'
+]
+[2025-11-14 14:32:32.911] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|console.groupEnd'
+]
+[2025-11-14 14:32:33.885] [info]  [
+  '懒猫相册-axy|1|https://photo.axy.heiyu.space/assets/appActionConfig-Nc9ddcpM.js|Action handler for uploadMain not implemented'
+]
+[2025-11-14 14:32:42.627] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 14:32:42.627] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 1'
+]
+[2025-11-14 14:32:42.686] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 14:32:42.686] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 2'
+]
+[2025-11-14 14:32:42.686] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 14:32:42.686] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 3'
+]
+[2025-11-14 14:32:43.471] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|添加云端图片 1'
+]
+[2025-11-14 14:32:43.472] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务：数据量小，节流刷新 4'
+]
+[2025-11-14 14:32:43.627] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|小任务节流触发'
+]
+[2025-11-14 14:32:43.628] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.43408203125 ms'
+]
+[2025-11-14 14:32:43.630] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.194091796875 ms'
+]
+[2025-11-14 14:32:43.631] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.197998046875 ms'
+]
+[2025-11-14 14:33:10.246] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.14013671875 ms'
+]
+[2025-11-14 14:33:10.247] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.24609375 ms'
+]
+[2025-11-14 14:33:10.994] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.19921875 ms'
+]
+[2025-11-14 14:33:10.995] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.23193359375 ms'
+]
+[2025-11-16 15:55:19.361] [info]  [
+  '懒猫相册 启动中-axy|145|https://photo.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-16 15:56:10.518] [info]  [
+  '懒猫相册 启动中-axy|200|https://photo.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-11-16 15:56:10.773] [info]  [
+  '懒猫相册 启动中-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.477 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-16 15:56:10.773] [info]  [
+  '懒猫相册 启动中-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/lzc-media-sdk version is %c 0.0.1 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-16 15:56:10.792] [info]  [
+  '懒猫相册 启动中-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c The @lazycatcloud/sdk version is %c 0.1.478 %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-16 15:56:10.843] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-16 15:56:10.844] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%c LZC SDK Version is %c unknown %c background:#35495E; padding: 1px; border-radius: 3px 0 0 3px; color: #fff; background:#3488ff; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff; background:transparent'
+]
+[2025-11-16 15:56:10.861] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|悬浮球已销毁'
+]
+[2025-11-16 15:56:10.902] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|执行完成，清空触发次数: 1'
+]
+[2025-11-16 15:56:10.903] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.06201171875 ms'
+]
+[2025-11-16 15:56:10.903] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.05419921875 ms'
+]
+[2025-11-16 15:56:10.962] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|toMediaInfoList: 0.096923828125 ms'
+]
+[2025-11-16 15:56:10.968] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist group: 0.069091796875 ms'
+]
+[2025-11-16 15:56:10.968] [info]  [
+  '懒猫相册-axy|176|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|medialist afterGroup: 0.087158203125 ms'
+]
+[2025-11-16 15:56:10.982] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-16 15:56:10.982] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|加载缓存: 42.60400390625 ms'
+]
+[2025-11-16 15:56:10.989] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|MediaTask'
+]
+[2025-11-16 15:56:10.990] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh start task color: green; font-size: 16px;'
+]
+[2025-11-16 15:56:10.990] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|任务已存在，跳过: refresh: '
+]
+[2025-11-16 15:56:10.991] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-16 15:56:11.004] [info]  [
+  '懒猫相册-axy|114|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|[Cache Hit] Cloud Refresh completed 4 - 2025/11/14 14:32:43'
+]
+[2025-11-16 15:56:11.004] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|云端数据刷新结束: {"totalUpdated":0,"totalFailed":0}'
+]
+[2025-11-16 15:56:11.004] [info]  [
+  '懒猫相册-axy|63|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|忽略时间线处理: 长度相等'
+]
+[2025-11-16 15:56:11.004] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|%crefresh took 15 ms color: green; font-size: 16px;'
+]
+[2025-11-16 15:56:11.005] [info]  [
+  '懒猫相册-axy|116|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|console.groupEnd'
+]
+[2025-11-16 15:56:11.223] [info]  [
+  '懒猫相册-axy|402|https://photo.axy.heiyu.space/assets/index-DMk-CtSz.js|本地存储已同步到远程'
+]

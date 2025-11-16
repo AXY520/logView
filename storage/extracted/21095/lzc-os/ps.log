@@ -1,0 +1,303 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  22556 13352 ?        Ss   Nov14   0:28 /lib/systemd/systemd
+root          91  0.0  0.1 115452 17888 ?        Ss   Nov14   0:03 /lib/systemd/systemd-journald
+root         107  0.0  0.0  27856  6656 ?        Ss   Nov14   0:01 /lib/systemd/systemd-udevd
+_rpc         204  0.0  0.0   7940  3712 ?        Ss   Nov14   0:00 /sbin/rpcbind -f -w
+message+     281  0.0  0.0   8204  3840 ?        Ss   Nov14   1:30 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+61876        285  0.0  0.0   2488  1664 ?        SLs  Nov14   0:09 /usr/bin/earlyoom -r 3600
+root         291  0.0  0.0  17352  8192 ?        Ss   Nov14   0:00 /lib/systemd/systemd-logind
+root         344  0.0  0.0  12848  6016 ?        Ss   Nov14   0:00 /usr/libexec/bluetooth/bluetoothd
+root         349  0.6  0.3 2394676 61744 ?       Ssl  Nov14  16:50 /usr/bin/containerd
+root         354  0.0  0.0   2900  1536 tty1     Ss+  Nov14   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         358  0.0  0.0  20764 11392 ?        Ss   Nov14   0:04 /lib/systemd/systemd --user
+root         364  0.0  0.0  21680  3680 ?        S    Nov14   0:00 (sd-pam)
+root         606  0.7  0.6 2727656 102932 ?      Ssl  Nov14  20:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         776  0.0  0.0   8744  6656 ?        Ss   Nov14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1067  0.0  0.0 1237996 15736 ?       Sl   Nov14   0:13 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd -address /run/containerd/containerd.sock
+root        1068  0.0  0.0 1238252 15712 ?       Sl   Nov14   0:14 /usr/bin/containerd-shim-runc-v2 -namespace moby -id cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084 -address /run/containerd/containerd.sock
+root        1108  0.0  0.1 1247900 23004 ?       Ssl  Nov14   2:26 /sspk/bin/hext -l /lzcsys/var/log/monitors/hext.log
+root        1109  0.0  0.0   1008   512 ?        Ss   Nov14   0:04 /sbin/docker-init -- /sspk/bin/lzc-recovery daemon
+root        1128  0.7  0.2 1251072 42544 ?       Sl   Nov14  21:28 /sspk/bin/lzc-recovery daemon
+root        1176  0.0  0.0 240600 10368 ?        Sl   Nov14   0:17 /lzcsys/bin/nm/nmcli monitor
+root        1248  0.0  0.0   2740  1792 ?        S    Nov14   0:00 dmesg -w
+root        1289  0.0  0.0 1238252 15944 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b -address /run/containerd/containerd.sock
+root        1309  0.0  0.0   1008   512 ?        Ss   Nov14   0:04 /sbin/docker-init -- /sspk/lzc-hal
+root        1323  0.0  0.1 1244624 17460 ?       Sl   Nov14   2:38 ld-linux-x86-64.so.2 --argv0 /sspk/lzc-hal --preload /lib/libgcompat.so.0  -- /sspk/lzc-hal
+root        1432  0.0  0.0 1237996 15980 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4 -address /run/containerd/containerd.sock
+root        1451  0.0  0.1 1248660 26220 ?       Ssl  Nov14   0:04 /sspk/lzc-installer
+root        1594  0.0  0.1 1238252 16556 ?       Sl   Nov14   0:11 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1 -address /run/containerd/containerd.sock
+root        1615  0.0  0.0 1233368 15952 ?       Ssl  Nov14   0:05 /sspk/lzc-registry-proxy
+root        1781  0.0  0.1 1238508 17860 ?       Sl   Nov14   2:14 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957 -address /run/containerd/containerd.sock
+root        1809  0.0  0.1 1237996 18116 ?       Sl   Nov14   0:11 /usr/bin/containerd-shim-runc-v2 -namespace moby -id e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9 -address /run/containerd/containerd.sock
+root        1831  1.2  0.3 2137736 51240 ?       Ssl  Nov14  34:58 /sspk/bin/lzc-apiserver
+1000        1839  0.0  0.1 1264624 19312 ?       Ssl  Nov14   0:14 dex serve /tmp/config.yaml
+root        1886  0.0  0.0 1238252 16020 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e -address /run/containerd/containerd.sock
+root        1912  0.0  0.0 1238456 5152 ?        Ssl  Nov14   0:00 /sspk/bin/pd-service
+root        1933  0.0  0.0 1240376 13780 ?       Ssl  Nov14   0:02 /sspk/bin/pd-service
+root        1951  0.0  0.0  26424  3676 ?        Ss   Nov14   0:00 /lib/systemd/systemd-udevd --daemon
+root        2423  0.0  0.1 1238252 17768 ?       Sl   Nov14   2:05 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d -address /run/containerd/containerd.sock
+root        2438  0.0  0.1 1238508 17060 ?       Sl   Nov14   2:18 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21 -address /run/containerd/containerd.sock
+root        2474  0.0  0.0   1008   512 ?        Ss   Nov14   0:04 /sbin/docker-init -- /sspk/bin/lzc-ingress -a
+root        2482  0.0  0.0   1008   512 ?        Ss   Nov14   0:04 /sbin/docker-init -- /sspk/bin/lzc-pkgm
+root        2506  0.5  0.2 1251872 43220 ?       Sl   Nov14  13:38 /sspk/bin/lzc-pkgm
+root        2518  0.0  0.3 1254708 54056 ?       Sl   Nov14   1:32 /sspk/bin/lzc-ingress -a
+root        2557  2.4  0.9 5138884 146148 ?      Ssl  Nov14  66:14 /usr/bin/dockerd --config-file /lzcsys/etc/docker/daemon.json
+root        2764  0.0  0.0 1238252 16036 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884 -address /run/containerd/containerd.sock
+root        2790  0.0  0.0 1238252 16040 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa -address /run/containerd/containerd.sock
+root        2811  0.0  0.0 1235968 8800 ?        Ssl  Nov14   0:00 /lzcapp/pkg/content/lzcshell-iscsi
+root        2819  1.5  0.6 6103544 102220 ?      Ssl  Nov14  41:58 /lzcinit/cloud.lazycat.shell.home -listen :80 -grpc_listen :81
+root        2862  0.0  0.0  13892 13824 ?        S<L  Nov14   0:00 iscsid -f
+root        2899  0.0  0.2 1248092 34308 ?       Sl   Nov14   2:24 /lzcapp/pkg/content/lzcshell
+root        2915  0.0  0.0   4536  2048 ?        S    Nov14   0:01 ping -W 5 -D -i 10 192.168.3.1
+root        2919  0.0  0.0   4536  2176 ?        S    Nov14   0:04 ping -W 5 -D -i 10 ping.lazycat.cloud
+root        3579  0.0  0.0 1238316 15800 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace plugins.moby -id b75f6d649f882deabea30cf1e3222d3881a78e14d8a93ebb04e1957aa786a0c4 -address /run/containerd/containerd.sock
+root        3600  0.0  0.0 1236360 13432 ?       Ssl  Nov14   0:22 /usr/bin/docker-logging-driver
+root        7355  0.0  0.1 1238252 17224 ?       Sl   Nov14   0:31 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 7275ad2640886a9681c2d8b521919e7da79826efa66c0d63c65918829b6345ca -address /run/containerd/containerd.sock
+root        7383  0.8  0.3 3610332 61904 ?       Ssl  Nov14  23:42 /lzcinit/cloud.lazycat.shell.appstore -listen :80 -grpc_listen :81
+root        7556  0.0  0.1 1238252 18360 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1be9683beb3059524f58a04a3c2b4b6b552d4bd23740f0517dbfbd9072f73a61 -address /run/containerd/containerd.sock
+root        7585  0.0  0.1 1245008 18204 ?       Ssl  Nov14   0:14 /lzcai -addr :10080
+root        7642  0.0  0.1 1238316 17716 ?       Sl   Nov14   0:31 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 41bf21e970cd855c6ef70c09102bb7d8b409208a47b68a52a273510e4126738d -address /run/containerd/containerd.sock
+root        7670  0.0  0.1 1249420 30620 ?       Ssl  Nov14   0:06 /lzcinit/cloud.lazycat.app.contacts -listen :80 -grpc_listen :81
+root        7705  0.0  0.1 1238508 18136 ?       Sl   Nov14   0:13 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 684bb7777299c1d09dabf53a7b1f48f02063b2256d05c0d26d4324bd86daabb0 -address /run/containerd/containerd.sock
+root        7727  0.0  0.0    860   512 ?        Ss   Nov14   0:04 /sbin/tini -- /root/smbforwarder
+root        7740  0.0  0.1 1240860 20408 ?       Sl   Nov14   0:02 /root/smbforwarder
+root        7893  0.0  0.1 1249480 17252 ?       Sl   Nov14   0:05 /lzcapp/pkg/content/lzc-contacts
+root        8016  0.0  0.1 1238252 17988 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2fc3045a36a6f5537ed06fb6ff436fad150447ed024c062d8688110b419e1d36 -address /run/containerd/containerd.sock
+root        8037  0.0  0.0    860   384 ?        Ss   Nov14   0:04 tini -- /app/lzc-file-mount
+root        8103  0.0  0.1 1247268 17924 ?       Sl   Nov14   0:08 /app/lzc-file-mount
+root        8175  0.0  0.0      0     0 ?        Z    Nov14   0:00 [rpcbind] <defunct>
+nobody      8179  0.0  0.0   2388  1024 ?        S    Nov14   0:00 rpc.statd -F
+message+    8200  0.0  0.0   2320   516 ?        S    Nov14   0:00 rpcbind -w
+root        8267  0.0  0.1 1238252 18252 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e431293aae03319c3f62c232c40f48b96f9660ac2735008b27e4e470c6fe8ea2 -address /run/containerd/containerd.sock
+root        8286  0.0  0.1 1246276 27156 ?       Ssl  Nov14   0:31 /lzc-media/bin/lzc-media-service-static -config /lzc-media/defaultConfig.json
+root        8449  0.0  0.1 1238252 18192 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6d617429621207f11e3eb8138e9d5914aae56ff9cd21e2d7bd0d4a5e9e0e82b4 -address /run/containerd/containerd.sock
+root        8469  0.0  0.0   2616  1280 ?        Ss   Nov14   0:00 /bin/sh /entrypoint_cpp.sh
+root        8618  0.0  0.0 1233424 8688 ?        Sl   Nov14   0:00 /usr/bin/funasrgo
+root        8697  0.0  0.0 1238252 15616 ?       Sl   Nov14   0:29 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id d2068bff4daf0304e528af628d2d6e40e8753d3176dddc91b04b7dade634638c -address /run/containerd/containerd.sock
+root        8716  2.4  1.3 3811128 210468 ?      Ssl  Nov14  65:50 /lzcinit/cloud.lazycat.shell.files -listen :80 -grpc_listen :81
+root        8861  0.0  0.0   2676   640 ?        S    Nov14   0:00 sh -c /lzcapp/pkg/content/app.sh
+root        8869  0.0  0.1 1238252 18536 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0245f0a5895b09e063817c540fa5c5e539c037021064b37365902720973a75ab -address /run/containerd/containerd.sock
+root        8894  0.0  0.0    860   512 ?        Ss   Nov14   0:04 /sbin/tini -- /usr/local/bin/smbserver
+root        8983  0.0  0.0   7268   640 ?        S    Nov14   0:00 /bin/bash /lzcapp/pkg/content/app.sh
+root        9003  0.0  0.1 1245084 22136 ?       Sl   Nov14   0:03 /usr/local/bin/smbserver
+root        9121  1.8  0.3 2439336 53952 ?       Sl   Nov14  50:08 /lzcapp/pkg/content/backend
+root        9264  0.0  0.1  48352 16640 ?        Ss   Nov14   0:00 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+root        9865  0.0  0.0  46208  4108 ?        S    Nov14   0:00 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+root        9866  0.0  0.0  46216  3724 ?        S    Nov14   0:00 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+root        9990  0.0  0.1 1238252 17608 ?       Sl   Nov14   0:29 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 921de5a6b269cbc8784483cdfcd8963181e44621ac5a8a59ac20f25391552559 -address /run/containerd/containerd.sock
+root       10010  0.0  0.1 1249164 29100 ?       Ssl  Nov14   0:05 /lzcinit/lazycat.community.app.openlist -listen :80 -grpc_listen :81
+root       10429  0.0  0.1 1238252 18400 ?       Sl   Nov14   0:13 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 5f72e8e169efd5d48276004f261dea118b410cf05f2e5d8cb22115848c6d3dcf -address /run/containerd/containerd.sock
+root       10450  0.0  0.3 1367792 53212 ?       Ssl  Nov14   0:09 ./openlist server --no-prefix
+root       10770  0.0  0.0    884   512 ?        S    Nov14   0:01 runsvdir /opt/service/start
+root       10870  0.0  0.0  38428 13824 ?        S    Nov14   0:04 nmbd --debug-stdout --interactive --foreground --no-process-group
+root       10881  0.0  0.0   1072   640 ?        S    Nov14   0:08 /usr/sbin/wsdd2 -G WORKGROUP
+root       10882  0.5  0.0   3216  2304 ?        S    Nov14  14:59 avahi-daemon: running [lzcbox-60378f6b.local]
+root       10942  0.0  0.0    864   384 ?        S    Nov14   0:00 runsv aria2
+root       10943  0.0  0.0    880   512 ?        S    Nov14   0:00 svlogd /opt/openlist/data/log/aria2
+root       10944  0.0  0.0  18560 11552 ?        S    Nov14   0:11 aria2c --enable-rpc --rpc-allow-origin-all --conf-path=/opt/aria2/.aria2/aria2.conf
+root       11439  0.0  0.1 1296968 19088 ?       Sl   Nov14   0:08 rclone rcd --rc-addr unix:///tmp/rclone/rclone.sock --rc-no-auth --config /tmp/rclone.conf
+root       11527  0.0  0.1 1238252 18392 ?       Sl   Nov14   0:18 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ea760d245b88027153b57794d03929ad1e3d9df8601e37f564b468279a441118 -address /run/containerd/containerd.sock
+root       11546  0.2  0.1 1244340 28288 ?       Ssl  Nov14   5:47 /lzcapp/pkg/content/discover.amd64
+root       11619  0.0  0.1 1238252 17664 ?       Sl   Nov14   0:29 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2d69322ac75bacafa57f60df20e1a6d7e0661182927f6a78d5d3d7dbeaa01309 -address /run/containerd/containerd.sock
+otel       11638  0.0  0.1 221124 24704 ?        Ss   Nov14   0:07 postgres
+root       11934  0.0  0.1 1238252 18512 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c22ddfb6a5368dcf0e1a081c8e894c0c186e13037d938ec9fd43e78327a81718 -address /run/containerd/containerd.sock
+root       11970  0.0  0.0 1533368 8224 ?        Ssl  Nov14   0:05 /app/mtrans
+root       12036  0.0  0.1 1238508 17492 ?       Sl   Nov14   0:31 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0e909255e0a6df030c257aded0b9b55b17b33113d8c54c538d9167e6979e39e7 -address /run/containerd/containerd.sock
+root       12055  0.0  0.1 1249420 29768 ?       Ssl  Nov14   0:05 /lzcinit/cloud.lazycat.app.customrelay -listen :80 -grpc_listen :81
+root       12198  1.1  1.8 1535272 292188 ?      Sl   Nov14  30:12 ld-linux-x86-64.so.2 --argv0 /lzcapp/pkg/content/backend --preload /lib/libgcompat.so.0  -- /lzcapp/pkg/content/backend
+root       12417  0.0  0.1 1238252 18000 ?       Sl   Nov14   0:30 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c2a386c957c202bbfce596129a9e6dfa4fa0c5061d8592b52434b6250662324b -address /run/containerd/containerd.sock
+root       12436  0.0  0.2 1249420 32320 ?       Ssl  Nov14   0:13 /lzcinit/cloud.lazycat.app.ai -listen :80 -grpc_listen :81
+root       12521  0.0  0.1 1238316 18052 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id a8168fa366c60c75822cac38e5c9e7826cf1c6351b9f94b609231afc4ccd5444 -address /run/containerd/containerd.sock
+root       12541  0.0  0.1 1247500 19368 ?       Ssl  Nov14   0:00 /lzcinit/cloud.lazycat.app.ai -setup-script caddy
+root       12846  0.0  0.2 1274984 43724 ?       Sl   Nov14   0:19 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+otel       13407  0.0  0.0 221256  9232 ?        Ss   Nov14   0:00 postgres: checkpointer 
+otel       13408  0.0  0.0 221280  6672 ?        Ss   Nov14   0:00 postgres: background writer 
+otel       13444  0.0  0.0 221124  7056 ?        Ss   Nov14   0:00 postgres: walwriter 
+otel       13445  0.0  0.0 222700  8848 ?        Ss   Nov14   0:00 postgres: autovacuum launcher 
+otel       13446  0.0  0.0 222708  8080 ?        Ss   Nov14   0:00 postgres: logical replication launcher 
+root       14005  0.0  0.1 1238508 18128 ?       Sl   Nov14   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9d86db7fc369252055796dcccb8d003aa9ba047f6091ac22b145cc87a83a13c8 -address /run/containerd/containerd.sock
+root       14029  0.0  0.0 1241004 12560 ?       Ssl  Nov14   2:20 /lzcapp/pkg/content/convert.amd64
+root       14089  0.0  0.1 1238252 18552 ?       Sl   Nov14   0:19 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id bf11feb443ce5da7d8d94f112ca033083e9cec3c9aa437de60fe733a586868c3 -address /run/containerd/containerd.sock
+root       14109  0.0  0.1 1256756 26728 ?       Ssl  Nov14   1:09 /lzcapp/pkg/content/server.amd64
+otel       14383  0.0  0.1 229024 21720 ?        Ss   Nov14   0:46 postgres: postgres postgres 172.28.0.198(50588) idle
+otel       14584  0.0  0.1 232116 27412 ?        Ss   Nov14   0:00 postgres: postgres postgres 172.28.0.199(59710) idle
+root       48258  0.0  0.1 1238252 16440 ?       Sl   14:05   0:04 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e07eb14b137e1a0b99826e9d90a326db443438c59af2b9da1a1d77b264f72f36 -address /run/containerd/containerd.sock
+root       48277  0.0  0.1 1249676 30648 ?       Ssl  14:05   0:01 /lzcinit/cloud.lzcapp.qemu -listen :80 -grpc_listen :81
+root       48360  0.0  0.1 1238252 18036 ?       Sl   14:05   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 633898f317b02329e825251e94044fcb20db24ed2c8b6d6a99a06ada358acedd -address /run/containerd/containerd.sock
+root       48390  0.0  0.0   2572  1280 ?        Ss   14:05   0:00 /usr/bin/tini -s /run/entry.sh
+root       48467  0.1  1.0 3112300 175892 ?      Sl   14:05   0:27 qemu-system-x86_64 -nodefaults -cpu host,kvm=on,l3-cache=on,+hypervisor,migratable=no,+invtsc -smp 2,sockets=1,dies=1,cores=2,threads=1 -m 2G -machine type=q35,smm=off,graphics=off,vmport=off,dump-guest-core=off,hpet=off,accel=kvm -enable-kvm -global kvm-pit.lost_tick_policy=discard -smbios type=1,serial=Defaultstring -display vnc=:0,websocket=5700 -vga virtio -monitor telnet:localhost:7100,server,nowait,nodelay -name qemu,process=qemu,debug-threads=on -serial mon:stdio -device qemu-xhci,id=xhci,p2=7,p3=7 -device usb-tablet -netdev tap,id=hostnet0,ifname=qemu,vhost=on,vhostfd=40,script=no,downscript=no -device virtio-net-pci,id=net0,netdev=hostnet0,romfile=,mac=02:D3:83:55:FA:3D -drive file=/storage/alpine-extended-3.11.0-x86_64/boot.iso,id=cdrom9,format=raw,cache=unsafe,readonly=on,media=cdrom,if=none -device usb-storage,drive=cdrom9,bootindex=9,removable=on -drive file=/storage/alpine-extended-3.11.0-x86_64/data.img,id=data3,format=raw,cache=none,aio=native,discard=on,detect-zeroes=on,if=none -device virtio-scsi-pci,id=data3b,bus=pcie.0,addr=0xa,iothread=io2 -device scsi-hd,drive=data3,bus=data3b.0,channel=0,scsi-id=0,lun=0,rotation_rate=1,bootindex=3 -object iothread,id=io2 -drive file=/storage/alpine-extended-3.11.0-x86_64/uefi.rom,if=pflash,unit=0,format=raw,readonly=on -drive file=/storage/alpine-extended-3.11.0-x86_64/uefi.vars,if=pflash,unit=1,format=raw -object rng-random,id=objrng0,filename=/dev/urandom -device virtio-rng-pci,rng=objrng0,id=rng0,bus=pcie.0 -device virtio-balloon-pci,id=balloon0,bus=pcie.0
+root       48724  0.0  0.0  14756  1164 ?        Ss   14:05   0:00 nginx: master process nginx -e stderr
+www-data   48725  0.0  0.0  15096  2700 ?        S    14:05   0:00 nginx: worker process
+root       48726  0.0  0.0 1527980 7168 ?        Sl   14:05   0:00 websocketd --address 127.0.0.1 --port=8004 /run/socket.sh
+nobody     49089  0.0  0.0  10452  1668 ?        S    14:05   0:00 /usr/sbin/dnsmasq --dhcp-authoritative --dhcp-range=172.30.3.3,172.30.3.3 --dhcp-host=02:D3:83:55:FA:3D,,172.30.3.3,QEMU,infinite --dhcp-option=option:netmask,255.255.255.0 --dhcp-option=option:router,172.30.3.1 --dhcp-option=option:dns-server,172.30.3.1 --interface=docker --bind-interfaces --address=/host.lan/172.30.3.1 --log-facility=/var/log/dnsmasq.log
+root      539504  0.0  0.6 2874928 104032 ?      Ssl  Nov15   0:29 /usr/bin/dockerd --config-file /lzcsys/var/playground/daemon.json
+root      540379  0.0  0.0 1671088 5936 ?        Sl   Nov15   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 8000 -container-ip 172.100.1.3 -container-port 8094
+root      540386  0.0  0.0 1597356 4200 ?        Sl   Nov15   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 8000 -container-ip 172.100.1.3 -container-port 8094
+root      541863  0.0  0.0 1238252 15708 ?       Sl   Nov15   0:07 /usr/bin/containerd-shim-runc-v2 -namespace playground-docker -id 104294e3395deee3905a75ef8715e6c5ab328483bc06c972a4e53875076de106 -address /run/containerd/containerd.sock
+root      541886  0.0  0.0 1237996 15792 ?       Sl   Nov15   0:07 /usr/bin/containerd-shim-runc-v2 -namespace playground-docker -id ee262912e36ecfe1cd3b769ba9efe3c966af781151314f0089c6733d8c8cb4d6 -address /run/containerd/containerd.sock
+otel      541909  0.3  0.0 154308 12104 ?        Ssl  Nov15   4:55 redis-server *:6379
+otel      541913  0.4  0.2 2266428 45400 ?       Ssl  Nov15   8:07 mysqld
+root      631009  0.0  0.0 1237996 15404 ?       Sl   Nov15   0:18 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f7f79e9043d436ef3c8e3ee77ac3d741239054891a5dec448973eff02420195d -address /run/containerd/containerd.sock
+root      631040  0.0  0.1 1249676 29192 ?       Ssl  Nov15   0:03 /lzcinit/cloud.lazycat.app.dockge -listen :80 -grpc_listen :81
+root      631246  0.0  0.1 1238252 16632 ?       Sl   Nov15   0:12 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b01803726dd1cb727618515d23e5b0e9db58bcdf711a7d12036d74e42712721e -address /run/containerd/containerd.sock
+root      631266  0.0  0.0   2328  1024 ?        Ss   Nov15   0:00 /usr/bin/dumb-init -- tsx ./backend/index.ts
+root      631375  0.0  0.0 1041236 10836 ?       Ssl  Nov15   0:00 node /pnpm/global/5/node_modules/tsx/dist/cli.mjs ./backend/index.ts
+root      631654  0.0  0.3 44607344 57180 ?      Sl   Nov15   0:48 /usr/local/bin/node --require /pnpm/global/5/.pnpm/tsx@4.19.2/node_modules/tsx/dist/preflight.cjs --import file:///pnpm/global/5/.pnpm/tsx@4.19.2/node_modules/tsx/dist/loader.mjs ./backend/index.ts
+root      631801  0.0  0.0 1237936 14312 ?       Sl   Nov15   0:44 /pnpm/global/5/.pnpm/@esbuild+linux-x64@0.23.1/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.23.1 --ping
+root      632512  0.0  0.0 1237424 11944 ?       Sl   Nov15   0:45 /pnpm/global/5/.pnpm/@esbuild+linux-x64@0.23.1/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.23.1 --ping
+root      759202  0.0  0.1 1238508 16896 ?       Sl   08:58   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 789910d2bdf89fdd961cc3deef50adbd83abb8f5aab1e6d39237f48c484a67f5 -address /run/containerd/containerd.sock
+root      759203  0.0  0.1 1238508 18288 ?       Sl   08:58   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4d426929027afb81bdaba75cd7cad45746a2921971fa9d1f0d623f957f1632c5 -address /run/containerd/containerd.sock
+root      759243  0.0  0.0  43560  7484 ?        Ss   08:58   0:00 python /app/app.py
+root      759244  0.0  0.1 1249420 29224 ?       Ssl  08:58   0:01 /lzcinit/cloud.lazycat.app.logviewer -listen :80 -grpc_listen :81
+root      760014  0.1  0.1 265736 17728 ?        Sl   08:58   1:17 /usr/local/bin/python /app/app.py
+root      760101  0.1  0.0   4844  3712 ?        Ss   20:45   0:00 /bin/bash /lzcsys/bin/hc upload_stdout
+root      762741  0.0  0.0   4328  1936 ?        S    20:45   0:00 /bin/bash /lzcsys/bin/hc upload_stdout
+root      762742  0.0  0.0   4328  1928 ?        S    20:45   0:00 /bin/bash /lzcsys/bin/hc upload_stdout
+root      762743  0.0  0.0   2500  1280 ?        S    20:45   0:00 timeout 10 /lzcsys/share/lazycat-cloud/log-scripts/lzc-os/ps
+root      762745  0.0  0.0   3932  2944 ?        S    20:45   0:00 /bin/bash /lzcsys/share/lazycat-cloud/log-scripts/lzc-os/ps
+root      762750  0.0  0.0   8148  4352 ?        R    20:45   0:00 ps auxww
+root      767252  0.0  0.1 1238252 17088 ?       Sl   Nov15   0:19 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id a03b45c4ae3a4e8c52e1867d45bac2ca79c7fb7529bb4f6a5bc5d4895d1fc0b2 -address /run/containerd/containerd.sock
+root      767271  0.0  0.1 1249676 30720 ?       Ssl  Nov15   0:04 /lzcinit/top.j0k3r.lpk-inspector -listen :80 -grpc_listen :81
+otel     1333146  0.0  0.1 223392 16528 ?        Ss   15:54   0:09 postgres: postgres postgres 172.28.0.198(35076) idle
+root     1344496  0.0  0.1 1238252 16888 ?       Sl   15:55   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1e5130fe8aa2c7724e939cc446667012e6dafff374728b31c629d23b216757e7 -address /run/containerd/containerd.sock
+root     1344497  0.0  0.1 1238252 18528 ?       Sl   15:55   0:01 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 8faee164fdb0bcddc2ead25b1580f6dba10452044d35bfac71d40962e66f1635 -address /run/containerd/containerd.sock
+70       1344539  0.0  0.1 174204 26368 ?        Ss   15:55   0:00 postgres
+root     1344543  0.0  0.0   1008   512 ?        Ss   15:55   0:00 /sbin/docker-init -- bash -c date;python server.py
+root     1344644  0.0  0.1 1238508 16528 ?       Sl   15:55   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6074fa3459ab4232a18207efb68667f9f6580b2cdd43b9c11db5b739250d5ea5 -address /run/containerd/containerd.sock
+root     1344664  1.5  0.8 1465368 134552 ?      Ssl  15:55   4:35 /bin/weaviate --host 0.0.0.0 --port 8080 --scheme http
+root     1344686  4.2  8.9 6629420 1441116 ?     Sl   15:55  12:16 python server.py
+70       1345784  0.0  0.0 174364  7536 ?        Ss   15:55   0:00 postgres: checkpointer 
+70       1345785  0.0  0.0 174308  6512 ?        Ss   15:55   0:00 postgres: background writer 
+70       1345832  0.0  0.0 174276  8816 ?        Ss   15:55   0:01 postgres: walwriter 
+70       1345833  0.0  0.0 175844  7408 ?        Ss   15:55   0:00 postgres: autovacuum launcher 
+70       1345834  0.0  0.0 175816  6512 ?        Ss   15:55   0:00 postgres: logical replication launcher 
+root     1347640  0.0  0.1 1238252 17744 ?       Sl   15:55   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b0f6e1822ab89cc46ee509b58b34da6d8c28b1d8a329dc4bea13cd31f869db68 -address /run/containerd/containerd.sock
+root     1347660  1.1  0.6 3676464 98872 ?       Ssl  15:55   3:27 /lzcinit/cloud.lazycat.app.photo -listen :80 -grpc_listen :81
+root     1347780  0.0  0.0   2328   768 ?        S    15:55   0:00 /bin/bash /lzcapp/pkg/content/app.sh
+root     1347883  0.6  0.8 1342336 129972 ?      Sl   15:55   2:01 /lzcapp/pkg/content/lzc-photo
+root     1349074  0.0  0.0  19720 14676 ?        S    15:55   0:00 perl /usr/bin/exiftool -stay_open True -@ -
+70       1354679  0.0  0.1 178288 18400 ?        Ss   15:56   0:01 postgres: lzc lzc [local] idle
+root     1517462  0.0  0.1 1238508 16928 ?       Sl   Nov15   0:17 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 20771b056459a1fe2d87b9e2adee136dcef5380203d021ad9a388ccc9c5b2352 -address /run/containerd/containerd.sock
+root     1517482  0.0  0.1 1249164 30100 ?       Ssl  Nov15   0:03 /lzcinit/cloud.lazycat.app.onemcp -listen :80 -grpc_listen :81
+root     1517544  0.0  0.1 1238508 18180 ?       Sl   Nov15   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 42ac4c47098c2a60890c48eab03ea9fd852882571d6b6d38940213d72ca39664 -address /run/containerd/containerd.sock
+root     1517565  0.0  0.0 2133912 15752 ?       Ssl  Nov15   0:04 /one-mcp
+root     1517704  0.0  0.1 700224 26416 ?        Sl   Nov15   0:06 npm exec @wordbricks/fetch-mcp
+root     1519948  0.0  0.2 11171648 32912 ?      Sl   Nov15   0:00 node /root/.npm/_npx/e0f3f30cc48938e4/node_modules/.bin/fetch-mcp
+root     1628690  0.0  0.1 1238252 16992 ?       Sl   10:21   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9c03a296cfa76edd1cddd66f10cadb97ca5030843b260008ead3d45af100753a -address /run/containerd/containerd.sock
+root     1628733  0.0  0.1 1238252 18348 ?       Sl   10:21   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 03d0b1b584314428629685a97089753faf35e81d07adbece0bebb516c4651b7b -address /run/containerd/containerd.sock
+root     1628737  0.0  0.1 1249484 31104 ?       Ssl  10:21   0:01 /lzcinit/cloud.lazycat.aipod.knowledge -listen :80 -grpc_listen :81
+root     1628767  0.0  0.1 1247500 19740 ?       Ssl  10:21   0:00 /lzcinit/cloud.lazycat.aipod.knowledge -setup-script caddy
+root     1628914  0.0  0.2 1272488 48236 ?       Sl   10:21   0:02 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+root     1628951  0.0  0.1 1238508 17420 ?       Sl   10:21   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b967afcb364a24f1fcaf644f6a668f09b29b851311d1e57af431e4a33954a013 -address /run/containerd/containerd.sock
+otel     1628977  0.0  0.3 4422148 60032 ?       Ss   10:21   0:01 postgres -c config_file=/etc/postgresql.conf
+root     1629037  0.0  0.1 1238252 17248 ?       Sl   10:21   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 94074c01b7185abe2a78f8aa1f2472939bfb2d8522156190de616240d8a2d07a -address /run/containerd/containerd.sock
+root     1629056  0.1  0.6 635764 98728 ?        Ssl  10:21   1:08 python3 server.py
+otel     1635788  0.0  0.1 4422280 20496 ?       Ss   10:22   0:00 postgres: checkpointer 
+otel     1635789  0.0  0.1 4422304 17936 ?       Ss   10:22   0:00 postgres: background writer 
+otel     1635815  0.0  0.0 4422148 11408 ?       Ss   10:22   0:00 postgres: walwriter 
+otel     1635816  0.0  0.0 4423724 7440 ?        Ss   10:22   0:00 postgres: autovacuum launcher 
+otel     1635817  0.0  0.0 4423732 6928 ?        Ss   10:22   0:00 postgres: logical replication launcher 
+root     1636147  0.0  0.1 1238252 16816 ?       Sl   10:22   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0a4bc94f69f98d46446d32ee51c76d3c8cf4ff43c6c8844c8dfba5e31da335a1 -address /run/containerd/containerd.sock
+root     1636173  0.1  0.8 1010488 130468 ?      Ssl  10:22   1:08 python3 server.py
+otel     1637022  0.0  0.1 4425200 16784 ?       Ss   10:22   0:00 postgres: postgres postgres fd03:1136:3800::346(51912) idle
+otel     1637024  0.0  0.1 4783568 29612 ?       Ss   10:22   0:00 postgres: postgres postgres fd03:1136:3800::346(51930) idle
+70       1646618  0.0  0.1 177264 16372 ?        Ss   16:20   0:00 postgres: lzc lzc [local] idle
+otel     1655494  0.0  0.1 4425648 17424 ?       Ss   10:24   0:00 postgres: postgres postgres fd03:1136:3800::346(37574) idle
+root     1928976  0.0  0.1 1238252 18056 ?       Sl   10:49   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1b5ebc5c35ebcab5ad77266b54ba723d5ab6cf7c9f6684543e1e14da75d1c1fa -address /run/containerd/containerd.sock
+root     1929002  0.0  0.0 269344 15548 ?        Ssl  10:49   0:00 node /app/main.js
+root     1929533  0.0  0.1 1238508 16980 ?       Sl   10:49   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 94e19b39929a112e7fd09e1350254ba319d171ef73f6b514e0e0d9fc80065d52 -address /run/containerd/containerd.sock
+root     1929554  0.0  0.1 1249420 30048 ?       Ssl  10:49   0:01 /lzcinit/cloud.lazycat.app.create -listen :80 -grpc_listen :81
+root     1954543  0.0  0.1 1238508 17284 ?       Sl   10:51   0:07 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id da928bbc14df60919e4c9442fcfda7beca595d6e03ec1e7315e4f4e376c6f8a2 -address /run/containerd/containerd.sock
+root     1954562  0.0  0.1 1249420 29432 ?       Ssl  10:51   0:01 /lzcinit/xyz.mxue.maxkb -listen :80 -grpc_listen :81
+root     1954777  0.0  0.1 1238508 18232 ?       Sl   10:51   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f6d05025b77b4f88de3527b6a43c01838bd284df36c2b52354c1e428c3bd8124 -address /run/containerd/containerd.sock
+root     1954800  0.0  0.0   7088  3200 ?        Ss   10:51   0:00 /bin/bash /usr/bin/start-all.sh
+root     1954989  0.0  0.0   7088  3328 ?        S    10:51   0:00 /bin/bash /usr/bin/start-postgres.sh
+otel     1955032  0.0  0.2 259908 42368 ?        S    10:51   0:01 postgres -c max_connections=1000
+root     1967826  0.0  0.0   7088  3328 ?        S    10:52   0:00 /bin/bash /usr/bin/start-redis.sh
+root     1967836  0.3  0.0  80920 13568 ?        Sl   10:52   1:55 redis-server 0.0.0.0:6379
+otel     1967870  0.0  0.0 260592 14824 ?        Ss   10:52   0:00 postgres: checkpointer 
+otel     1967871  0.0  0.0 260168  6632 ?        Ss   10:52   0:00 postgres: background writer 
+otel     1968011  0.0  0.0 259908  7912 ?        Ss   10:52   0:00 postgres: walwriter 
+otel     1968012  0.0  0.0 262144  8296 ?        Ss   10:52   0:00 postgres: autovacuum launcher 
+otel     1968013  0.0  0.0 262128  7272 ?        Ss   10:52   0:00 postgres: logical replication launcher 
+root     1968869  0.0  0.0   7088  3456 ?        S    10:52   0:00 /bin/bash /usr/bin/start-maxkb.sh
+root     1968879  0.0  0.6 316320 111896 ?       Sl   10:52   0:09 python /opt/maxkb-app/main.py start
+otel     1969256  0.0  0.1 265992 24540 ?        Ss   10:52   0:00 postgres: root maxkb 127.0.0.1(46284) idle
+root     1971450  0.0  0.1  36776 17152 ?        S    10:53   0:02 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 127.0.0.1:11636 -k gthread --threads 200 -w 1 --max-requests 0 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+root     1971451  0.0  0.1  36792 20208 ?        S    10:53   0:02 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+root     1971452  0.1  3.1 1308520 512748 ?      Sl   10:53   0:44 /opt/py3/bin/python /opt/py3/bin/celery -A ops worker -P threads -l error -c 10 -Q celery --heartbeat-interval 10 -n celery@%h --without-mingle
+root     1971648  0.0  3.0 1465940 497104 ?      Sl   10:53   0:24 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+root     1971649  0.0  0.4 257668 66340 ?        Sl   10:53   0:05 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 127.0.0.1:11636 -k gthread --threads 200 -w 1 --max-requests 0 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+root     1971663  0.0  2.5 1421924 412924 ?      Sl   10:53   0:15 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+root     1971664  0.0  2.5 1199372 407164 ?      Sl   10:53   0:15 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat %(h)s %(t)s %(L)ss "%(r)s" %(s)s %(b)s  --access-logfile /dev/null --error-logfile -
+otel     1972267  0.0  0.1 263312 19176 ?        Ss   10:53   0:00 postgres: root maxkb 127.0.0.1(51230) idle
+otel     1975164  0.0  0.1 263416 20584 ?        Ss   10:53   0:00 postgres: root maxkb 127.0.0.1(47368) idle
+otel     1975605  0.0  0.1 263424 20072 ?        Ss   10:53   0:00 postgres: root maxkb 127.0.0.1(47382) idle
+otel     1975626  0.0  0.1 262672 17384 ?        Ss   10:53   0:00 postgres: root maxkb 127.0.0.1(47392) idle
+otel     1985128  0.0  0.1 263712 21864 ?        Ss   10:54   0:00 postgres: root maxkb 127.0.0.1(42716) idle
+otel     1985129  0.0  0.1 264364 23144 ?        Ss   10:54   0:00 postgres: root maxkb 127.0.0.1(42726) idle
+otel     1995071  0.0  0.1 263748 22248 ?        Ss   10:55   0:00 postgres: root maxkb 127.0.0.1(45620) idle
+otel     1998383  0.0  0.1 263712 21352 ?        Ss   10:55   0:00 postgres: root maxkb 127.0.0.1(51222) idle
+otel     2050245  0.0  0.1 263488 20584 ?        Ss   10:59   0:00 postgres: root maxkb 127.0.0.1(56238) idle
+root     2193763  0.0  0.1 1238252 18324 ?       Sl   17:04   0:01 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 3e8a45dd32d588dc9d3e4408c7e7c099e4aafc947cda7208733589c600ec0f54 -address /run/containerd/containerd.sock
+root     2193783  0.0  0.2 1250748 32940 ?       Ssl  17:04   0:00 /lzcapp/pkg/content/lzc-lan-forward
+root     2193834  0.0  0.1 1238508 17580 ?       Sl   17:04   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6d6ebdc51570dbc70fe8f4af2cf2ed39e542337199fae3a46d9ca0ca65ed1e66 -address /run/containerd/containerd.sock
+root     2193887  0.0  0.1 1249164 29620 ?       Ssl  17:04   0:00 /lzcinit/cloud.lazycat.app.forward -listen :80 -grpc_listen :81
+root     2316239  0.0  0.0 1237996 16136 ?       Sl   17:14   0:00 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ac3482f35b35a795c8fea00acad2d86a7e936b1c7bf7c1b32787504952195180 -address /run/containerd/containerd.sock
+root     2316258  0.0  0.3 1282672 52528 ?       Ssl  17:14   0:06 /dozzle
+root     2316460  0.0  0.0 1238252 15960 ?       Sl   17:14   0:00 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 06547fa1b0ca770176c77b60254c4655dcd84fdec48da88b2a0c79540b3bbe17 -address /run/containerd/containerd.sock
+root     2316480  0.0  0.1 730088 26228 ?        Ssl  17:14   0:00 registry serve /etc/docker/registry/config.yml
+root     2316537  0.0  0.1 1238252 17332 ?       Sl   17:14   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9f8877ce6f9cc3e33d51589b5ce64228c12874c6f4289ffbbf1091dd8c02264d -address /run/containerd/containerd.sock
+root     2316558  0.0  0.1 1249164 30348 ?       Ssl  17:14   0:00 /lzcinit/cloud.lazycat.developer.tools -listen :80 -grpc_listen :81
+root     2316722  0.0  0.0  14848  8448 ?        S    17:14   0:00 sshd: /usr/sbin/sshd -D -e -f /lzcapp/pkg/content/config/sshd_config [listener] 0 of 10-100 startups
+root     2316749  0.0  0.1 1250468 27684 ?       Sl   17:14   0:00 /lzcapp/pkg/content/debug.bridge forward-rsync
+root     2316750  0.0  0.1 1250468 29536 ?       Sl   17:14   0:02 /lzcapp/pkg/content/debug.bridge server
+root     2316987  0.0  0.0 1238252 16096 ?       Sl   17:14   0:00 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 81dfe4fd2362ca26714bf84c6f7d3b3acfc4406664acf24556bcca53db24cd22 -address /run/containerd/containerd.sock
+root     2317006  0.0  0.0  11544  7296 ?        Ss   17:14   0:00 nginx: master process nginx -g daemon off;
+tss      2317293  0.0  0.0  11680  2788 ?        S    17:14   0:00 nginx: worker process
+root     2317657  0.0  0.0   9180  3712 ?        S    17:14   0:00 rsync --daemon --no-detach --config=/lzcapp/pkg/content/config/rsyncd.conf
+root     2872477  0.0  0.1 1238252 18276 ?       Sl   12:12   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e46ce7898ded6203e82fe93b226a0e24a34edb2c3bf7ce0c53913c9eb0d2a4a6 -address /run/containerd/containerd.sock
+root     2872496  0.0  0.0   1640  1024 ?        Ss   12:12   0:00 /bin/sh /entrypoint.sh
+root     2872532  1.5  0.2 1277332 42804 ?       Sl   12:12   8:03 /usr/local/bin/mihomo -d /etc/mihomo
+root     2872578  0.0  0.1 1238508 18360 ?       Sl   12:12   0:06 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2aa1cd4ecb4e87feb1fbceaaf405c0593e82ee982390b69f90b565f7cb152f98 -address /run/containerd/containerd.sock
+root     2872597  0.0  0.1 1249676 32000 ?       Ssl  12:12   0:01 /lzcinit/com.lxy.app.clash -listen :80 -grpc_listen :81
+root     3069975  0.0  0.1 1238252 17832 ?       Sl   Nov15   0:15 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ac29844475845825cc0bb4c042cfaa2c8ad431349b3fa1372b52d87b97b333c9 -address /run/containerd/containerd.sock
+root     3069994  0.0  0.1 1249164 30240 ?       Ssl  Nov15   0:02 /lzcinit/cloud.lazycat.app.jellyfinsingle -listen :80 -grpc_listen :81
+root     3070080  0.0  0.1 1238252 17436 ?       Sl   Nov15   0:15 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 16481e1a6a8c1add0e0e9ea3bd1ac47c3390113be18299db28784bef578c4bd5 -address /run/containerd/containerd.sock
+root     3070101  0.0  1.2 274739312 195916 ?    Ssl  Nov15   0:25 /jellyfin/jellyfin
+otel     3412917  0.0  0.1 223404 17040 ?        Ss   12:58   0:00 postgres: postgres postgres 172.28.0.199(41088) idle
+root     3414702  0.0  0.1 1238508 18320 ?       Sl   12:59   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e25a2994a42e21f5d9cdc71dfdda88abac9e24229c9b4284acba6e623810a73a -address /run/containerd/containerd.sock
+root     3414721  0.0  0.1 1247500 17408 ?       Ssl  12:59   0:00 /lzcinit/cloud.lazycat.aipod.rag -setup-script caddy
+root     3414796  0.0  0.2 1272232 47728 ?       Sl   12:59   0:01 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+root     3414835  0.0  0.1 1238508 18284 ?       Sl   12:59   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1f39777be01c8439cd7893b520b82fcba56b63d83daffeff67513726306e0c3a -address /run/containerd/containerd.sock
+root     3414854  0.0  0.0   1008   512 ?        Ss   12:59   0:00 /sbin/docker-init -- python3 server.py
+root     3415010  0.1  0.4  92808 79576 ?        S    12:59   0:50 python3 server.py
+root     3415046  0.0  0.1 1238252 17272 ?       Sl   12:59   0:05 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4ea2fc16b064a65a20305e8e05cd947cb0abdfb3831cbd829f2cfe598a53c747 -address /run/containerd/containerd.sock
+root     3415065  0.0  0.1 1249676 32260 ?       Ssl  12:59   0:05 /lzcinit/cloud.lazycat.aipod.rag -listen :80 -grpc_listen :81
+root     3415334  0.0  0.1 1238508 17680 ?       Sl   12:59   0:05 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 61a23ae8593a581cfd0244fe41b573e2f4ad61d99bd99638c1bab4860e739463 -address /run/containerd/containerd.sock
+root     3415354  0.0  0.0   1008   512 ?        Ss   12:59   0:00 /sbin/docker-init -- python3 server.py
+root     3415434  0.0  0.1 1238508 16988 ?       Sl   12:59   0:05 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 86cac99ecb3e5831748d6328cbf96d3a84006b33737dcf168c198bc81f487462 -address /run/containerd/containerd.sock
+root     3415453  0.0  0.0   1008   512 ?        Ss   12:59   0:00 /sbin/docker-init -- python3 server.py
+root     3415531  0.2  0.5 1152388 89352 ?       Sl   12:59   1:13 python3 server.py
+root     3415622  0.1  0.2 891320 41496 ?        Sl   12:59   0:52 python3 server.py
+root     3415762  0.0  0.1 1238508 19060 ?       Sl   12:59   0:02 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c614148b5c2d42261e173ed3103c02e7f9faad104cd040f9b316452f6095b8cb -address /run/containerd/containerd.sock
+root     3415783  0.0  0.1  29856 18624 ?        Ss   12:59   0:03 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+root     3416085  0.0  0.1 1238252 16948 ?       Sl   12:59   0:05 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4c31b456cfeb5f5c80d236d2e2aef1dade889652418b020d866bd0d856db0fc2 -address /run/containerd/containerd.sock
+otel     3416154  0.0  0.0 1179268 13696 ?       Ss   12:59   0:01 postgres -c config_file=/etc/postgresql.conf
+root     3417398  0.0  0.6 130132 103620 ?       S    12:59   0:02 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+root     3417399  0.0  0.6 130128 103124 ?       S    12:59   0:02 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+root     3417416  0.0  0.6 130128 107084 ?       S    12:59   0:02 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+root     3417417  0.0  0.6 130128 100620 ?       S    12:59   0:02 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+otel     3418015  0.0  0.0 1179504 16016 ?       Ss   12:59   0:00 postgres: checkpointer 
+otel     3418016  0.0  0.0 1179400 4496 ?        Ss   12:59   0:00 postgres: background writer 
+otel     3418095  0.0  0.0 1179400 5392 ?        Ss   12:59   0:00 postgres: walwriter 
+otel     3418096  0.0  0.0 1180844 5776 ?        Ss   12:59   0:00 postgres: autovacuum launcher 
+otel     3418097  0.0  0.0 1180852 4624 ?        Ss   12:59   0:00 postgres: logical replication launcher 
+root     3420130  0.0  0.1 1238508 18820 ?       Sl   12:59   0:03 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f7504ce4803c66c68fed52d87daa02c4b0996fd5c3d24f2873733844b24fe2ef -address /run/containerd/containerd.sock
+root     3420156  0.8  0.1 1251640 31200 ?       Ssl  12:59   4:02 /lzcapp/pkg/content/server.amd64
+otel     3421657  0.3  1.0 1200400 163460 ?      Ss   12:59   1:33 postgres: postgres postgres 172.28.4.73(33408) idle
+otel     3421658  0.2  0.2 1208692 37548 ?       Ss   12:59   1:01 postgres: postgres postgres 172.28.4.73(33412) idle
+
+real	0m0.018s
+user	0m0.004s
+sys	0m0.013s

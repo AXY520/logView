@@ -1,2 +1,0 @@
-tun_running:1 len_tuns:1
-	tun(fc03:1136:3805:be5d:8fd0:c1d0:dce4:0)->ostun, R:1,W:0

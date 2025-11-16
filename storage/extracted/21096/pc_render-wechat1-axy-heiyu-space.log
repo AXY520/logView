@@ -1,0 +1,27 @@
+[2025-10-31 22:17:23.127] [info]  [
+  '微信客户端 启动中-axy|145|https://wechat1.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-10-31 22:17:34.204] [info]  [
+  '微信客户端 启动中-axy|200|https://wechat1.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-10-31 22:17:34.422] [info]  [
+  'Wechat-axy|201|https://wechat1.axy.heiyu.space/core/display.js|Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently'
+]
+[2025-10-31 22:17:38.323] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/error.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]
+[2025-10-31 22:17:38.324] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/warning.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]
+[2025-10-31 22:20:52.305] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/error.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]
+[2025-10-31 22:20:52.305] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/warning.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]
+[2025-10-31 22:24:53.928] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/error.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]
+[2025-10-31 22:24:53.928] [info]  [
+  "Wechat-axy|0|https://wechat1.axy.heiyu.space/|The resource https://wechat1.axy.heiyu.space/app/images/warning.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+]

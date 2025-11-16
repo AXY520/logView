@@ -1,0 +1,36 @@
+lzc-sdk-version: '0.1'
+name: qemu
+package: cloud.lzcapp.qemu
+version: 0.0.1
+description: 使用 QEMU 运行虚拟机的 Docker 容器
+homepage: https://github.com/qemus/qemu
+author: qemus
+locales:
+  zh:
+    name: qemu
+    description: 使用 QEMU 运行虚拟机的 Docker 容器
+  en:
+    name: qemu
+    description: Docker container for running virtual machines using QEMU
+unsupported_platforms:
+  - ios
+  - android
+application:
+  subdomain: qemu
+  background_task: false
+  multi_instance: false
+  gpu_accel: true
+  kvm_accel: true
+  usb_accel: false
+  routes:
+    - /=http://qemu.cloud.lzcapp.qemu.lzcapp:8006/
+services:
+  qemu:
+    image: registry.lazycat.cloud/aixinyin/qemux/qemu:2767dccd2da80a3a
+    environment:
+      - BOOT=https://repo.huaweicloud.com/alpine/v3.11/releases/x86_64/alpine-extended-3.11.0-x86_64.iso
+      - DISK_SIZE=20GB
+      - RAM_SIZE=2G
+      - CPU_CORES=2
+    binds:
+      - /lzcapp/var/storage:/storage

@@ -1,0 +1,13 @@
+name: axy
+ipv6: fc03:1136:387f:7a80:c8cc:58be:371d:0
+bsid: 0100067e7a00005204PA3Fc2rV
+pincode: PA3Fc2rV
+origin: /dnsaddr/origin.lazycat.cloud
+domain: axy.heiyu.space
+version: v1.4.0-alpha.12
+linakesi verify: ok
+machine verify: ok
+
+real	0m0.217s
+user	0m0.052s
+sys	0m0.019s

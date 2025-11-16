@@ -1,0 +1,36 @@
+NAME                UUID                                  TYPE      DEVICE          
+Wired connection 1  0fe1c322-57d2-3491-8335-fff8f0a2ad34  ethernet  enp2s0          
+br-952fb6f0def8     ab9da316-e28a-4be7-b157-d5d3ef6a2e9f  bridge    br-952fb6f0def8 
+lzc-br-0e2b9ad0     9ad37ad3-ce89-45ba-bfe7-63f282722a4c  bridge    lzc-br-0e2b9ad0 
+lzc-br-168be677     a4a3e551-8741-43ff-bbc4-8d8e5ac2fd85  bridge    lzc-br-168be677 
+lzc-br-2b4d7248     c027e636-b1b4-4d8d-b505-0b1710a92264  bridge    lzc-br-2b4d7248 
+lzc-br-307a08f5     542db13b-4e75-4d9b-8f0b-308e4e250e93  bridge    lzc-br-307a08f5 
+lzc-br-4c9c5c7e     3efde765-a9ce-4a70-a577-5afc2a03d4c7  bridge    lzc-br-4c9c5c7e 
+lzc-br-547c8c61     2ca72e31-2638-4e67-97ca-dd0636ca2660  bridge    lzc-br-547c8c61 
+lzc-br-66744eb8     5b79469c-f202-4539-a4e1-0e65a198cd6c  bridge    lzc-br-66744eb8 
+lzc-br-6d8f079f     b168ae7a-3c22-473c-8831-30c3a44c8bc1  bridge    lzc-br-6d8f079f 
+lzc-br-6e79d680     0fdc7cfa-be8e-4a4b-8810-19319230fe19  bridge    lzc-br-6e79d680 
+lzc-br-7a6c78ec     4e008f72-135b-4af2-a7d4-1f90777d16de  bridge    lzc-br-7a6c78ec 
+lzc-br-8d9c1795     43ab0eb8-b07c-4bae-8208-469add878226  bridge    lzc-br-8d9c1795 
+lzc-br-9963f095     65fa932c-c8bb-4f06-9e99-31d29608ae42  bridge    lzc-br-9963f095 
+lzc-br-9ec31e64     0080c6e8-2044-46cc-b3dd-98f29127fcae  bridge    lzc-br-9ec31e64 
+lzc-br-a62bee66     07e50f57-21db-4331-b577-c7e2c34b81a9  bridge    lzc-br-a62bee66 
+lzc-br-aaefacac     3c0221ce-8434-4192-bab6-58caf1b53b2c  bridge    lzc-br-aaefacac 
+lzc-br-ac3d70db     89cfa395-2ed6-4f9c-abef-852ed3a62b22  bridge    lzc-br-ac3d70db 
+lzc-br-c65e581b     d8695a8c-e6ea-4ca5-b8d1-ff639e0c7082  bridge    lzc-br-c65e581b 
+lzc-br-d8c56011     caeab0ab-5242-44a1-9f7e-2a6c0071fd23  bridge    lzc-br-d8c56011 
+lzc-br-d9e21c5c     4f3f415f-d0f2-4144-b295-6fe9d02ca99a  bridge    lzc-br-d9e21c5c 
+lzc-br-f809b5bf     24f56936-a2b1-44b8-a78c-ea888f44f9a7  bridge    lzc-br-f809b5bf 
+br-ef22ca40c60d     fcf8a3c9-2cae-43bc-a1ba-6dfb7ca45942  bridge    br-ef22ca40c60d 
+br-f068c6ffd9d7     9ee4c82b-d9f8-4670-b240-6ee851a850fe  bridge    br-f068c6ffd9d7 
+br-fd6e939c220d     8853772f-f81e-4540-8a4c-e2eda36b5efa  bridge    br-fd6e939c220d 
+docker0             6c22db74-7931-427a-9cd2-b56fff698ee2  bridge    docker0         
+lo                  c57df32d-8f1b-48b9-ae85-40e02ba3850c  loopback  lo              
+br-2ad7ecfa93f1     81afba7e-d3ee-4d21-a987-db66c0232410  bridge    br-2ad7ecfa93f1 
+br-3e48c347405c     f8bc3268-2791-46be-83d2-dde1ce0147ae  bridge    br-3e48c347405c 
+br-821c696c094a     422ec1e7-8423-4941-8c8f-32ab5f243806  bridge    br-821c696c094a 
+br-abe566e36e91     7681b497-7305-40ea-9624-78738792cdfe  bridge    br-abe566e36e91 
+
+real	0m0.131s
+user	0m0.092s
+sys	0m0.017s

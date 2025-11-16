@@ -1,0 +1,24 @@
+[2025-11-02 09:39:43.304] [info]  [
+  "懒猫部署向导-axy|282|https://wbb.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
+]
+[2025-11-02 09:39:48.275] [info]  [
+  '微备备 启动中-axy|145|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 09:39:53.330] [info]  [
+  '微备备 启动中-axy|200|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-02 09:46:03.764] [info]  [
+  '微备备 启动中-axy|200|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-11-02 09:56:28.887] [info]  [
+  '微备备 启动中-axy|200|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-02 09:56:30.953] [info]  [
+  '微备备 启动中-axy|200|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-11-02 09:56:31.994] [info]  [
+  '微备备 启动中-axy|145|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 10:02:37.413] [info]  [
+  '微备备 启动中-axy|200|https://wbb.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]

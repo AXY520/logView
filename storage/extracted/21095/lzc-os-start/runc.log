@@ -1,0 +1,6 @@
+ID          PID         STATUS      BUNDLE                         CREATED                          OWNER
+lzc-os      1242        running     /run/lzcsys/boot/lzc-os-init   2025-11-14T15:44:28.695827835Z   root
+
+real	0m0.124s
+user	0m0.108s
+sys	0m0.030s

@@ -1,0 +1,21 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1p2   12G  1.2G   10G  11% /run/lzcsys/boot/lzc-base-os-init
+devtmpfs        4.0M     0  4.0M   0% /dev
+shm             7.7G     0  7.7G   0% /dev/shm
+tmpfs           7.7G  2.3M  7.7G   1% /run
+/dev/loop0      537M  537M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/vendor
+/dev/loop1      321M  321M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/rootfs
+/dev/loop2       39M   39M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/hportal
+/dev/loop3       17M   17M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/daemon
+/dev/loop4       11M   11M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/config
+/dev/loop5      5.1M  5.1M     0 100% /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/wifip2p
+overlay         7.7G  2.3M  7.7G   1% /
+none            256K  105K  147K  42% /sys/firmware/efi/efivars
+/dev/loop6      488M  262M  191M  58% /run/lzcsys/var
+/dev/loop7      8.7M  8.7M     0 100% /run/lzcsys/boot/update-bundle/update-tool
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/nvme0n1p3  463G   50G  412G  11% /run/lzcsys/boot/lzc-os-init
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.001s

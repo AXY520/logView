@@ -260,9 +260,10 @@ function renderFileTree(nodes, logId, depth = 0) {
     nodes.forEach(node => {
         const nodeId = `node-${logId}-${node.path.replace(/[^a-zA-Z0-9]/g, '-')}`;
         const iconClass = node.type === 'directory' ? 'fas fa-folder' : 'fas fa-file';
+        const indentStyle = `style="padding-left: ${depth * 20}px;"`;
         
         html += `
-            <li class="tree-node ${node.type} ${node.type === 'directory' ? 'collapsed' : ''}" data-path="${node.path}" data-type="${node.type}" id="${nodeId}" data-name="${node.name.toLowerCase()}">
+            <li class="tree-node ${node.type} ${node.type === 'directory' ? 'collapsed' : ''}" data-path="${node.path}" data-type="${node.type}" id="${nodeId}" data-name="${node.name.toLowerCase()}" data-depth="${depth}" ${indentStyle}>
                 ${node.type === 'directory' ? '<span class="toggle"></span>' : '<span class="toggle" style="visibility: hidden;"></span>'}
                 <span class="icon"><i class="${iconClass}"></i></span>
                 <span class="node-name">${node.name}</span>

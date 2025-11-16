@@ -1,0 +1,7 @@
+REPOSITORY                          TAG              IMAGE ID       CREATED         SIZE
+registry.lazycat.cloud/dexidp/dex   v2.42.0-alpine   7cec08f2d953   8 months ago    131MB
+registry.lazycat.cloud/lzc/lzcapp   3.20.3           ba7a533c869a   11 months ago   10.3MB
+
+real	0m0.049s
+user	0m0.017s
+sys	0m0.041s

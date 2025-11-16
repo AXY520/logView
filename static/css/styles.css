@@ -210,6 +210,18 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 100%;
+    position: relative;
+}
+
+/* 添加左侧引导线 */
+.tree-node[data-depth]:not([data-depth="0"])::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent 0%, #e0e0e0 50%, transparent 100%);
 }
 
 .tree-node:hover {
@@ -218,17 +230,46 @@ body {
 
 .tree-node.directory {
     font-weight: 600;
-    color: #2196f3; /* 文件夹用蓝色 */
+}
+
+/* 根据层级调整文件夹颜色深度 */
+.tree-node.directory[data-depth="0"] {
+    color: #1976d2; /* 最深的蓝色 */
+}
+
+.tree-node.directory[data-depth="1"] {
+    color: #2196f3; /* 中等蓝色 */
+}
+
+.tree-node.directory[data-depth="2"],
+.tree-node.directory[data-depth="3"],
+.tree-node.directory[data-depth="4"] {
+    color: #42a5f5; /* 浅蓝色 */
 }
 
 .tree-node.file {
     font-weight: normal;
-    color: #4caf50; /* 文件用绿色 */
+}
+
+/* 根据层级调整文件颜色深度 */
+.tree-node.file[data-depth="0"] {
+    color: #388e3c; /* 最深的绿色 */
+}
+
+.tree-node.file[data-depth="1"] {
+    color: #4caf50; /* 中等绿色 */
+}
+
+.tree-node.file[data-depth="2"],
+.tree-node.file[data-depth="3"],
+.tree-node.file[data-depth="4"] {
+    color: #66bb6a; /* 浅绿色 */
 }
 
 .tree-node.active {
-    background-color: #e3f2fd;
-    color: #007bff;
+    background-color: #ffebee;
+    color: #d32f2f !important;
+    font-weight: 600;
 }
 
 .tree-node .toggle {
@@ -271,6 +312,13 @@ body {
 .tree-children {
     overflow: hidden;
     transition: none; /* 移除动画延迟 */
+    position: relative;
+}
+
+/* 为嵌套的tree-children添加连接线 */
+.tree-children:not(:first-child) {
+    border-left: 1px dashed #e0e0e0;
+    margin-left: 10px;
 }
 
 .tree-children.collapsed {

@@ -1,0 +1,3 @@
+lzc-hal  | 2025-11-14T15:44:34.806841000Z 2025-11-14T15:44:34.806Z	INFO	dri	dri/dri.go:100	pmuNameStr = icelake
+lzc-hal  | 2025-11-14T15:44:34.806966000Z 2025-11-14T15:44:34.806Z	INFO	dri	dri/dri.go:111	driver = I11Driver
+lzc-hal  | 2025-11-14T15:44:34.820803000Z 2025-11-14T15:44:34.820Z	INFO	thermal-control	fanctl/fanctl.go:41	load thermal controller config failed, use default config

@@ -1,0 +1,253 @@
+[1A[1B[0G[?25l[+] Pulling 1/2
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web Pulling                                    [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 1/2
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web Pulling                                    [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 1/2
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web Pulling                                    [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 1/2
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web Pulling                                    [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 1/2
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web Pulling                                    [34m0.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 1/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[0m] Pulling [34m0.6s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Pulling 2/12[0m
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀[0m] Pulling [34m0.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 6/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⠀⣿⣿⣿⣿⠀⣿⠀⠀⠀[0m] Pulling [34m0.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 6/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣀⣿⣿⣿⣿⠀⣿⠀⠀⠀[0m] Pulling [34m0.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 7/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⠀⣿⣀⠀⠀[0m] Pulling [34m1.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 6/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⠀⣿⣦⠀⠀[0m] Pulling [34m1.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 9/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⠀⣿[0m] Pulling [34m1.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 9/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⠀⣿[0m] Pulling [34m1.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 14.44MB / 20.51MB Pulling [34m1.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m2.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m3.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m4.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m5.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m6.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m6.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m6.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m]  15.4MB / 20.51MB Pulling [34m6.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 17.86MB / 20.51MB Pulling [34m6.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m6.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m6.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m6.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m6.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m6.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠸[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠼[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠴[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠦[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠧[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠇[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m7.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 10/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠏[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m8.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠋[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m8.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠙[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m8.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 11/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [33m⠹[0m web [[32m⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿[0m] 20.51MB / 20.51MB Pulling [34m8.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Pulling 12/12
+ [32m✔[0m app Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [32m✔[0m web Pulled                 [32m[0m[34m8.4s [0m
+[?25h

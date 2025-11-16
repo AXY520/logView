@@ -1,0 +1,336 @@
+  UNIT                                                                                                          LOAD   ACTIVE SUB       DESCRIPTION
+  proc-sys-fs-binfmt_misc.automount                                                                             loaded active waiting   Arbitrary Executable File Formats File System Automount Point
+  sys-devices-pci0000:00-0000:00:06.0-0000:01:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device                          loaded active plugged   SOLIDIGM SSDPFKNU512GZ 1
+  sys-devices-pci0000:00-0000:00:06.0-0000:01:00.0-nvme-nvme0-nvme0n1-nvme0n1p2.device                          loaded active plugged   SOLIDIGM SSDPFKNU512GZ 2
+  sys-devices-pci0000:00-0000:00:06.0-0000:01:00.0-nvme-nvme0-nvme0n1-nvme0n1p3.device                          loaded active plugged   SOLIDIGM SSDPFKNU512GZ 3
+  sys-devices-pci0000:00-0000:00:06.0-0000:01:00.0-nvme-nvme0-nvme0n1.device                                    loaded active plugged   SOLIDIGM SSDPFKNU512GZ
+  sys-devices-pci0000:00-0000:00:14.0-usb1-1\x2d5-1\x2d5:1.0-bluetooth-hci0.device                              loaded active plugged   /sys/devices/pci0000:00/0000:00:14.0/usb1/1-5/1-5:1.0/bluetooth/hci0
+  sys-devices-pci0000:00-0000:00:17.0-ata1-host0-target0:0:0-0:0:0:0-block-sdb-sdb1.device                      loaded active plugged   WDC_WD10SPZX-22Z10T1 1
+  sys-devices-pci0000:00-0000:00:17.0-ata1-host0-target0:0:0-0:0:0:0-block-sdb.device                           loaded active plugged   WDC_WD10SPZX-22Z10T1 data
+  sys-devices-pci0000:00-0000:00:17.0-ata2-host1-target1:0:0-1:0:0:0-block-sda-sda1.device                      loaded active plugged   WDC_WD10SPZX-22Z10T1 data
+  sys-devices-pci0000:00-0000:00:17.0-ata2-host1-target1:0:0-1:0:0:0-block-sda.device                           loaded active plugged   WDC_WD10SPZX-22Z10T1
+  sys-devices-pci0000:00-0000:00:1c.0-0000:02:00.0-net-enp2s0.device                                            loaded active plugged   Ethernet Controller I226-V
+  sys-devices-pci0000:00-0000:00:1c.0-0000:02:00.0-ptp-ptp0.device                                              loaded active plugged   /sys/devices/pci0000:00/0000:00:1c.0/0000:02:00.0/ptp/ptp0
+  sys-devices-pci0000:00-0000:00:1d.0-0000:04:00.0-net-wlp4s0.device                                            loaded active plugged   Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak] (Wi-Fi 6 AX210 160MHz)
+  sys-devices-pci0000:00-0000:00:1d.0-0000:04:00.0-ptp-ptp1.device                                              loaded active plugged   /sys/devices/pci0000:00/0000:00:1d.0/0000:04:00.0/ptp/ptp1
+  sys-devices-pci0000:00-0000:00:1f.3-sound-card0-controlC0.device                                              loaded active plugged   /sys/devices/pci0000:00/0000:00:1f.3/sound/card0/controlC0
+  sys-devices-platform-serial8250-tty-ttyS0.device                                                              loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS0
+  sys-devices-platform-serial8250-tty-ttyS1.device                                                              loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS2.device                                                              loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS3.device                                                              loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-virtual-block-loop0.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop0
+  sys-devices-virtual-block-loop1.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop1
+  sys-devices-virtual-block-loop2.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop2
+  sys-devices-virtual-block-loop3.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop3
+  sys-devices-virtual-block-loop4.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop4
+  sys-devices-virtual-block-loop5.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop5
+  sys-devices-virtual-block-loop6.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop6
+  sys-devices-virtual-block-loop7.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop7
+  sys-devices-virtual-block-loop8.device                                                                        loaded active plugged   /sys/devices/virtual/block/loop8
+  sys-devices-virtual-misc-rfkill.device                                                                        loaded active plugged   /sys/devices/virtual/misc/rfkill
+  sys-devices-virtual-net-br\x2d2ad7ecfa93f1.device                                                             loaded active plugged   /sys/devices/virtual/net/br-2ad7ecfa93f1
+  sys-devices-virtual-net-br\x2d3e48c347405c.device                                                             loaded active plugged   /sys/devices/virtual/net/br-3e48c347405c
+  sys-devices-virtual-net-br\x2d821c696c094a.device                                                             loaded active plugged   /sys/devices/virtual/net/br-821c696c094a
+  sys-devices-virtual-net-br\x2d952fb6f0def8.device                                                             loaded active plugged   /sys/devices/virtual/net/br-952fb6f0def8
+  sys-devices-virtual-net-br\x2dabe566e36e91.device                                                             loaded active plugged   /sys/devices/virtual/net/br-abe566e36e91
+  sys-devices-virtual-net-br\x2def22ca40c60d.device                                                             loaded active plugged   /sys/devices/virtual/net/br-ef22ca40c60d
+  sys-devices-virtual-net-br\x2df068c6ffd9d7.device                                                             loaded active plugged   /sys/devices/virtual/net/br-f068c6ffd9d7
+  sys-devices-virtual-net-br\x2dfd6e939c220d.device                                                             loaded active plugged   /sys/devices/virtual/net/br-fd6e939c220d
+  sys-devices-virtual-net-docker0.device                                                                        loaded active plugged   /sys/devices/virtual/net/docker0
+  sys-devices-virtual-net-heiyu\x2d0.device                                                                     loaded active plugged   /sys/devices/virtual/net/heiyu-0
+  sys-devices-virtual-net-lzc\x2dbr\x2d0e2b9ad0.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-0e2b9ad0
+  sys-devices-virtual-net-lzc\x2dbr\x2d168be677.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-168be677
+  sys-devices-virtual-net-lzc\x2dbr\x2d2b4d7248.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-2b4d7248
+  sys-devices-virtual-net-lzc\x2dbr\x2d307a08f5.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-307a08f5
+  sys-devices-virtual-net-lzc\x2dbr\x2d4c9c5c7e.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-4c9c5c7e
+  sys-devices-virtual-net-lzc\x2dbr\x2d547c8c61.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-547c8c61
+  sys-devices-virtual-net-lzc\x2dbr\x2d66744eb8.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-66744eb8
+  sys-devices-virtual-net-lzc\x2dbr\x2d6d8f079f.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-6d8f079f
+  sys-devices-virtual-net-lzc\x2dbr\x2d6e79d680.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-6e79d680
+  sys-devices-virtual-net-lzc\x2dbr\x2d7a6c78ec.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-7a6c78ec
+  sys-devices-virtual-net-lzc\x2dbr\x2d8d9c1795.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-8d9c1795
+  sys-devices-virtual-net-lzc\x2dbr\x2d9963f095.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-9963f095
+  sys-devices-virtual-net-lzc\x2dbr\x2d9ec31e64.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-9ec31e64
+  sys-devices-virtual-net-lzc\x2dbr\x2da62bee66.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-a62bee66
+  sys-devices-virtual-net-lzc\x2dbr\x2daaefacac.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-aaefacac
+  sys-devices-virtual-net-lzc\x2dbr\x2dac3d70db.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-ac3d70db
+  sys-devices-virtual-net-lzc\x2dbr\x2dc65e581b.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-c65e581b
+  sys-devices-virtual-net-lzc\x2dbr\x2dd8c56011.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-d8c56011
+  sys-devices-virtual-net-lzc\x2dbr\x2dd9e21c5c.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-d9e21c5c
+  sys-devices-virtual-net-lzc\x2dbr\x2df809b5bf.device                                                          loaded active plugged   /sys/devices/virtual/net/lzc-br-f809b5bf
+  sys-devices-virtual-net-Meta.device                                                                           loaded active plugged   /sys/devices/virtual/net/Meta
+  sys-devices-virtual-net-veth01eee8a.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth01eee8a
+  sys-devices-virtual-net-veth0f3f0c4.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth0f3f0c4
+  sys-devices-virtual-net-veth18fce8c.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth18fce8c
+  sys-devices-virtual-net-veth1b339aa.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth1b339aa
+  sys-devices-virtual-net-veth1f7f2b6.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth1f7f2b6
+  sys-devices-virtual-net-veth217762d.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth217762d
+  sys-devices-virtual-net-veth262f592.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth262f592
+  sys-devices-virtual-net-veth266c7c0.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth266c7c0
+  sys-devices-virtual-net-veth2ce2ef5.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth2ce2ef5
+  sys-devices-virtual-net-veth2db8ad3.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth2db8ad3
+  sys-devices-virtual-net-veth3325d45.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth3325d45
+  sys-devices-virtual-net-veth392d1be.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth392d1be
+  sys-devices-virtual-net-veth3aca3b1.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth3aca3b1
+  sys-devices-virtual-net-veth3b79eb8.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth3b79eb8
+  sys-devices-virtual-net-veth3d43472.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth3d43472
+  sys-devices-virtual-net-veth438dbf1.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth438dbf1
+  sys-devices-virtual-net-veth475b226.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth475b226
+  sys-devices-virtual-net-veth4bd51d9.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth4bd51d9
+  sys-devices-virtual-net-veth4e45fcb.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth4e45fcb
+  sys-devices-virtual-net-veth5415a40.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth5415a40
+  sys-devices-virtual-net-veth54cfe9b.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth54cfe9b
+  sys-devices-virtual-net-veth5c8382b.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth5c8382b
+  sys-devices-virtual-net-veth6a1c7b7.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth6a1c7b7
+  sys-devices-virtual-net-veth778796d.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth778796d
+  sys-devices-virtual-net-veth7f28c2c.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth7f28c2c
+  sys-devices-virtual-net-veth8205dad.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth8205dad
+  sys-devices-virtual-net-veth830368c.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth830368c
+  sys-devices-virtual-net-veth830d72f.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth830d72f
+  sys-devices-virtual-net-veth83b0574.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth83b0574
+  sys-devices-virtual-net-veth843c56e.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth843c56e
+  sys-devices-virtual-net-veth845ef3b.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth845ef3b
+  sys-devices-virtual-net-veth85799d5.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth85799d5
+  sys-devices-virtual-net-veth85f1405.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth85f1405
+  sys-devices-virtual-net-veth8a2f69d.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth8a2f69d
+  sys-devices-virtual-net-veth93405fb.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth93405fb
+  sys-devices-virtual-net-veth961cec3.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth961cec3
+  sys-devices-virtual-net-veth99537eb.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth99537eb
+  sys-devices-virtual-net-veth9b8b401.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth9b8b401
+  sys-devices-virtual-net-veth9e2e348.device                                                                    loaded active plugged   /sys/devices/virtual/net/veth9e2e348
+  sys-devices-virtual-net-vethaa700b2.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethaa700b2
+  sys-devices-virtual-net-vethace67d6.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethace67d6
+  sys-devices-virtual-net-vethb3bf197.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethb3bf197
+  sys-devices-virtual-net-vethb9829c8.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethb9829c8
+  sys-devices-virtual-net-vethb9f4ad1.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethb9f4ad1
+  sys-devices-virtual-net-vethbe06df8.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethbe06df8
+  sys-devices-virtual-net-vethc01cc70.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethc01cc70
+  sys-devices-virtual-net-vethc59966b.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethc59966b
+  sys-devices-virtual-net-vethc61baab.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethc61baab
+  sys-devices-virtual-net-vethc969cab.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethc969cab
+  sys-devices-virtual-net-vethca7a956.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethca7a956
+  sys-devices-virtual-net-vethcc86aaf.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethcc86aaf
+  sys-devices-virtual-net-vethccf013e.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethccf013e
+  sys-devices-virtual-net-vethce45126.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethce45126
+  sys-devices-virtual-net-vethce9c585.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethce9c585
+  sys-devices-virtual-net-vethd47fded.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethd47fded
+  sys-devices-virtual-net-vethe01ec54.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethe01ec54
+  sys-devices-virtual-net-vethec23340.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethec23340
+  sys-devices-virtual-net-vethf468aeb.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethf468aeb
+  sys-devices-virtual-net-vethff13239.device                                                                    loaded active plugged   /sys/devices/virtual/net/vethff13239
+  sys-module-configfs.device                                                                                    loaded active plugged   /sys/module/configfs
+  sys-module-fuse.device                                                                                        loaded active plugged   /sys/module/fuse
+  sys-subsystem-bluetooth-devices-hci0.device                                                                   loaded active plugged   /sys/subsystem/bluetooth/devices/hci0
+  sys-subsystem-net-devices-br\x2d2ad7ecfa93f1.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-2ad7ecfa93f1
+  sys-subsystem-net-devices-br\x2d3e48c347405c.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-3e48c347405c
+  sys-subsystem-net-devices-br\x2d821c696c094a.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-821c696c094a
+  sys-subsystem-net-devices-br\x2d952fb6f0def8.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-952fb6f0def8
+  sys-subsystem-net-devices-br\x2dabe566e36e91.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-abe566e36e91
+  sys-subsystem-net-devices-br\x2def22ca40c60d.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-ef22ca40c60d
+  sys-subsystem-net-devices-br\x2df068c6ffd9d7.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-f068c6ffd9d7
+  sys-subsystem-net-devices-br\x2dfd6e939c220d.device                                                           loaded active plugged   /sys/subsystem/net/devices/br-fd6e939c220d
+  sys-subsystem-net-devices-docker0.device                                                                      loaded active plugged   /sys/subsystem/net/devices/docker0
+  sys-subsystem-net-devices-enp2s0.device                                                                       loaded active plugged   Ethernet Controller I226-V
+  sys-subsystem-net-devices-heiyu\x2d0.device                                                                   loaded active plugged   /sys/subsystem/net/devices/heiyu-0
+  sys-subsystem-net-devices-lzc\x2dbr\x2d0e2b9ad0.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-0e2b9ad0
+  sys-subsystem-net-devices-lzc\x2dbr\x2d168be677.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-168be677
+  sys-subsystem-net-devices-lzc\x2dbr\x2d2b4d7248.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-2b4d7248
+  sys-subsystem-net-devices-lzc\x2dbr\x2d307a08f5.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-307a08f5
+  sys-subsystem-net-devices-lzc\x2dbr\x2d4c9c5c7e.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-4c9c5c7e
+  sys-subsystem-net-devices-lzc\x2dbr\x2d547c8c61.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-547c8c61
+  sys-subsystem-net-devices-lzc\x2dbr\x2d66744eb8.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-66744eb8
+  sys-subsystem-net-devices-lzc\x2dbr\x2d6d8f079f.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-6d8f079f
+  sys-subsystem-net-devices-lzc\x2dbr\x2d6e79d680.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-6e79d680
+  sys-subsystem-net-devices-lzc\x2dbr\x2d7a6c78ec.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-7a6c78ec
+  sys-subsystem-net-devices-lzc\x2dbr\x2d8d9c1795.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-8d9c1795
+  sys-subsystem-net-devices-lzc\x2dbr\x2d9963f095.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-9963f095
+  sys-subsystem-net-devices-lzc\x2dbr\x2d9ec31e64.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-9ec31e64
+  sys-subsystem-net-devices-lzc\x2dbr\x2da62bee66.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-a62bee66
+  sys-subsystem-net-devices-lzc\x2dbr\x2daaefacac.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-aaefacac
+  sys-subsystem-net-devices-lzc\x2dbr\x2dac3d70db.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-ac3d70db
+  sys-subsystem-net-devices-lzc\x2dbr\x2dc65e581b.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-c65e581b
+  sys-subsystem-net-devices-lzc\x2dbr\x2dd8c56011.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-d8c56011
+  sys-subsystem-net-devices-lzc\x2dbr\x2dd9e21c5c.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-d9e21c5c
+  sys-subsystem-net-devices-lzc\x2dbr\x2df809b5bf.device                                                        loaded active plugged   /sys/subsystem/net/devices/lzc-br-f809b5bf
+  sys-subsystem-net-devices-Meta.device                                                                         loaded active plugged   /sys/subsystem/net/devices/Meta
+  sys-subsystem-net-devices-veth01eee8a.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth01eee8a
+  sys-subsystem-net-devices-veth0f3f0c4.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth0f3f0c4
+  sys-subsystem-net-devices-veth18fce8c.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth18fce8c
+  sys-subsystem-net-devices-veth1b339aa.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth1b339aa
+  sys-subsystem-net-devices-veth1f7f2b6.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth1f7f2b6
+  sys-subsystem-net-devices-veth217762d.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth217762d
+  sys-subsystem-net-devices-veth262f592.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth262f592
+  sys-subsystem-net-devices-veth266c7c0.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth266c7c0
+  sys-subsystem-net-devices-veth2ce2ef5.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth2ce2ef5
+  sys-subsystem-net-devices-veth2db8ad3.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth2db8ad3
+  sys-subsystem-net-devices-veth3325d45.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth3325d45
+  sys-subsystem-net-devices-veth392d1be.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth392d1be
+  sys-subsystem-net-devices-veth3aca3b1.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth3aca3b1
+  sys-subsystem-net-devices-veth3b79eb8.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth3b79eb8
+  sys-subsystem-net-devices-veth3d43472.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth3d43472
+  sys-subsystem-net-devices-veth438dbf1.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth438dbf1
+  sys-subsystem-net-devices-veth475b226.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth475b226
+  sys-subsystem-net-devices-veth4bd51d9.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth4bd51d9
+  sys-subsystem-net-devices-veth4e45fcb.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth4e45fcb
+  sys-subsystem-net-devices-veth5415a40.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth5415a40
+  sys-subsystem-net-devices-veth54cfe9b.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth54cfe9b
+  sys-subsystem-net-devices-veth5c8382b.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth5c8382b
+  sys-subsystem-net-devices-veth6a1c7b7.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth6a1c7b7
+  sys-subsystem-net-devices-veth778796d.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth778796d
+  sys-subsystem-net-devices-veth7f28c2c.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth7f28c2c
+  sys-subsystem-net-devices-veth8205dad.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth8205dad
+  sys-subsystem-net-devices-veth830368c.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth830368c
+  sys-subsystem-net-devices-veth830d72f.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth830d72f
+  sys-subsystem-net-devices-veth83b0574.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth83b0574
+  sys-subsystem-net-devices-veth843c56e.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth843c56e
+  sys-subsystem-net-devices-veth845ef3b.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth845ef3b
+  sys-subsystem-net-devices-veth85799d5.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth85799d5
+  sys-subsystem-net-devices-veth85f1405.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth85f1405
+  sys-subsystem-net-devices-veth8a2f69d.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth8a2f69d
+  sys-subsystem-net-devices-veth93405fb.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth93405fb
+  sys-subsystem-net-devices-veth961cec3.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth961cec3
+  sys-subsystem-net-devices-veth99537eb.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth99537eb
+  sys-subsystem-net-devices-veth9b8b401.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth9b8b401
+  sys-subsystem-net-devices-veth9e2e348.device                                                                  loaded active plugged   /sys/subsystem/net/devices/veth9e2e348
+  sys-subsystem-net-devices-vethaa700b2.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethaa700b2
+  sys-subsystem-net-devices-vethace67d6.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethace67d6
+  sys-subsystem-net-devices-vethb3bf197.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethb3bf197
+  sys-subsystem-net-devices-vethb9829c8.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethb9829c8
+  sys-subsystem-net-devices-vethb9f4ad1.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethb9f4ad1
+  sys-subsystem-net-devices-vethbe06df8.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethbe06df8
+  sys-subsystem-net-devices-vethc01cc70.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethc01cc70
+  sys-subsystem-net-devices-vethc59966b.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethc59966b
+  sys-subsystem-net-devices-vethc61baab.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethc61baab
+  sys-subsystem-net-devices-vethc969cab.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethc969cab
+  sys-subsystem-net-devices-vethca7a956.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethca7a956
+  sys-subsystem-net-devices-vethcc86aaf.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethcc86aaf
+  sys-subsystem-net-devices-vethccf013e.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethccf013e
+  sys-subsystem-net-devices-vethce45126.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethce45126
+  sys-subsystem-net-devices-vethce9c585.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethce9c585
+  sys-subsystem-net-devices-vethd47fded.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethd47fded
+  sys-subsystem-net-devices-vethe01ec54.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethe01ec54
+  sys-subsystem-net-devices-vethec23340.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethec23340
+  sys-subsystem-net-devices-vethf468aeb.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethf468aeb
+  sys-subsystem-net-devices-vethff13239.device                                                                  loaded active plugged   /sys/subsystem/net/devices/vethff13239
+  sys-subsystem-net-devices-wlp4s0.device                                                                       loaded active plugged   Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak] (Wi-Fi 6 AX210 160MHz)
+  -.mount                                                                                                       loaded active mounted   Root Mount
+  dev-hugepages.mount                                                                                           loaded active mounted   Huge Pages File System
+  dev-mqueue.mount                                                                                              loaded active mounted   POSIX Message Queue File System
+  etc-NetworkManager-system\x2dconnections.mount                                                                loaded active mounted   /etc/NetworkManager/system-connections
+  lzcsys-etc-hportal\x2dserver.mount                                                                            loaded active mounted   /lzcsys/etc/hportal-server
+  run-lzcsys-boot-lzc\x2dbase\x2dos-dev-pts.mount                                                               loaded active mounted   /run/lzcsys/boot/lzc-base-os/dev/pts
+  run-lzcsys-boot-lzc\x2dbase\x2dos-dev-shm.mount                                                               loaded active mounted   /run/lzcsys/boot/lzc-base-os/dev/shm
+  run-lzcsys-boot-lzc\x2dbase\x2dos-dev.mount                                                                   loaded active mounted   /run/lzcsys/boot/lzc-base-os/dev
+  run-lzcsys-boot-lzc\x2dbase\x2dos-proc.mount                                                                  loaded active mounted   /run/lzcsys/boot/lzc-base-os/proc
+  run-lzcsys-boot-lzc\x2dbase\x2dos-sys.mount                                                                   loaded active mounted   /run/lzcsys/boot/lzc-base-os/sys
+  run-lzcsys-boot-lzc\x2dbase\x2dos.mount                                                                       loaded active mounted   /run/lzcsys/boot/lzc-base-os
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-dev-pts.mount                                                       loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/dev/pts
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-dev-shm.mount                                                       loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/dev/shm
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-dev.mount                                                           loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/dev
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-proc.mount                                                          loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/proc
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-config.mount  loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/config
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-daemon.mount  loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/daemon
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-hportal.mount loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/hportal
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-rootfs.mount  loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/rootfs
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-vendor.mount  loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/vendor
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-wifip2p.mount loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run/lzcsys/boot/lzc-base-os-overlay/lowerdir/wifip2p
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-run.mount                                                           loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/run
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit-sys.mount                                                           loaded active mounted   /run/lzcsys/boot/lzc-base-os-init/sys
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2dinit.mount                                                               loaded active mounted   /run/lzcsys/boot/lzc-base-os-init
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-config.mount                                            loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/config
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-daemon.mount                                            loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/daemon
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-hportal.mount                                           loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/hportal
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-rootfs.mount                                            loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/rootfs
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-vendor.mount                                            loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/vendor
+  run-lzcsys-boot-lzc\x2dbase\x2dos\x2doverlay-lowerdir-wifip2p.mount                                           loaded active mounted   /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/wifip2p
+  run-lzcsys-boot-lzc\x2dos\x2dinit.mount                                                                       loaded active mounted   /run/lzcsys/boot/lzc-os-init
+  run-lzcsys-boot-update\x2dbundle-update\x2dtool.mount                                                         loaded active mounted   /run/lzcsys/boot/update-bundle/update-tool
+  run-lzcsys-var.mount                                                                                          loaded active mounted   /run/lzcsys/var
+  sys-fs-fuse-connections.mount                                                                                 loaded active mounted   FUSE Control File System
+  sys-kernel-config.mount                                                                                       loaded active mounted   Kernel Configuration File System
+  sys-kernel-debug.mount                                                                                        loaded active mounted   Kernel Debug File System
+  sys-kernel-tracing.mount                                                                                      loaded active mounted   Kernel Trace File System
+  var-log-journal.mount                                                                                         loaded active mounted   var-log-journal.mount
+  var-log.mount                                                                                                 loaded active mounted   var-log.mount
+  systemd-ask-password-console.path                                                                             loaded active waiting   Dispatch Password Requests to Console Directory Watch
+  systemd-ask-password-wall.path                                                                                loaded active waiting   Forward Password Requests to Wall Directory Watch
+  init.scope                                                                                                    loaded active running   System and Service Manager
+  runc-lzc-os.scope                                                                                             loaded active running   libcontainer container lzc-os
+  apparmor.service                                                                                              loaded active exited    Load AppArmor profiles
+  dbus.service                                                                                                  loaded active running   D-Bus System Message Bus
+  hportal-server.service                                                                                        loaded active running   Lazycat Cloud Hportal Server
+  kmod-static-nodes.service                                                                                     loaded active exited    Create List of Static Device Nodes
+  ldconfig.service                                                                                              loaded active exited    Rebuild Dynamic Linker Cache
+  lzc-base-daemon.service                                                                                       loaded active running   Lazycat Cloud Base Daemon
+  lzc-os.service                                                                                                loaded active running   Lazycat Cloud Operating System
+  lzc-plymouth.service                                                                                          loaded active running   show boot splash
+  lzc-wifip2p-switcher.service                                                                                  loaded active running   Lazycat Cloud wifip2p switcher
+  NetworkManager-wait-online.service                                                                            loaded active exited    Network Manager Wait Online
+  NetworkManager.service                                                                                        loaded active running   Network Manager
+  systemd-journal-catalog-update.service                                                                        loaded active exited    Rebuild Journal Catalog
+  systemd-journal-flush.service                                                                                 loaded active exited    Flush Journal to Persistent Storage
+  systemd-journald.service                                                                                      loaded active running   Journal Service
+  systemd-logind.service                                                                                        loaded active running   User Login Management
+  systemd-modules-load.service                                                                                  loaded active exited    Load Kernel Modules
+  systemd-random-seed.service                                                                                   loaded active exited    Load/Save OS Random Seed
+  systemd-remount-fs.service                                                                                    loaded active exited    Remount Root and Kernel File Systems
+  systemd-resolved.service                                                                                      loaded active running   Network Name Resolution
+  systemd-sysctl.service                                                                                        loaded active exited    Apply Kernel Variables
+  systemd-sysusers.service                                                                                      loaded active exited    Create System Users
+  systemd-timedated.service                                                                                     loaded active running   Time & Date Service
+  systemd-timesyncd.service                                                                                     loaded active running   Network Time Synchronization
+  systemd-tmpfiles-setup-dev-early.service                                                                      loaded active exited    Create Static Device Nodes in /dev gracefully
+  systemd-tmpfiles-setup-dev.service                                                                            loaded active exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                                                                loaded active exited    Create System Files and Directories
+  systemd-udev-trigger.service                                                                                  loaded active exited    Coldplug All udev Devices
+  systemd-udevd.service                                                                                         loaded active running   Rule-based Manager for Device Events and Files
+  systemd-update-done.service                                                                                   loaded active exited    Update is Completed
+  systemd-update-utmp.service                                                                                   loaded active exited    Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                                                                                 loaded active exited    Permit User Sessions
+  wpa_supplicant.service                                                                                        loaded active running   WPA supplicant
+  -.slice                                                                                                       loaded active active    Root Slice
+  system-modprobe.slice                                                                                         loaded active active    Slice /system/modprobe
+  system.slice                                                                                                  loaded active active    System Slice
+  user.slice                                                                                                    loaded active active    User and Session Slice
+  dbus.socket                                                                                                   loaded active running   D-Bus System Message Bus Socket
+  systemd-initctl.socket                                                                                        loaded active listening initctl Compatibility Named Pipe
+  systemd-journald-dev-log.socket                                                                               loaded active running   Journal Socket (/dev/log)
+  systemd-journald.socket                                                                                       loaded active running   Journal Socket
+  systemd-rfkill.socket                                                                                         loaded active listening Load/Save RF Kill Switch Status /dev/rfkill Watch
+  systemd-udevd-control.socket                                                                                  loaded active running   udev Control Socket
+  systemd-udevd-kernel.socket                                                                                   loaded active running   udev Kernel Socket
+  run-lzcsys-boot-lzc\x2dos\x2dinit-swapfile.swap                                                               loaded active active    /run/lzcsys/boot/lzc-os-init/swapfile
+  basic.target                                                                                                  loaded active active    Basic System
+  bluetooth.target                                                                                              loaded active active    Bluetooth Support
+  cryptsetup.target                                                                                             loaded active active    Local Encrypted Volumes
+  getty.target                                                                                                  loaded active active    Login Prompts
+  graphical.target                                                                                              loaded active active    Graphical Interface
+  integritysetup.target                                                                                         loaded active active    Local Integrity Protected Volumes
+  local-fs-pre.target                                                                                           loaded active active    Preparation for Local File Systems
+  local-fs.target                                                                                               loaded active active    Local File Systems
+  multi-user.target                                                                                             loaded active active    Multi-User System
+  network-online.target                                                                                         loaded active active    Network is Online
+  network.target                                                                                                loaded active active    Network
+  nss-lookup.target                                                                                             loaded active active    Host and Network Name Lookups
+  paths.target                                                                                                  loaded active active    Path Units
+  remote-fs.target                                                                                              loaded active active    Remote File Systems
+  slices.target                                                                                                 loaded active active    Slice Units
+  sockets.target                                                                                                loaded active active    Socket Units
+  sound.target                                                                                                  loaded active active    Sound Card
+  swap.target                                                                                                   loaded active active    Swaps
+  sysinit.target                                                                                                loaded active active    System Initialization
+  time-set.target                                                                                               loaded active active    System Time Set
+  timers.target                                                                                                 loaded active active    Timer Units
+  veritysetup.target                                                                                            loaded active active    Local Verity Protected Volumes
+  apt-daily-upgrade.timer                                                                                       loaded active waiting   Daily apt upgrade and clean activities
+  apt-daily.timer                                                                                               loaded active waiting   Daily apt download activities
+  dpkg-db-backup.timer                                                                                          loaded active waiting   Daily dpkg database backup timer
+  e2scrub_all.timer                                                                                             loaded active waiting   Periodic ext4 Online Metadata Check for All Filesystems
+  fstrim.timer                                                                                                  loaded active waiting   Discard unused blocks once a week
+  systemd-tmpfiles-clean.timer                                                                                  loaded active waiting   Daily Cleanup of Temporary Directories
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+329 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.

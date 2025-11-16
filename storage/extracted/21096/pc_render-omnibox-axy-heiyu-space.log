@@ -1,0 +1,39 @@
+[2025-11-03 20:11:17.135] [info]  [
+  'OmniBox - 在线观影-axy|6|https://omnibox.axy.heiyu.space/assets/player-CjURZJqN.js|%c ArtPlayer %c 5.2.3 %c https://artplayer.org color: #fff; background: #5f5f5f color: #fff; background: #4bc729 '
+]
+[2025-11-03 20:12:14.690] [info]  [
+  `OmniBox - 在线观影-axy|1|https://omnibox.axy.heiyu.space/assets/index-CuFlB_9_.js|检查安全设置失败: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON`
+]
+[2025-11-03 20:12:14.690] [info]  [
+  `OmniBox - 在线观影-axy|1|https://omnibox.axy.heiyu.space/assets/index-CuFlB_9_.js|从数据库获取主题设置失败，使用默认设置: ApiError: 响应解析失败: Unexpected token '<', "<!DOCTYPE "... is not valid JSON`
+]
+[2025-11-03 20:12:14.691] [info]  [
+  `OmniBox - 在线观影-axy|1|https://omnibox.axy.heiyu.space/assets/index-CuFlB_9_.js|检查TMDB配置失败: ApiError: 响应解析失败: Unexpected token '<', "<!DOCTYPE "... is not valid JSON`
+]
+[2025-11-03 20:12:14.704] [info]  [
+  `OmniBox - 在线观影-axy|1|https://omnibox.axy.heiyu.space/assets/index-CuFlB_9_.js|Error fetching recommendations: ApiError: 响应解析失败: Unexpected token '<', "<!DOCTYPE "... is not valid JSON`
+]
+[2025-11-03 20:12:14.739] [info]  [
+  'OmniBox - 在线观影-axy|6|https://omnibox.axy.heiyu.space/assets/player-CjURZJqN.js|%c ArtPlayer %c 5.2.3 %c https://artplayer.org color: #fff; background: #5f5f5f color: #fff; background: #4bc729 '
+]
+[2025-11-04 13:46:16.004] [info]  [
+  'OmniBox - 在线观影-axy|6|https://omnibox.axy.heiyu.space/assets/player-CjURZJqN.js|%c ArtPlayer %c 5.2.3 %c https://artplayer.org color: #fff; background: #5f5f5f color: #fff; background: #4bc729 '
+]
+[2025-11-04 13:47:01.885] [info]  [
+  "OmniBox - 在线观影-axy|31|https://omnibox.axy.heiyu.space/assets/index-CuFlB_9_.js|获取频道数据失败: TypeError: Cannot read properties of null (reading 'length')"
+]
+[2025-11-05 10:35:10.464] [info]  [
+  'OmniBox 影视站 启动中-axy|145|https://omnibox.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-14 16:44:07.348] [info]  [
+  'OmniBox 启动中-axy|145|https://omnibox.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-14 16:44:22.646] [info]  [
+  'OmniBox 启动中-axy|200|https://omnibox.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-14 16:45:00.925] [info]  [
+  'OmniBox 启动中-axy|200|https://omnibox.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-14 16:45:23.958] [info]  [
+  'OmniBox 启动中-axy|200|https://omnibox.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]

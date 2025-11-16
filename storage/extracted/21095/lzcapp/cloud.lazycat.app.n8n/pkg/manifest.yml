@@ -1,0 +1,37 @@
+lzc-sdk-version: '0.1'
+package: cloud.lazycat.app.n8n
+version: 1.120.1
+name: n8n
+unsupported_platforms:
+  - android
+  - ios
+locales:
+  zh:
+    name: "n8n"
+    description: "n8n 是一款源码可用的工作流自动化工具，它通过可视化的节点式界面，帮助您连接不同的应用程序和服务，从而实现复杂任务的自动化。"
+  en:
+    name: "n8n"
+    description: "n8n is a source-available workflow automation tool that allows you to connect various applications and services to automate complex tasks using a visual node-based editor."
+application:
+  public_path:
+    - /
+  routes:
+    - /=http://server.cloud.lazycat.app.n8n.lzcapp:5678
+  subdomain: n8n
+  background_task: true
+services:
+  server:
+    user: root
+    image: registry.lazycat.cloud/medium/n8nio/n8n:2cf9ed5259778ff1
+    environment:
+      - WEBHOOK_URL=https://n8n.${LAZYCAT_BOX_DOMAIN}
+      - WEBHOOK_TUNNEL_URL=n8n.${LAZYCAT_BOX_DOMAIN}
+      - N8N_HOST=n8n.${LAZYCAT_BOX_DOMAIN}
+      - N8N_PROT=5678
+      - N8N_RUNNERS_ENABLED=true
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false
+      - NODE_ENV=production
+      - N8N_PROTOCOL=https
+    binds:
+      - /lzcapp/var/data:/root/.n8n
+      - /lzcapp/var/n8n_data:/files

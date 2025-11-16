@@ -1,0 +1,20 @@
+lzc-sdk-version: 0.1
+package: cloud.lazycat.app.testflight
+version: 0.0.49
+name: 内测工具
+description: 懒猫内测工具
+license: https://choosealicense.com/licenses/mit/
+homepage: 
+author: linakesi
+locales:
+  zh:
+    name: 内测工具
+  zh_CN:
+    name: 内测工具
+  en:
+    name: Testflight
+application:
+  subdomain: testflight
+  routes:
+    - /=file:///lzcapp/pkg/content
+    - /api/=https://testflight.lazycat.cloud/api

@@ -1,0 +1,56 @@
+lzc-sdk-version: '0.1'
+name: 懒猫实验Ollama
+package: cloud.lazycat.app.lzcollama
+version: 0.1.9
+description: Ollama Service on LazyCat Server with Intel accelerate
+homepage: https://ollama.com/ && https://github.com/intel-analytics/ipex-llm
+author: Ollama & Intel
+application:
+  subdomain: lzcollama
+  background_task: true
+  gpu_accel: true
+  routes:
+    - /=http://open-webui.cloud.lazycat.app.lzcollama.lzcapp:8080/
+    - /lzcollama=http://ipex-ollama.cloud.lazycat.app.lzcollama.lzcapp:11434/
+    - /lzcollama/=http://ipex-ollama.cloud.lazycat.app.lzcollama.lzcapp:11434/
+  public_path:
+    - /lzcollama
+  health_check:
+    test_url: http://open-webui.cloud.lazycat.app.lzcollama.lzcapp:8080/manifest.json
+    start_period: 600s
+services:
+  ipex-ollama:
+    image: >-
+      registry.lazycat.cloud/ai/intelanalytics/ipex-llm-inference-cpp-xpu:6f5a3b23
+    entrypoint: /lzcapp/pkg/content/run_ollama.sh
+    environment:
+      - DEVICE=iGPU
+      - LANG=en_US.UTF-8
+      - LC_ALL=en_US.UTF-8
+      - OLLAMA_HOST=0.0.0.0:11434
+      - OLLAMA_MAX_LOADED_MODELS=4
+      - OLLAMA_MAX_QUEUE=4
+      - OLLAMA_NUM_PARALLEL=1
+    binds:
+      - /lzcapp/var/.ollama:/root/.ollama
+      - /lzcapp/var/opt:/opt
+  open-webui:
+    image: registry.lazycat.cloud/ai/ai/open-webui:0.4.7-6f5a3b23
+    environment:
+      - ENABLE_MODEL_FILTER=False
+      - ENABLE_OPENAI_API=False
+      - RAG_EMBEDDING_MODEL_AUTO_UPDATE=False
+      - RAG_RERANKING_MODEL_AUTO_UPDATE=False
+      - WHISPER_MODEL_AUTO_UPDATE=False
+      - RAG_EMBEDDING_MODEL=/builtin/sentence-transformers/all-MiniLM-L6-v2
+      - TASK_MODEL=builtin-qwen2.5:0.5b
+      - HF_ENDPOINT=https://hf-mirror.com
+      - SEARCH_QUERY_GENERATION_PROMPT_TEMPLATE=
+      - ENABLE_AUTOCOMPLETE_GENERATION=False
+      - ENABLE_SEARCH_QUERY=False
+      - DEFAULT_LOCALE=zh
+      - >-
+        OLLAMA_BASE_URL=http://ipex-ollama.cloud.lazycat.app.lzcollama.lzcapp:11434
+      - WEBUI_SECRET_KEY=$LAZYCAT_BOX_NAME
+    binds:
+      - /lzcapp/var/data:/app/backend/data

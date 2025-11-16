@@ -1,0 +1,27 @@
+lzc-sdk-version: 0.1
+package: cloud.lazycat.app.create
+version: 0.0.15
+name: 懒猫应用生成器
+description: 填写docker配置生成lpk应用
+license: http://www.apache.org/licenses
+homepage: https://linakesi.com
+author: lazycat
+locales:
+  zh:
+    name: 懒猫应用生成器
+  en:
+    name: LPK Generator
+application:
+  subdomain: create
+  routes:
+    - /=file:///lzcapp/pkg/content/index.html
+    - /generator/=file:///lzcapp/pkg/content/lpk-generator
+    - /installer/=file:///lzcapp/pkg/content/lpk-installer
+    - /api/=http://fs.cloud.lazycat.app.create.lzcapp:3000
+  depends_on:
+    - fs
+ext_config:
+  enable_document_access: true
+services:
+  fs:
+    image: registry.lazycat.cloud/d1y/installer-server:0.5

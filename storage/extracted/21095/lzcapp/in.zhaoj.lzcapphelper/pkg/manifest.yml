@@ -1,0 +1,20 @@
+lzc-sdk-version: "0.1"
+name: 应用商店应用推荐助手
+package: in.zhaoj.lzcapphelper
+version: 0.1.1
+description: ""
+homepage: ""
+author: ""
+usage: ""
+application:
+  subdomain: lzcapphelper
+  background_task: false
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  routes:
+    - /=http://web.in.zhaoj.lzcapphelper.lzcapp:80/
+services:
+  web:
+    image: registry.lazycat.cloud/official/glzjinglzjin-lzc/lzcapphelper:bd75664476624664

@@ -1,0 +1,22 @@
+package: cloud.lazycat.shell.appstore
+version: v0.0.0-3623-gbe4aa36a
+name: 懒猫商店
+description: 懒猫云商店
+locales:
+  zh:
+    name: 懒猫商店
+  en:
+    name: App Store
+  ja:
+    name: アプリショップ
+application:
+  subdomain: appstore
+  background_task: true
+  routes:
+    - /=http://172.18.0.1:7566/appstore/html/
+    - /api/=http://172.18.0.1:7566/appstore/api/
+  handlers:
+    error_page_templates:
+      '502': /lzcapp/pkg/content/502.html.tpl
+ext_config:
+  dump_http_headers_when_5xx: true

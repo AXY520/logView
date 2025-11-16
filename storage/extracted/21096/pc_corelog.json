@@ -1,0 +1,204 @@
+
+[lzc-core:linux] 2025-10-30T08:05:32.447Z running
+{"level":"error","ts":"2025-10-30T16:05:32.475+0800","logger":"logm","caller":"logm/logm.go:65","msg":"Error creating file:open /home/axy/.config/hportal-client/rizhi/stderr.log: no such file or directory"}
+{"level":"error","ts":"2025-10-30T16:05:32.475+0800","logger":"logm","caller":"logm/logm.go:249","msg":"open /home/axy/.config/hportal-client/rizhi/stderr.log: no such file or directory"}
+{"level":"info","ts":"2025-10-30T16:05:32.476+0800","logger":"clientcore","caller":"clientcore/clientcore.go:286","msg":"disable_ostun:false"}
+{"level":"info","ts":"2025-10-30T16:05:32.479+0800","logger":"clientcore","caller":"clientcore/clientcore.go:345","msg":"THE ORIGIN CONFIGS:{StunServer:stun.lazycat.cloud:3478 RelayListServer:https://origin.lazycat.cloud/list ServiceServer:/dnsaddr/origin.lazycat.cloud}"}
+{"level":"info","ts":"2025-10-30T16:05:32.595+0800","logger":"tun","caller":"tun/tun_others.go:42","msg":"成功创建网卡:heiyu-0fc03:1136:38a5:5f5f:1cd6:73bd:8922:0/40"}
+{"level":"info","ts":"2025-10-30T16:05:32.599+0800","logger":"dialboxsrv","caller":"boxsrv/boxsrv.go:212","msg":"local boxsrv proxy address is 127.0.0.1:41333"}
+{"level":"info","ts":"2025-10-30T16:05:32.599+0800","logger":"clientcore","caller":"clientcore/lsrvs.go:33","msg":"d_listen_addr is [::]:4443, EnableUserSpaceForward:false"}
+1.7618115326002822e+09	info	maintenance	started background certificate maintenance	{"cache": "0xc00011b2d0"}
+{"level":"info","ts":"2025-10-30T16:05:32.600+0800","logger":"originclient.obtain","caller":"certmagic@v0.17.2/config.go:484","msg":"acquiring lock","identifier":"a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"}
+{"level":"info","ts":"2025-10-30T16:05:32.601+0800","logger":"originclient.obtain","caller":"certmagic@v0.17.2/config.go:501","msg":"lock acquired","identifier":"a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"}
+{"level":"info","ts":"2025-10-30T16:05:32.601+0800","logger":"clientcore","caller":"clientcore/dns.go:87","msg":"Add Local DNS Record :[a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space.\t30\tIN\tAAAA\tfc03:1136:38a5:5f5f:1cd6:73bd:8922:0]\n"}
+{"level":"info","ts":"2025-10-30T16:05:32.601+0800","logger":"boxos","caller":"boxos/boxos.go:61","msg":"lzc auth token init"}
+{"level":"info","ts":"2025-10-30T16:05:32.601+0800","logger":"originclient.obtain","caller":"certmagic@v0.17.2/config.go:510","msg":"obtaining certificate","identifier":"a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"}
+{"level":"info","ts":"2025-10-30T16:05:32.634+0800","logger":"clientcore","caller":"clientcore/event.go:69","msg":"EvtLocalAddressesUpdated:{true [{/ip4/192.168.10.12/tcp/38577 1} {/ip6/2408:824e:d21:4620::997/tcp/39993 1}] [] 0xc0004201b0}"}
+{"level":"error","ts":"2025-10-30T16:05:32.635+0800","logger":"core","caller":"lzc-core/main.go:224","msg":"监听TestHandler的端口为: d% 40665"}
+{"level":"error","ts":"2025-10-30T16:05:32.635+0800","logger":"certmgr","caller":"certmgr/certmgr.go:32","msg":"cert for server name  not found"}
+2025/10/30 16:05:32 http: TLS handshake error from 127.0.0.1:56308: cert for server name  not found
+{"level":"error","ts":"2025-10-30T16:05:33.645+0800","logger":"core","caller":"lzc-core/main.go:275","msg":"exposeAdminGrpcInfo StatusCode: 200"}
+1.7618115341392033e+09	info	waiting on internal rate limiter	{"identifiers": ["a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"], "ca": "https://acme.zerossl.com/v2/DV90", "account": "user@heiyu.space"}
+1.761811534139273e+09	info	done waiting on internal rate limiter	{"identifiers": ["a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"], "ca": "https://acme.zerossl.com/v2/DV90", "account": "user@heiyu.space"}
+1.761811534761902e+09	info	acme_client	trying to solve challenge	{"identifier": "a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space", "challenge_type": "dns-01", "ca": "https://acme.zerossl.com/v2/DV90"}
+{"level":"info","ts":"2025-10-30T16:05:34.761+0800","logger":"originclient","caller":"originapi/acme.go:76","msg":"PRESENT: _acme-challenge.a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space=fGgOEysk525jtVKYWnADKpoXiImHk8-LgYGQR90cRgU"}
+{"level":"info","ts":"2025-10-30T16:05:40.187+0800","logger":"originclient","caller":"originapi/acme.go:86","msg":"PRESENT OK"}
+{"level":"info","ts":"2025-10-30T16:05:46.216+0800","logger":"originclient","caller":"originapi/acme.go:61","msg":"CleanUp: _acme-challenge.a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space=fGgOEysk525jtVKYWnADKpoXiImHk8-LgYGQR90cRgU"}
+1.7618115470980465e+09	info	acme_client	authorization finalized	{"identifier": "a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space", "authz_status": "valid"}
+1.7618115470981047e+09	info	acme_client	validations succeeded; finalizing order	{"order": "https://acme.zerossl.com/v2/DV90/order/w5KQeLv2s9K2kTwZhxooZg"}
+{"level":"info","ts":"2025-10-30T16:05:47.893+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX ENABLED <nil> 启用中}"}
+{"level":"info","ts":"2025-10-30T16:05:47.893+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 开始调度}"}
+{"level":"info","ts":"2025-10-30T16:05:47.894+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 准备登录微服:12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX}"}
+{"level":"info","ts":"2025-10-30T16:05:48.688+0800","logger":"libp2p-hext","caller":"libp2p/service.go:76","msg":"add task 12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX"}
+{"level":"info","ts":"2025-10-30T16:05:48.688+0800","logger":"libp2p-hext","caller":"libp2p/service.go:141","msg":"begin start task for 12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX"}
+{"level":"info","ts":"2025-10-30T16:05:48.688+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:80","msg":"connected from /ip4/192.168.10.12/tcp/60986 to /ip4/183.136.206.164/tcp/4001/p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit(12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX) (Outbound): 12D3KooWNW-3"}
+{"level":"info","ts":"2025-10-30T16:05:48.688+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 中继连接升级直连中}"}
+{"level":"info","ts":"2025-10-30T16:05:48.804+0800","logger":"libp2p-hext","caller":"libp2p/service.go:143","msg":"end task for 12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX err:rpc error: code = Unavailable desc = connection error: desc = \"error reading server preface: EOF\""}
+{"level":"info","ts":"2025-10-30T16:05:48.804+0800","logger":"libp2p-hext","caller":"libp2p/service.go:149","msg":"wait 1m0s before next try for 12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX"}
+{"level":"info","ts":"2025-10-30T16:05:50.004+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX FAILED FAILED_LOGIN_TFA_REQUIRE 需要两步验证码}"}
+{"level":"error","ts":"2025-10-30T16:05:52.637+0800","logger":"certmgr","caller":"certmgr/certmgr.go:32","msg":"cert for server name  not found"}
+2025/10/30 16:05:52 http: TLS handshake error from 127.0.0.1:46536: cert for server name  not found
+1.7618115630222688e+09	info	acme_client	successfully downloaded available certificate chains	{"count": 1, "first_url": "https://acme.zerossl.com/v2/DV90/cert/5UpMLQk3qG5o1FzLhHB6yQ"}
+{"level":"info","ts":"2025-10-30T16:06:03.023+0800","logger":"originclient.obtain","caller":"certmagic@v0.17.2/config.go:596","msg":"certificate obtained successfully","identifier":"a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"}
+{"level":"info","ts":"2025-10-30T16:06:03.023+0800","logger":"originclient.obtain","caller":"certmagic@v0.17.2/config.go:493","msg":"releasing lock","identifier":"a5-5f5f-1cd6-73bd-8922-0.d.heiyu.space"}
+{"level":"info","ts":"2025-10-30T16:06:03.594+0800","logger":"certmgr","caller":"certmgr/certmgr.go:94","msg":"public cert is now available, switching to it..."}
+{"level":"info","ts":"2025-10-30T16:06:10.602+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX ENABLED <nil> 启用中}"}
+{"level":"info","ts":"2025-10-30T16:06:10.602+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 开始调度}"}
+{"level":"info","ts":"2025-10-30T16:06:10.602+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 准备登录微服:12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX}"}
+{"level":"info","ts":"2025-10-30T16:06:10.638+0800","logger":"boxmanager","caller":"boxmanager/dologin.go:41","msg":"LOGIN 12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX RESP: &{Success }"}
+{"level":"info","ts":"2025-10-30T16:06:10.638+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX CONNECTING <nil> 登录成功，正在建立虚拟隧道}"}
+2025/10/30 16:06:12 http: TLS handshake error from 127.0.0.1:40334: no certificate available for '127.0.0.1'
+{"level":"info","ts":"2025-10-30T16:06:12.671+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:364","msg":"创建tun_stream(axy,12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX)成功/ip6/2408:824e:d21:4620::997/tcp/39993<-Inbound->/ip6/240e:36d:362:c820:ae11:ddd:c8a7:31ad/tcp/54772(12D3KooWNW-5)"}
+{"level":"info","ts":"2025-10-30T16:06:12.672+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:380","msg":"注册虚拟tun设备 fc03:1136:387f:7a80:c8cc:58be:371d:0->axy_12D3KooWNW-5"}
+{"level":"info","ts":"2025-10-30T16:06:12.672+0800","logger":"clientcore","caller":"clientcore/dns.go:507","msg":"begin forward querying *.axy.heiyu.space to lzcos"}
+{"level":"info","ts":"2025-10-30T16:06:12.786+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:391","msg":"检测虚拟tun设备(axy_12D3KooWNW-5)结果:<nil>,耗时:114.162005ms"}
+{"level":"info","ts":"2025-10-30T16:06:12.786+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:260","msg":"pruning connection: /ip4/192.168.10.12/tcp/60986<-Outbound->/ip4/183.136.206.164/tcp/4001/p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit(12D3KooWNW-4) streams:0"}
+{"level":"info","ts":"2025-10-30T16:06:12.786+0800","logger":"boxmanager","caller":"boxmanager/status.go:59","msg":"&{12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX READY <nil> 耗时:24.89244873s, \"/ip6/2408:824e:d21:4620::997/tcp/39993\"与\"/ip6/240e:36d:362:c820:ae11:ddd:c8a7:31ad/tcp/54772\"(\"axy_12D3KooWNW-5\")连接成功 on 2025-10-30T16:06:12+08:00}"}
+{"level":"info","ts":"2025-10-30T16:06:12.786+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:87","msg":"disconnected from /ip4/192.168.10.12/tcp/60986 to /ip4/183.136.206.164/tcp/4001/p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit(12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX) (Outbound): 12D3KooWNW-4"}
+{"level":"warn","ts":"2025-10-30T16:06:12.794+0800","logger":"connreaper","caller":"connreaper/connreaper.go:54","msg":"failed to create new stream(/hportal/connreaper/0.0.1): failed to negotiate protocol: protocols not supported: [/hportal/connreaper/0.0.1]"}
+{"level":"info","ts":"2025-10-30T16:06:12.826+0800","logger":"core","caller":"lzc-core/main.go:88","msg":"on box login resp: axy 200 108"}
+{"level":"info","ts":"2025-10-30T16:06:12.826+0800","logger":"core","caller":"lzc-core/main.go:94","msg":"box login callback: axy OK 108"}
+{"level":"info","ts":"2025-10-30T16:06:14.625+0800","logger":"boxos","caller":"boxos/osstate.go:125","msg":"12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX尝试建立recovery状态连接"}
+{"level":"info","ts":"2025-10-30T16:06:14.643+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:291","msg":"pruning idle connection to 12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k"}
+{"level":"info","ts":"2025-10-30T16:06:20.644+0800","logger":"clientcore","caller":"clientcore/connectbox_backend.go:291","msg":"pruning idle connection to 12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27"}
+2025/10/30 16:06:32 http: TLS handshake error from 127.0.0.1:46664: no certificate available for '127.0.0.1'
+{"level":"info","ts":"2025-10-30T16:06:48.805+0800","logger":"libp2p-hext","caller":"libp2p/service.go:138","msg":"task is already successful done"}
+2025/10/30 16:06:52 http: TLS handshake error from 127.0.0.1:49256: no certificate available for '127.0.0.1'
+2025/10/30 16:07:12 http: TLS handshake error from 127.0.0.1:55778: no certificate available for '127.0.0.1'
+2025/10/30 16:07:32 http: TLS handshake error from 127.0.0.1:41724: no certificate available for '127.0.0.1'
+2025/10/30 16:07:52 http: TLS handshake error from 127.0.0.1:32960: no certificate available for '127.0.0.1'
+2025/10/30 16:08:12 http: TLS handshake error from 127.0.0.1:43716: no certificate available for '127.0.0.1'
+2025/10/30 16:08:32 http: TLS handshake error from 127.0.0.1:43932: no certificate available for '127.0.0.1'
+2025/10/30 16:08:52 http: TLS handshake error from 127.0.0.1:37556: no certificate available for '127.0.0.1'
+2025/10/30 16:09:12 http: TLS handshake error from 127.0.0.1:35296: no certificate available for '127.0.0.1'
+2025/10/30 16:09:32 http: TLS handshake error from 127.0.0.1:48676: no certificate available for '127.0.0.1'
+2025/10/30 16:09:52 http: TLS handshake error from 127.0.0.1:53298: no certificate available for '127.0.0.1'
+2025/10/30 16:10:12 http: TLS handshake error from 127.0.0.1:47228: no certificate available for '127.0.0.1'
+2025/10/30 16:10:32 http: TLS handshake error from 127.0.0.1:60368: no certificate available for '127.0.0.1'
+2025/10/30 16:10:52 http: TLS handshake error from 127.0.0.1:55790: no certificate available for '127.0.0.1'
+2025/10/30 16:11:12 http: TLS handshake error from 127.0.0.1:42734: no certificate available for '127.0.0.1'
+2025/10/30 16:11:32 http: TLS handshake error from 127.0.0.1:36182: no certificate available for '127.0.0.1'
+2025/10/30 16:11:52 http: TLS handshake error from 127.0.0.1:60332: no certificate available for '127.0.0.1'
+2025/10/30 16:12:12 http: TLS handshake error from 127.0.0.1:52148: no certificate available for '127.0.0.1'
+2025/10/30 16:12:32 http: TLS handshake error from 127.0.0.1:44330: no certificate available for '127.0.0.1'
+2025/10/30 16:12:52 http: TLS handshake error from 127.0.0.1:34618: no certificate available for '127.0.0.1'
+2025/10/30 16:13:12 http: TLS handshake error from 127.0.0.1:40192: no certificate available for '127.0.0.1'
+2025/10/30 16:13:32 http: TLS handshake error from 127.0.0.1:59900: no certificate available for '127.0.0.1'
+2025/10/30 16:13:52 http: TLS handshake error from 127.0.0.1:44510: no certificate available for '127.0.0.1'
+2025/10/30 16:14:12 http: TLS handshake error from 127.0.0.1:42226: no certificate available for '127.0.0.1'
+2025/10/30 16:14:32 http: TLS handshake error from 127.0.0.1:56808: no certificate available for '127.0.0.1'
+2025/10/30 16:14:52 http: TLS handshake error from 127.0.0.1:40674: no certificate available for '127.0.0.1'
+2025/10/30 16:15:12 http: TLS handshake error from 127.0.0.1:38596: no certificate available for '127.0.0.1'
+2025/10/30 16:15:32 http: TLS handshake error from 127.0.0.1:57362: no certificate available for '127.0.0.1'
+2025/10/30 16:15:52 http: TLS handshake error from 127.0.0.1:48278: no certificate available for '127.0.0.1'
+2025/10/30 16:16:12 http: TLS handshake error from 127.0.0.1:48086: no certificate available for '127.0.0.1'
+2025/10/30 16:16:32 http: TLS handshake error from 127.0.0.1:53164: no certificate available for '127.0.0.1'
+2025/10/30 16:16:52 http: TLS handshake error from 127.0.0.1:40934: no certificate available for '127.0.0.1'
+2025/10/30 16:17:12 http: TLS handshake error from 127.0.0.1:49842: no certificate available for '127.0.0.1'
+2025/10/30 16:17:32 http: TLS handshake error from 127.0.0.1:45092: no certificate available for '127.0.0.1'
+2025/10/30 16:17:52 http: TLS handshake error from 127.0.0.1:48522: no certificate available for '127.0.0.1'
+{"level":"info","ts":"2025-10-30T16:18:10.421+0800","logger":"clientcore","caller":"clientcore/clientcore.go:551","msg":"调用Exit退出core"}
+
+[lzc-core:linux] 2025-10-30T10:45:04.604Z running
+
+[lzc-core:linux] 2025-10-30T10:59:57.347Z running
+
+[lzc-core:linux] 2025-10-30T16:00:31.253Z running
+
+[lzc-core:linux] 2025-10-31T01:08:18.292Z running
+
+[lzc-core:linux] 2025-10-31T01:13:16.623Z running
+
+[lzc-core:linux] 2025-10-31T05:09:27.699Z running
+
+[lzc-core:linux] 2025-10-31T06:27:31.639Z running
+
+[lzc-core:linux] 2025-10-31T07:43:55.605Z running
+
+[lzc-core:linux] 2025-10-31T10:26:32.933Z running
+
+[lzc-core:linux] 2025-10-31T11:05:17.358Z running
+
+[lzc-core:linux] 2025-10-31T16:03:00.246Z running
+
+[lzc-core:linux] 2025-11-02T01:21:38.227Z running
+
+[lzc-core:linux] 2025-11-02T01:21:57.765Z running
+
+[lzc-core:linux] 2025-11-02T01:24:00.011Z running
+
+[lzc-core:linux] 2025-11-02T01:33:25.177Z running
+
+[lzc-core:linux] 2025-11-02T02:52:31.825Z running
+
+[lzc-core:linux] 2025-11-02T10:52:54.830Z running
+
+[lzc-core:linux] 2025-11-03T00:57:16.553Z running
+
+[lzc-core:linux] 2025-11-03T11:58:42.301Z running
+
+[lzc-core:linux] 2025-11-03T13:30:21.194Z running
+
+[lzc-core:linux] 2025-11-04T04:50:30.431Z running
+
+[lzc-core:linux] 2025-11-04T05:47:55.847Z running
+
+[lzc-core:linux] 2025-11-05T00:53:33.743Z running
+
+[lzc-core:linux] 2025-11-05T02:31:00.972Z running
+
+[lzc-core:linux] 2025-11-05T04:33:18.937Z running
+
+[lzc-core:linux] 2025-11-05T10:16:23.799Z running
+
+[lzc-core:linux] 2025-11-07T01:09:19.853Z running
+
+[lzc-core:linux] 2025-11-07T17:11:20.862Z running
+
+[lzc-core:linux] 2025-11-08T03:10:22.427Z running
+
+[lzc-core:linux] 2025-11-09T07:25:35.323Z running
+
+[lzc-core:linux] 2025-11-10T00:59:04.282Z running
+
+[lzc-core:linux] 2025-11-11T04:47:59.960Z running
+
+[lzc-core:linux] 2025-11-11T10:56:19.665Z running
+
+[lzc-core:linux] 2025-11-12T00:56:56.417Z running
+
+[lzc-core:linux] 2025-11-12T08:03:49.671Z running
+
+[lzc-core:linux] 2025-11-12T09:45:02.015Z running
+
+[lzc-core:linux] 2025-11-12T16:50:07.596Z running
+
+[lzc-core:linux] 2025-11-12T17:03:34.251Z running
+
+[lzc-core:linux] 2025-11-13T04:08:25.409Z running
+
+[lzc-core:linux] 2025-11-13T07:09:16.196Z running
+
+[lzc-core:linux] 2025-11-13T08:06:13.398Z running
+
+[lzc-core:linux] 2025-11-14T01:00:13.851Z running
+
+[lzc-core:linux] 2025-11-14T03:14:20.821Z running
+
+[lzc-core:linux] 2025-11-14T03:35:46.551Z running
+
+[lzc-core:linux] 2025-11-14T08:41:25.084Z running
+
+[lzc-core:linux] 2025-11-15T05:22:52.407Z running
+
+[lzc-core:linux] 2025-11-15T10:03:09.972Z running
+
+[lzc-core:linux] 2025-11-16T00:54:55.742Z running
+
+[lzc-core:linux] 2025-11-16T01:06:37.769Z running
+
+[lzc-core:linux] 2025-11-16T04:15:33.686Z running
+
+[lzc-core:linux] 2025-11-16T05:57:40.917Z running
+
+[lzc-core:linux] 2025-11-16T12:45:09.371Z running

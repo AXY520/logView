@@ -1,0 +1,6 @@
+NAME                                      IMAGE                                                  COMMAND                  SERVICE      CREATED        STATUS                  PORTS
+cloudlazycataipodknowledge-app-1          registry.lazycat.cloud/lzc/lzcapp:3.20.3               "/lzcinit/cloud.lazy…"   app          10 hours ago   Up 10 hours (healthy)   
+cloudlazycataipodknowledge-backend-1      registry.lazycat.cloud/x/lzc-knowledge:82f8bf2         "python3 server.py"      backend      10 hours ago   Up 10 hours (healthy)   3000/tcp
+cloudlazycataipodknowledge-caddy-1        registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce   "/lzcinit/cloud.lazy…"   caddy        10 hours ago   Up 10 hours             80/tcp, 443/tcp, 2019/tcp, 443/udp
+cloudlazycataipodknowledge-fileloader-1   registry.lazycat.cloud/x/rag:bb78b8b                   "python3 server.py"      fileloader   10 hours ago   Up 10 hours (healthy)   3001/tcp
+cloudlazycataipodknowledge-postgres-1     registry.lazycat.cloud/x/lzc-knowledge-db:bbbd89a      "docker-entrypoint.s…"   postgres     10 hours ago   Up 10 hours (healthy)   5432/tcp

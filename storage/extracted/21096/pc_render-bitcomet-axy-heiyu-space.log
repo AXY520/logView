@@ -1,0 +1,12 @@
+[2025-11-02 09:42:49.329] [info]  [
+  "懒猫部署向导-axy|282|https://bitcomet.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
+]
+[2025-11-02 09:42:57.162] [info]  [
+  '比特彗星 启动中-axy|145|https://bitcomet.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 09:43:04.217] [info]  [
+  '比特彗星 启动中-axy|200|https://bitcomet.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-02 09:43:14.276] [info]  [
+  '比特彗星 启动中-axy|200|https://bitcomet.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]

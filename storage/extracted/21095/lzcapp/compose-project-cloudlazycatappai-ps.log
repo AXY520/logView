@@ -1,0 +1,8 @@
+NAME                                 IMAGE                                                                    COMMAND                  SERVICE          CREATED        STATUS                  PORTS
+cloudlazycatappai-app-1              registry.lazycat.cloud/lzc/lzcapp:3.20.3                                 "/lzcinit/cloud.lazy…"   app              45 hours ago   Up 45 hours (healthy)   
+cloudlazycatappai-backend-1          registry.lazycat.cloud/catdogai/backend:20250625                         "/lzcapp/pkg/content…"   backend          45 hours ago   Up 45 hours             
+cloudlazycatappai-caddy-1            registry.lazycat.cloud/catdogai/caddy-aipod:6c2f94c3                     "/lzcinit/cloud.lazy…"   caddy            45 hours ago   Up 45 hours             80/tcp, 443/tcp, 2019/tcp, 443/udp
+cloudlazycatappai-convert-1          registry.lazycat.cloud/square/convert:20250819                           "/lzcapp/pkg/content…"   convert          45 hours ago   Up 45 hours             
+cloudlazycatappai-mdns_discovery-1   registry.lazycat.cloud/alpine:3.18                                       "/lzcapp/pkg/content…"   mdns_discovery   45 hours ago   Up 45 hours             
+cloudlazycatappai-mtrans-1           registry.lazycat.cloud/x/lzc-aipod-mtrans:3f3b3fc                        "/app/mtrans"            mtrans           45 hours ago   Up 45 hours             
+cloudlazycatappai-postgres-1         registry.lazycat.cloud/catdogai/postgres:17.4-1-pgvectorscale-20250422   "docker-entrypoint.s…"   postgres         45 hours ago   Up 45 hours (healthy)   5432/tcp

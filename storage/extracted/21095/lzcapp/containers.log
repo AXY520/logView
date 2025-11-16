@@ -1,0 +1,1413 @@
+CONTAINER ID   IMAGE                                                                                     COMMAND                  CREATED        STATUS                  PORTS                                     NAMES
+81dfe4fd2362   registry.lazycat.cloud/nginx:1.27.3                                                       "/docker-entrypoint.…"   4 hours ago    Up 4 hours                                                        cloudlazycatdevelopertools-registry-proxy-1
+9f8877ce6f9c   registry.lazycat.cloud/lzc/debug-bridge:v0.0.28                                           "/lzcinit/cloud.lazy…"   4 hours ago    Up 4 hours (healthy)    22222/tcp                                 cloudlazycatdevelopertools-app-1
+06547fa1b0ca   registry.lazycat.cloud/registry:2                                                         "/entrypoint.sh /etc…"   4 hours ago    Up 4 hours              5000/tcp                                  cloudlazycatdevelopertools-registry-1
+ac3482f35b35   registry.lazycat.cloud/catdog/amir20/dozzle:e675824d3a7cb863                              "/dozzle"                4 hours ago    Up 4 hours              8080/tcp                                  cloudlazycatdevelopertools-dozzle-1
+6d6ebdc51570   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   4 hours ago    Up 4 hours (healthy)                                              cloudlazycatappforward-app-1
+3e8a45dd32d5   registry.lazycat.cloud/vim/library/alpine:forward20250513171707                           "/lzcapp/pkg/content…"   4 hours ago    Up 4 hours                                                        cloudlazycatappforward-lan-1
+b0f6e1822ab8   registry.lazycat.cloud/lzc/lzc-photo:3295c1ec                                             "/lzcinit/cloud.lazy…"   5 hours ago    Up 5 hours (healthy)                                              cloudlazycatappphoto-app-1
+8faee164fdb0   registry.lazycat.cloud/ai/photosearch:18c29f07                                            "bash -c 'date;pytho…"   5 hours ago    Up 5 hours              5000/tcp                                  cloudlazycatappphoto-photosearch-1
+1e5130fe8aa2   registry.lazycat.cloud/lzc/postgres:17-alpine3.20                                         "docker-entrypoint.s…"   5 hours ago    Up 5 hours (healthy)    5432/tcp                                  cloudlazycatappphoto-postgres-1
+6074fa3459ab   registry.lazycat.cloud/lzc/weaviate:1.28.2-2b40d6e                                        "/bin/weaviate --hos…"   5 hours ago    Up 5 hours (healthy)                                              cloudlazycatappphoto-weaviate-1
+633898f317b0   registry.lazycat.cloud/aixinyin/qemux/qemu:2767dccd2da80a3a                               "/usr/bin/tini -s /r…"   7 hours ago    Up 7 hours              22/tcp, 5900/tcp, 8006/tcp                cloudlzcappqemu-qemu-1
+e07eb14b137e   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lzca…"   7 hours ago    Up 7 hours (healthy)                                              cloudlzcappqemu-app-1
+f7504ce4803c   registry.lazycat.cloud/catdogai/backend:20250625                                          "/lzcapp/pkg/content…"   8 hours ago    Up 8 hours                                                        cloudlazycataipodrag-backend-1
+e25a2994a42e   registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce                                      "/lzcinit/cloud.lazy…"   8 hours ago    Up 8 hours              80/tcp, 443/tcp, 2019/tcp, 443/udp        cloudlazycataipodrag-caddy-1
+4c31b456cfeb   registry.lazycat.cloud/catdogai/postgres:17.4-pgvectorscale-202509121813                  "docker-entrypoint.s…"   8 hours ago    Up 8 hours (healthy)    5432/tcp                                  cloudlazycataipodrag-postgres-1
+86cac99ecb3e   registry.lazycat.cloud/x/videorag/rag:93c36f3                                             "python3 server.py"      8 hours ago    Up 8 hours (healthy)    3000/tcp                                  cloudlazycataipodrag-backend_videorag-1
+61a23ae8593a   registry.lazycat.cloud/x/rag:bb78b8b                                                      "python3 server.py"      8 hours ago    Up 8 hours (healthy)    3001/tcp                                  cloudlazycataipodrag-backend_rag-1
+1f39777be01c   registry.lazycat.cloud/x/filechat:603cb4a                                                 "python3 server.py"      8 hours ago    Up 8 hours              3000/tcp                                  cloudlazycataipodrag-backend_filechat-1
+c614148b5c2d   registry.lazycat.cloud/catdogai/jieba:0.42.1-403da521                                     "gunicorn -w 4 -b 0.…"   8 hours ago    Up 8 hours                                                        cloudlazycataipodrag-backend_jieba-1
+4ea2fc16b064   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   8 hours ago    Up 8 hours (healthy)                                              cloudlazycataipodrag-app-1
+e46ce7898ded   crpi-kyqfans5x5yi0xen.cn-hangzhou.personal.cr.aliyuncs.com/lonng_image/lzc-mihomo:0.0.5   "/entrypoint.sh"         9 hours ago    Up 9 hours                                                        comlxyappclash-clash-1
+2aa1cd4ecb4e   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/com.lxy.ap…"   9 hours ago    Up 9 hours (healthy)                                              comlxyappclash-app-1
+f6d05025b77b   registry.lazycat.cloud/aixinyin/1panel/maxkb:bc6d7a430b9aa53e                             "bash -c /usr/bin/st…"   10 hours ago   Up 10 hours             5432/tcp, 6379/tcp, 8080/tcp              xyzmxuemaxkb-maxkb-1
+da928bbc14df   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/xyz.mxue.m…"   10 hours ago   Up 10 hours (healthy)                                             xyzmxuemaxkb-app-1
+94e19b39929a   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   10 hours ago   Up 10 hours (healthy)                                             cloudlazycatappcreate-app-1
+1b5ebc5c35eb   registry.lazycat.cloud/d1y/installer-server:0.5                                           "docker-entrypoint.s…"   10 hours ago   Up 10 hours             3000/tcp                                  cloudlazycatappcreate-fs-1
+0a4bc94f69f9   registry.lazycat.cloud/x/lzc-knowledge:82f8bf2                                            "python3 server.py"      10 hours ago   Up 10 hours (healthy)   3000/tcp                                  cloudlazycataipodknowledge-backend-1
+b967afcb364a   registry.lazycat.cloud/x/lzc-knowledge-db:bbbd89a                                         "docker-entrypoint.s…"   10 hours ago   Up 10 hours (healthy)   5432/tcp                                  cloudlazycataipodknowledge-postgres-1
+94074c01b718   registry.lazycat.cloud/x/rag:bb78b8b                                                      "python3 server.py"      10 hours ago   Up 10 hours (healthy)   3001/tcp                                  cloudlazycataipodknowledge-fileloader-1
+03d0b1b58431   registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce                                      "/lzcinit/cloud.lazy…"   10 hours ago   Up 10 hours             80/tcp, 443/tcp, 2019/tcp, 443/udp        cloudlazycataipodknowledge-caddy-1
+9c03a296cfa7   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   10 hours ago   Up 10 hours (healthy)                                             cloudlazycataipodknowledge-app-1
+4d426929027a   registry.cn-hangzhou.aliyuncs.com/axy5920/logview:1.4                                     "python /app/app.py"     12 hours ago   Up 12 hours             5000/tcp                                  cloudlazycatapplogviewer-webapp-1
+789910d2bdf8   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   12 hours ago   Up 12 hours (healthy)                                             cloudlazycatapplogviewer-app-1
+16481e1a6a8c   registry.lazycat.cloud/nyanmisaka/jellyfin:250503-amd64                                   "/jellyfin/jellyfin"     23 hours ago   Up 23 hours (healthy)   8096/tcp                                  cloudlazycatappjellyfinsingle-jellyfin-1
+ac2984447584   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   23 hours ago   Up 23 hours (healthy)                                             cloudlazycatappjellyfinsingle-app-1
+42ac4c47098c   registry.lazycat.cloud/edward/buru2020/one-mcp:e35aecbd7bcd50eb                           "/one-mcp"               25 hours ago   Up 25 hours             3000/tcp                                  cloudlazycatapponemcp-onemcp-1
+20771b056459   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   25 hours ago   Up 25 hours (healthy)                                             cloudlazycatapponemcp-app-1
+a03b45c4ae3a   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/top.j0k3r.…"   27 hours ago   Up 27 hours (healthy)                                             topj0k3rlpk-inspector-app-1
+b01803726dd1   registry.lazycat.cloud/louislam/dockge:0.0.4                                              "/usr/bin/dumb-init …"   27 hours ago   Up 27 hours (healthy)   5001/tcp                                  cloudlazycatappdockge-back-1
+f7f79e9043d4   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   27 hours ago   Up 27 hours (healthy)                                             cloudlazycatappdockge-app-1
+0e909255e0a6   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours (healthy)                                             cloudlazycatappcustomrelay-app-1
+bf11feb443ce   registry.lazycat.cloud/catdogai/backend:20250625                                          "/lzcapp/pkg/content…"   45 hours ago   Up 45 hours                                                       cloudlazycatappai-backend-1
+9d86db7fc369   registry.lazycat.cloud/square/convert:20250819                                            "/lzcapp/pkg/content…"   45 hours ago   Up 45 hours                                                       cloudlazycatappai-convert-1
+5f72e8e169ef   registry.lazycat.cloud/czyt/openlistteam/openlist:a4f202cd35fa3006                        "/entrypoint.sh"         45 hours ago   Up 45 hours             5244-5245/tcp                             lazycatcommunityappopenlist-openlist-1
+921de5a6b269   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/lazycat.co…"   45 hours ago   Up 45 hours (healthy)                                             lazycatcommunityappopenlist-app-1
+2d69322ac75b   registry.lazycat.cloud/catdogai/postgres:17.4-1-pgvectorscale-20250422                    "docker-entrypoint.s…"   45 hours ago   Up 45 hours (healthy)   5432/tcp                                  cloudlazycatappai-postgres-1
+a8168fa366c6   registry.lazycat.cloud/catdogai/caddy-aipod:6c2f94c3                                      "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours             80/tcp, 443/tcp, 2019/tcp, 443/udp        cloudlazycatappai-caddy-1
+c2a386c957c2   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours (healthy)                                             cloudlazycatappai-app-1
+c22ddfb6a536   registry.lazycat.cloud/x/lzc-aipod-mtrans:3f3b3fc                                         "/app/mtrans"            45 hours ago   Up 45 hours                                                       cloudlazycatappai-mtrans-1
+ea760d245b88   registry.lazycat.cloud/alpine:3.18                                                        "/lzcapp/pkg/content…"   45 hours ago   Up 45 hours                                                       cloudlazycatappai-mdns_discovery-1
+0245f0a5895b   registry.lazycat.cloud/lzc-files/smbserver:e4649cd                                        "/sbin/tini -- /usr/…"   45 hours ago   Up 45 hours             139/tcp, 445/tcp, 137-138/udp, 8080/tcp   cloudlazycatshellfiles-smbserver-1
+41bf21e970cd   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours (healthy)                                             cloudlazycatappcontacts-app-1
+e431293aae03   registry.lazycat.cloud/lzc-media/lzc-media:bdfcdbe5                                       "/lzc-media/bin/lzc-…"   45 hours ago   Up 45 hours                                                       cloudlazycatshellfiles-lzcmedia-1
+6d6174296212   registry.lazycat.cloud/ai/funasr_cpp:48a508f8                                             "/entrypoint_cpp.sh"     45 hours ago   Up 45 hours                                                       cloudlazycatshellfiles-tts-1
+d2068bff4daf   registry.lazycat.cloud/lzc/lzc-files:v0.1.55                                              "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours (healthy)                                             cloudlazycatshellfiles-app-1
+684bb7777299   registry.lazycat.cloud/lzc-files/forwarder:e4649cd                                        "/sbin/tini -- /root…"   45 hours ago   Up 45 hours                                                       cloudlazycatshellfiles-smbforward-1
+2fc3045a36a6   registry.lazycat.cloud/lzc-files/lzc-file-mount:703656b                                   "tini -- /app/lzc-fi…"   45 hours ago   Up 45 hours             3000/tcp                                  cloudlazycatshellfiles-mountserver-1
+1be9683beb30   registry.lazycat.cloud/ai/lzc-ai:6c28dce2                                                 "/lzcai -addr :10080"    45 hours ago   Up 45 hours             10080/tcp                                 cloudlazycatshellfiles-lzcai-1
+7275ad264088   registry.lazycat.cloud/lzc/lzcapp:3.20.3                                                  "/lzcinit/cloud.lazy…"   45 hours ago   Up 45 hours (healthy)                                             cloudlazycatshellappstore-app-1
+NETWORK ID     NAME                                    DRIVER    SCOPE
+8cdda0968518   cloudlazycataipodknowledge_default      bridge    local
+89e6ebcad0a5   cloudlazycataipodrag_default            bridge    local
+5bbcae0c6078   cloudlazycatappai_default               bridge    local
+28453e6230b1   cloudlazycatappcontacts_default         bridge    local
+f62dceb4a494   cloudlazycatappcreate_default           bridge    local
+538a2b85626f   cloudlazycatappcustomrelay_default      bridge    local
+02f076718cf0   cloudlazycatappdockge_default           bridge    local
+e1b0ccce376d   cloudlazycatappforward_default          bridge    local
+83eb707fe7a3   cloudlazycatappjellyfinsingle_default   bridge    local
+d7fb3c08f089   cloudlazycatapplogviewer_default        bridge    local
+f1ef5a21ff05   cloudlazycatapponemcp_default           bridge    local
+8e14d19ab5a7   cloudlazycatappphoto_default            bridge    local
+fbbc10298236   cloudlazycatdevelopertools_default      bridge    local
+1df6b8afa41d   cloudlazycatshellappstore_default       bridge    local
+e53208727f16   cloudlazycatshellfiles_default          bridge    local
+5fafa4c2d116   cloudlzcappqemu_default                 bridge    local
+b914672c477a   comlxyappclash_default                  bridge    local
+5b49d43c68f7   host                                    host      local
+d9b3f18de934   lazycatcommunityappopenlist_default     bridge    local
+843d2efb9834   none                                    null      local
+444bd09aeb08   topj0k3rlpk-inspector_default           bridge    local
+f33e52322e79   xyzmxuemaxkb_default                    bridge    local
+正在检查网络: cloudlazycataipodknowledge_default
+[
+    {
+        "Name": "cloudlazycataipodknowledge_default",
+        "Id": "8cdda0968518fdc519ac9d5daaf4a7bb1c2d1e1241dd96ebd87ac385a4f5f4fb",
+        "Created": "2025-11-16T10:21:48.677927296+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.3.64/26",
+                    "Gateway": "172.28.3.65"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::340/122",
+                    "Gateway": "fd03:1136:3800::341/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "03d0b1b584314428629685a97089753faf35e81d07adbece0bebb516c4651b7b": {
+                "Name": "cloudlazycataipodknowledge-caddy-1",
+                "EndpointID": "d42943e5da71f402721a48d60f634a209151d947a874a496f6978cf29e441ab3",
+                "MacAddress": "02:42:ac:1c:03:43",
+                "IPv4Address": "172.28.3.67/26",
+                "IPv6Address": "fd03:1136:3800::343/122"
+            },
+            "0a4bc94f69f98d46446d32ee51c76d3c8cf4ff43c6c8844c8dfba5e31da335a1": {
+                "Name": "cloudlazycataipodknowledge-backend-1",
+                "EndpointID": "62bf0f28583e59719ac0e5d66825a4035cad47cbb3b42d0386c7b3fc205db922",
+                "MacAddress": "02:42:ac:1c:03:46",
+                "IPv4Address": "172.28.3.70/26",
+                "IPv6Address": "fd03:1136:3800::346/122"
+            },
+            "94074c01b7185abe2a78f8aa1f2472939bfb2d8522156190de616240d8a2d07a": {
+                "Name": "cloudlazycataipodknowledge-fileloader-1",
+                "EndpointID": "4529321d3c1803679bb5f2ca010f9dd88d8de4f055f2609cc07a6813f9d1c23a",
+                "MacAddress": "02:42:ac:1c:03:44",
+                "IPv4Address": "172.28.3.68/26",
+                "IPv6Address": "fd03:1136:3800::344/122"
+            },
+            "9c03a296cfa76edd1cddd66f10cadb97ca5030843b260008ead3d45af100753a": {
+                "Name": "cloudlazycataipodknowledge-app-1",
+                "EndpointID": "4d4a3f6ceaee42de0cc48d88f043e91f8caaa0331756ce541d7559c3bc26dd37",
+                "MacAddress": "02:42:ac:1c:03:42",
+                "IPv4Address": "172.28.3.66/26",
+                "IPv6Address": "fd03:1136:3800::342/122"
+            },
+            "b967afcb364a24f1fcaf644f6a668f09b29b851311d1e57af431e4a33954a013": {
+                "Name": "cloudlazycataipodknowledge-postgres-1",
+                "EndpointID": "f0f2c1dc6ff63e5e59e6d8704c302d3b774b7153d4592802f76d4556383327c9",
+                "MacAddress": "02:42:ac:1c:03:45",
+                "IPv4Address": "172.28.3.69/26",
+                "IPv6Address": "fd03:1136:3800::345/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-d9e21c5c"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "a1316128ddebaf9967f40caf744114dcb68950a4c1853c60c190e1900ff868cb",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycataipodknowledge",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycataipodrag_default
+[
+    {
+        "Name": "cloudlazycataipodrag_default",
+        "Id": "89e6ebcad0a5e2c0c75bc52ed8a8e85faf3c32ca872dad2cfe57c2ee34ed09f0",
+        "Created": "2025-11-16T12:58:59.747213187+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.4.64/26",
+                    "Gateway": "172.28.4.65"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::440/122",
+                    "Gateway": "fd03:1136:3800::441/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "1f39777be01c8439cd7893b520b82fcba56b63d83daffeff67513726306e0c3a": {
+                "Name": "cloudlazycataipodrag-backend_filechat-1",
+                "EndpointID": "4f6bf95d5d0eb77231ba8f3d196977934c9f31e0014e0166b77d20d4a9e9ede3",
+                "MacAddress": "02:42:ac:1c:04:43",
+                "IPv4Address": "172.28.4.67/26",
+                "IPv6Address": "fd03:1136:3800::443/122"
+            },
+            "4c31b456cfeb5f5c80d236d2e2aef1dade889652418b020d866bd0d856db0fc2": {
+                "Name": "cloudlazycataipodrag-postgres-1",
+                "EndpointID": "23c2df8f8320d8e71784c745ebf4d9f9d4256a92d2fb97ddee4cbc5516d2f251",
+                "MacAddress": "02:42:ac:1c:04:48",
+                "IPv4Address": "172.28.4.72/26",
+                "IPv6Address": "fd03:1136:3800::448/122"
+            },
+            "4ea2fc16b064a65a20305e8e05cd947cb0abdfb3831cbd829f2cfe598a53c747": {
+                "Name": "cloudlazycataipodrag-app-1",
+                "EndpointID": "95efeee51cdb3ded40d48947fbd1c854c2bc70c52cbf760c7273c76ce0d36df6",
+                "MacAddress": "02:42:ac:1c:04:44",
+                "IPv4Address": "172.28.4.68/26",
+                "IPv6Address": "fd03:1136:3800::444/122"
+            },
+            "61a23ae8593a581cfd0244fe41b573e2f4ad61d99bd99638c1bab4860e739463": {
+                "Name": "cloudlazycataipodrag-backend_rag-1",
+                "EndpointID": "e6db1e0c01d3348a2da7e85057c9936d3a844e7366902d6541ad5d09e5407c9a",
+                "MacAddress": "02:42:ac:1c:04:45",
+                "IPv4Address": "172.28.4.69/26",
+                "IPv6Address": "fd03:1136:3800::445/122"
+            },
+            "86cac99ecb3e5831748d6328cbf96d3a84006b33737dcf168c198bc81f487462": {
+                "Name": "cloudlazycataipodrag-backend_videorag-1",
+                "EndpointID": "d01ffacf02ec0f7bc8a9f0ff3c139b6c2b957b9c947373fdee10d7f1745486e0",
+                "MacAddress": "02:42:ac:1c:04:46",
+                "IPv4Address": "172.28.4.70/26",
+                "IPv6Address": "fd03:1136:3800::446/122"
+            },
+            "c614148b5c2d42261e173ed3103c02e7f9faad104cd040f9b316452f6095b8cb": {
+                "Name": "cloudlazycataipodrag-backend_jieba-1",
+                "EndpointID": "3dd678771ac17594e65850ecbbfde53c6a6c0c347a3e95c95501e0b8d317980b",
+                "MacAddress": "02:42:ac:1c:04:47",
+                "IPv4Address": "172.28.4.71/26",
+                "IPv6Address": "fd03:1136:3800::447/122"
+            },
+            "e25a2994a42e21f5d9cdc71dfdda88abac9e24229c9b4284acba6e623810a73a": {
+                "Name": "cloudlazycataipodrag-caddy-1",
+                "EndpointID": "4c49357b2d99c20a275aca9d1e5735ad86833cfe402bf6af612ec5a952b5718c",
+                "MacAddress": "02:42:ac:1c:04:42",
+                "IPv4Address": "172.28.4.66/26",
+                "IPv6Address": "fd03:1136:3800::442/122"
+            },
+            "f7504ce4803c66c68fed52d87daa02c4b0996fd5c3d24f2873733844b24fe2ef": {
+                "Name": "cloudlazycataipodrag-backend-1",
+                "EndpointID": "d4d2573bb2a9f2283343f380192df69843e7a55f67d49fd27360c2cdd5dee44a",
+                "MacAddress": "02:42:ac:1c:04:49",
+                "IPv4Address": "172.28.4.73/26",
+                "IPv6Address": "fd03:1136:3800::449/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-4c9c5c7e"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "03521660577bfdf87ef12884b17e9d6e3a8fb9fd0991aaf03dddf8f741e0ee9d",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycataipodrag",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappai_default
+[
+    {
+        "Name": "cloudlazycatappai_default",
+        "Id": "5bbcae0c6078732adb14c824dc7bccaed257ee2dca05a6e328554e2227693914",
+        "Created": "2025-11-14T23:45:35.417337446+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.0.192/26",
+                    "Gateway": "172.28.0.193"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::c0/122",
+                    "Gateway": "fd03:1136:3800::c1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "2d69322ac75bacafa57f60df20e1a6d7e0661182927f6a78d5d3d7dbeaa01309": {
+                "Name": "cloudlazycatappai-postgres-1",
+                "EndpointID": "5e034db0d3f56ad436c2a79a21a68c6ea1020dcd8c6c565a2d7515ac3c26c8d2",
+                "MacAddress": "02:42:ac:1c:00:c2",
+                "IPv4Address": "172.28.0.194/26",
+                "IPv6Address": "fd03:1136:3800::c2/122"
+            },
+            "9d86db7fc369252055796dcccb8d003aa9ba047f6091ac22b145cc87a83a13c8": {
+                "Name": "cloudlazycatappai-convert-1",
+                "EndpointID": "cf0a9cf30a7e94001d45a2294ef96d436231f482099891275ed1f7ebdd20db27",
+                "MacAddress": "02:42:ac:1c:00:c6",
+                "IPv4Address": "172.28.0.198/26",
+                "IPv6Address": "fd03:1136:3800::c6/122"
+            },
+            "a8168fa366c60c75822cac38e5c9e7826cf1c6351b9f94b609231afc4ccd5444": {
+                "Name": "cloudlazycatappai-caddy-1",
+                "EndpointID": "2a9f0e3ebb5925d229174dde8ec7594ba7902b2dcf1b21d4fc68a1fe05a95cc7",
+                "MacAddress": "02:42:ac:1c:00:c5",
+                "IPv4Address": "172.28.0.197/26",
+                "IPv6Address": "fd03:1136:3800::c5/122"
+            },
+            "bf11feb443ce5da7d8d94f112ca033083e9cec3c9aa437de60fe733a586868c3": {
+                "Name": "cloudlazycatappai-backend-1",
+                "EndpointID": "3135c4659245693021e7bc47357e274b80035ff058b53e958a7cc0f183341dd9",
+                "MacAddress": "02:42:ac:1c:00:c7",
+                "IPv4Address": "172.28.0.199/26",
+                "IPv6Address": "fd03:1136:3800::c7/122"
+            },
+            "c22ddfb6a5368dcf0e1a081c8e894c0c186e13037d938ec9fd43e78327a81718": {
+                "Name": "cloudlazycatappai-mtrans-1",
+                "EndpointID": "6526e79967533240ff2876883e6d191aa7ac4da124155d184b38f7e14d90370a",
+                "MacAddress": "02:42:ac:1c:00:c3",
+                "IPv4Address": "172.28.0.195/26",
+                "IPv6Address": "fd03:1136:3800::c3/122"
+            },
+            "c2a386c957c202bbfce596129a9e6dfa4fa0c5061d8592b52434b6250662324b": {
+                "Name": "cloudlazycatappai-app-1",
+                "EndpointID": "834a5d4cf1c6aefb132757af952fed1a07bb0a70808e888d52fb991276cefdda",
+                "MacAddress": "02:42:ac:1c:00:c4",
+                "IPv4Address": "172.28.0.196/26",
+                "IPv6Address": "fd03:1136:3800::c4/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-6e79d680"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "a7c1ace35c83ca72b75e0631ea6a6f66deccc82dd5ac25a369e471845849e033",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappai",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappcontacts_default
+[
+    {
+        "Name": "cloudlazycatappcontacts_default",
+        "Id": "28453e6230b16bf00fc205617f55c4ef65a3a3df8d9a1579b1664cc0e5e1928c",
+        "Created": "2025-11-14T23:45:19.452105681+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.0.128/26",
+                    "Gateway": "172.28.0.129"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::80/122",
+                    "Gateway": "fd03:1136:3800::81/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "41bf21e970cd855c6ef70c09102bb7d8b409208a47b68a52a273510e4126738d": {
+                "Name": "cloudlazycatappcontacts-app-1",
+                "EndpointID": "aa373a3ddf507b568675d635161e0e29d9f0ea409cbc99042076e68e6bada88f",
+                "MacAddress": "02:42:ac:1c:00:82",
+                "IPv4Address": "172.28.0.130/26",
+                "IPv6Address": "fd03:1136:3800::82/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-2b4d7248"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "62cc0bef2d2362398b662111b8e5c6940741fcd88cd5a99c72def0054b69c5a4",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappcontacts",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappcreate_default
+[
+    {
+        "Name": "cloudlazycatappcreate_default",
+        "Id": "f62dceb4a494f45649b91a25a0132255ce2265af717a27ccd99d89f303079b8b",
+        "Created": "2025-11-16T10:49:23.917367497+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.3.128/26",
+                    "Gateway": "172.28.3.129"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::380/122",
+                    "Gateway": "fd03:1136:3800::381/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "1b5ebc5c35ebcab5ad77266b54ba723d5ab6cf7c9f6684543e1e14da75d1c1fa": {
+                "Name": "cloudlazycatappcreate-fs-1",
+                "EndpointID": "d23f1d0bee43fb4477295b079329621cb86f31922a6c50a57c904f866d74afb2",
+                "MacAddress": "02:42:ac:1c:03:82",
+                "IPv4Address": "172.28.3.130/26",
+                "IPv6Address": "fd03:1136:3800::382/122"
+            },
+            "94e19b39929a112e7fd09e1350254ba319d171ef73f6b514e0e0d9fc80065d52": {
+                "Name": "cloudlazycatappcreate-app-1",
+                "EndpointID": "d06645950ce06aa2cd8e1e89df1d7a5a7e8e6f5cd8862b789a8c8124fd5febd8",
+                "MacAddress": "02:42:ac:1c:03:83",
+                "IPv4Address": "172.28.3.131/26",
+                "IPv6Address": "fd03:1136:3800::383/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-d8c56011"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "949b38dfe631fb555f433557315104f5aca33fcdab19dbf9392999bb32902e67",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappcreate",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappcustomrelay_default
+[
+    {
+        "Name": "cloudlazycatappcustomrelay_default",
+        "Id": "538a2b85626fe9b03921216c692afd3e3c15ae31d276d53d403858925b29d906",
+        "Created": "2025-11-14T23:45:49.390040029+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.1.64/26",
+                    "Gateway": "172.28.1.65"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::140/122",
+                    "Gateway": "fd03:1136:3800::141/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "0e909255e0a6df030c257aded0b9b55b17b33113d8c54c538d9167e6979e39e7": {
+                "Name": "cloudlazycatappcustomrelay-app-1",
+                "EndpointID": "04fab92ecd3401e36e7f73ce7279d1cd6ad82c8f0bc8675d64c809a0233159e7",
+                "MacAddress": "02:42:ac:1c:01:42",
+                "IPv4Address": "172.28.1.66/26",
+                "IPv6Address": "fd03:1136:3800::142/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-0e2b9ad0"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "32e484404ad277e747430b1cd09b298c80c446edf8c760f641fe4a063253ca38",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappcustomrelay",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappdockge_default
+[
+    {
+        "Name": "cloudlazycatappdockge_default",
+        "Id": "02f076718cf00d532b22b42cad160566542c0b1919856bb7565211e7eda3aad9",
+        "Created": "2025-11-15T17:44:23.249507722+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.1.128/26",
+                    "Gateway": "172.28.1.129"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::180/122",
+                    "Gateway": "fd03:1136:3800::181/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "b01803726dd1cb727618515d23e5b0e9db58bcdf711a7d12036d74e42712721e": {
+                "Name": "cloudlazycatappdockge-back-1",
+                "EndpointID": "706845474d29fdb5e55d9563e8cb20503420bc7d79e13f6bf0595a3fb77d56e3",
+                "MacAddress": "02:42:ac:1c:01:83",
+                "IPv4Address": "172.28.1.131/26",
+                "IPv6Address": "fd03:1136:3800::183/122"
+            },
+            "f7f79e9043d436ef3c8e3ee77ac3d741239054891a5dec448973eff02420195d": {
+                "Name": "cloudlazycatappdockge-app-1",
+                "EndpointID": "20517de27f7d949433dec713fb958d687a3b37ecf66db95b347c9768a31628ec",
+                "MacAddress": "02:42:ac:1c:01:82",
+                "IPv4Address": "172.28.1.130/26",
+                "IPv6Address": "fd03:1136:3800::182/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-9ec31e64"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "4310004a50b428c8a8fd4a74ca6a0b2640b4f47214b8870e1fb12a8371b6f89d",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappdockge",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappforward_default
+[
+    {
+        "Name": "cloudlazycatappforward_default",
+        "Id": "e1b0ccce376d434203bf97278791c14c1e2b5eda253c5c5ea2b58ee0b077fe9c",
+        "Created": "2025-11-16T17:04:26.150787198+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.4.192/26",
+                    "Gateway": "172.28.4.193"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::4c0/122",
+                    "Gateway": "fd03:1136:3800::4c1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "6d6ebdc51570dbc70fe8f4af2cf2ed39e542337199fae3a46d9ca0ca65ed1e66": {
+                "Name": "cloudlazycatappforward-app-1",
+                "EndpointID": "1ee2323f49e5363ce0d80c19206ba2531754b90337c38a3ea36dd8a936840084",
+                "MacAddress": "02:42:ac:1c:04:c2",
+                "IPv4Address": "172.28.4.194/26",
+                "IPv6Address": "fd03:1136:3800::4c2/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-aaefacac"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "4d07b0d61d894e9b27b7fbf087326229d3a585b552d75b3ed80991da5e698ec6",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappforward",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappjellyfinsingle_default
+[
+    {
+        "Name": "cloudlazycatappjellyfinsingle_default",
+        "Id": "83eb707fe7a39a487a3c4f002491e7b7cdfd34d7370975ec79ec7f9efca1fa5c",
+        "Created": "2025-11-15T22:13:28.59826899+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.2.64/26",
+                    "Gateway": "172.28.2.65"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::240/122",
+                    "Gateway": "fd03:1136:3800::241/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "16481e1a6a8c1add0e0e9ea3bd1ac47c3390113be18299db28784bef578c4bd5": {
+                "Name": "cloudlazycatappjellyfinsingle-jellyfin-1",
+                "EndpointID": "46f4ed0b5011c9c8d2d675280d5b23ce6fdfe9be8e70d2967a7f4a057b73d23f",
+                "MacAddress": "02:42:ac:1c:02:43",
+                "IPv4Address": "172.28.2.67/26",
+                "IPv6Address": "fd03:1136:3800::243/122"
+            },
+            "ac29844475845825cc0bb4c042cfaa2c8ad431349b3fa1372b52d87b97b333c9": {
+                "Name": "cloudlazycatappjellyfinsingle-app-1",
+                "EndpointID": "a1ed8d2ce5d04c543d8f4452c74270c546dc32e83ae1a4f7c3da149cbb82fb3b",
+                "MacAddress": "02:42:ac:1c:02:42",
+                "IPv4Address": "172.28.2.66/26",
+                "IPv6Address": "fd03:1136:3800::242/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-f809b5bf"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "49639cebcfb04629876a0c44c9e9fcdb9570967dd296cd841a036af9340b7fed",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappjellyfinsingle",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatapplogviewer_default
+[
+    {
+        "Name": "cloudlazycatapplogviewer_default",
+        "Id": "d7fb3c08f0892fe9bede7d1e4fdff73e0e12c34212dd20ad55ff0d51e3ad4fe3",
+        "Created": "2025-11-16T08:58:36.433903977+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.2.128/26",
+                    "Gateway": "172.28.2.129"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::280/122",
+                    "Gateway": "fd03:1136:3800::281/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "4d426929027afb81bdaba75cd7cad45746a2921971fa9d1f0d623f957f1632c5": {
+                "Name": "cloudlazycatapplogviewer-webapp-1",
+                "EndpointID": "91b3527d6f0c2bcbc6032a6b471d91fe15b407faf969112b7a2c8dd7f90bbc21",
+                "MacAddress": "02:42:ac:1c:02:83",
+                "IPv4Address": "172.28.2.131/26",
+                "IPv6Address": "fd03:1136:3800::283/122"
+            },
+            "789910d2bdf89fdd961cc3deef50adbd83abb8f5aab1e6d39237f48c484a67f5": {
+                "Name": "cloudlazycatapplogviewer-app-1",
+                "EndpointID": "0a78b34f3c0b43f2a9e8bfd43ef3b44240721f7ba888f95adc9642711f2d7f72",
+                "MacAddress": "02:42:ac:1c:02:82",
+                "IPv4Address": "172.28.2.130/26",
+                "IPv6Address": "fd03:1136:3800::282/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-a62bee66"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "462c1a6a6926e81eb74d4e02c989b787e2d6544cdb47a97f68f92f16ee0148f5",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatapplogviewer",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatapponemcp_default
+[
+    {
+        "Name": "cloudlazycatapponemcp_default",
+        "Id": "f1ef5a21ff055463d8feaed4d5723caace62b3b0304bcf3a1b2a3fa29236ebd7",
+        "Created": "2025-11-15T19:23:51.632332591+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.2.0/26",
+                    "Gateway": "172.28.2.1"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::200/122",
+                    "Gateway": "fd03:1136:3800::201/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "20771b056459a1fe2d87b9e2adee136dcef5380203d021ad9a388ccc9c5b2352": {
+                "Name": "cloudlazycatapponemcp-app-1",
+                "EndpointID": "ad843c21f566228bc9adc07a59980e9c6797d5de7048c612a9635666303fbc02",
+                "MacAddress": "02:42:ac:1c:02:02",
+                "IPv4Address": "172.28.2.2/26",
+                "IPv6Address": "fd03:1136:3800::202/122"
+            },
+            "42ac4c47098c2a60890c48eab03ea9fd852882571d6b6d38940213d72ca39664": {
+                "Name": "cloudlazycatapponemcp-onemcp-1",
+                "EndpointID": "07259e773e27899fa8f345a3b2a663d9a40a94a576528e9f99ea21e804277e9c",
+                "MacAddress": "02:42:ac:1c:02:03",
+                "IPv4Address": "172.28.2.3/26",
+                "IPv6Address": "fd03:1136:3800::203/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-307a08f5"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "1cb51164cfe91ca775d993be5c6c492e54e7954dc1ef8aea0f9c5f51ee1e03db",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatapponemcp",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatappphoto_default
+[
+    {
+        "Name": "cloudlazycatappphoto_default",
+        "Id": "8e14d19ab5a7da1650bb6dc7c50f64e53e79607fb01f967678768a4081ffc410",
+        "Created": "2025-11-16T15:55:18.767834933+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.4.128/26",
+                    "Gateway": "172.28.4.129"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::480/122",
+                    "Gateway": "fd03:1136:3800::481/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "1e5130fe8aa2c7724e939cc446667012e6dafff374728b31c629d23b216757e7": {
+                "Name": "cloudlazycatappphoto-postgres-1",
+                "EndpointID": "bf82035e1f0c59e7fad73b6d15be2736f3281c3bff5e655e8270ba19738b7270",
+                "MacAddress": "02:42:ac:1c:04:82",
+                "IPv4Address": "172.28.4.130/26",
+                "IPv6Address": "fd03:1136:3800::482/122"
+            },
+            "6074fa3459ab4232a18207efb68667f9f6580b2cdd43b9c11db5b739250d5ea5": {
+                "Name": "cloudlazycatappphoto-weaviate-1",
+                "EndpointID": "4ea0d9994c2d57334e7826d102490b769ed41f23d7c50bbd483a34159cbaa66e",
+                "MacAddress": "02:42:ac:1c:04:84",
+                "IPv4Address": "172.28.4.132/26",
+                "IPv6Address": "fd03:1136:3800::484/122"
+            },
+            "8faee164fdb0bcddc2ead25b1580f6dba10452044d35bfac71d40962e66f1635": {
+                "Name": "cloudlazycatappphoto-photosearch-1",
+                "EndpointID": "e146c0055b9028f56c287ba335c4cb4156c0043c5500b19f9aaaf1901cceefeb",
+                "MacAddress": "02:42:ac:1c:04:83",
+                "IPv4Address": "172.28.4.131/26",
+                "IPv6Address": "fd03:1136:3800::483/122"
+            },
+            "b0f6e1822ab89cc46ee509b58b34da6d8c28b1d8a329dc4bea13cd31f869db68": {
+                "Name": "cloudlazycatappphoto-app-1",
+                "EndpointID": "8bb331fbe634bbc87223cc5725aa8f4daf033fdc0c62d5fcc410dbf420791c6c",
+                "MacAddress": "02:42:ac:1c:04:85",
+                "IPv4Address": "172.28.4.133/26",
+                "IPv6Address": "fd03:1136:3800::485/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-c65e581b"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "295ff6ced06a45e48a7e2ca5c182741e702a6007ef2d81d39997d2536a955dd3",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatappphoto",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatdevelopertools_default
+[
+    {
+        "Name": "cloudlazycatdevelopertools_default",
+        "Id": "fbbc102982361e7d2dd3c5c423bbc345634b1718ace75c07aa2b5f1a78200535",
+        "Created": "2025-11-16T17:14:16.410121878+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.2.192/26",
+                    "Gateway": "172.28.2.193"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::2c0/122",
+                    "Gateway": "fd03:1136:3800::2c1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "06547fa1b0ca770176c77b60254c4655dcd84fdec48da88b2a0c79540b3bbe17": {
+                "Name": "cloudlazycatdevelopertools-registry-1",
+                "EndpointID": "9bfa914724aaab313c24ae95ed47d8e7a8c068244fd3ae0d9b776d542e687992",
+                "MacAddress": "02:42:ac:1c:02:c3",
+                "IPv4Address": "172.28.2.195/26",
+                "IPv6Address": "fd03:1136:3800::2c3/122"
+            },
+            "9f8877ce6f9cc3e33d51589b5ce64228c12874c6f4289ffbbf1091dd8c02264d": {
+                "Name": "cloudlazycatdevelopertools-app-1",
+                "EndpointID": "58ac416b5307b2573ff88b692e0aaaa26f8f40ef621ee021de9c4317a6e7f631",
+                "MacAddress": "02:42:ac:1c:02:c4",
+                "IPv4Address": "172.28.2.196/26",
+                "IPv6Address": "fd03:1136:3800::2c4/122"
+            },
+            "ac3482f35b35a795c8fea00acad2d86a7e936b1c7bf7c1b32787504952195180": {
+                "Name": "cloudlazycatdevelopertools-dozzle-1",
+                "EndpointID": "c35b837f7fca57e47a627b703cc38c94e88a981b337f7e2e069d6b4baeff89fb",
+                "MacAddress": "02:42:ac:1c:02:c2",
+                "IPv4Address": "172.28.2.194/26",
+                "IPv6Address": "fd03:1136:3800::2c2/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-168be677"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "a589920893ab7073063767934c2aea489ab637d52c8877e2f5904e83eeee349d",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatdevelopertools",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatshellappstore_default
+[
+    {
+        "Name": "cloudlazycatshellappstore_default",
+        "Id": "1df6b8afa41d9c3444cf1afee0ece6ac43a22104de6f788665930b4c545509ab",
+        "Created": "2025-11-14T23:45:09.564910871+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.0.0/26",
+                    "Gateway": "172.28.0.1"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::/122",
+                    "Gateway": "fd03:1136:3800::1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "7275ad2640886a9681c2d8b521919e7da79826efa66c0d63c65918829b6345ca": {
+                "Name": "cloudlazycatshellappstore-app-1",
+                "EndpointID": "f7094cce71a32d215f9d10aed6e0b489eba93b55db9b773bcd75048c0581986b",
+                "MacAddress": "02:42:ac:1c:00:02",
+                "IPv4Address": "172.28.0.2/26",
+                "IPv6Address": "fd03:1136:3800::2/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-7a6c78ec"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "906f5b06c1f8f410cb16fb2d95f5877f5ffd6ff014034486f988f28bc5fd7947",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatshellappstore",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlazycatshellfiles_default
+[
+    {
+        "Name": "cloudlazycatshellfiles_default",
+        "Id": "e53208727f16c5e37b8f178247e75e99135a9f81809775ef80397e64c615d422",
+        "Created": "2025-11-14T23:45:10.293659673+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.0.64/26",
+                    "Gateway": "172.28.0.65"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::40/122",
+                    "Gateway": "fd03:1136:3800::41/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "0245f0a5895b09e063817c540fa5c5e539c037021064b37365902720973a75ab": {
+                "Name": "cloudlazycatshellfiles-smbserver-1",
+                "EndpointID": "8fb58090b7a4edd56e7bf6203af755e858fecca28315fe6d9a75aba0751e7089",
+                "MacAddress": "02:42:ac:1c:00:47",
+                "IPv4Address": "172.28.0.71/26",
+                "IPv6Address": "fd03:1136:3800::47/122"
+            },
+            "1be9683beb3059524f58a04a3c2b4b6b552d4bd23740f0517dbfbd9072f73a61": {
+                "Name": "cloudlazycatshellfiles-lzcai-1",
+                "EndpointID": "53ecc263c68d13dfec8a2369c92f47142a4642798ae0587c5399246da66e8bd7",
+                "MacAddress": "02:42:ac:1c:00:42",
+                "IPv4Address": "172.28.0.66/26",
+                "IPv6Address": "fd03:1136:3800::42/122"
+            },
+            "2fc3045a36a6f5537ed06fb6ff436fad150447ed024c062d8688110b419e1d36": {
+                "Name": "cloudlazycatshellfiles-mountserver-1",
+                "EndpointID": "363cb1fe5599bb34001f62f360cc6a57d51800b14f8fb6d1118695bcf0456fa8",
+                "MacAddress": "02:42:ac:1c:00:43",
+                "IPv4Address": "172.28.0.67/26",
+                "IPv6Address": "fd03:1136:3800::43/122"
+            },
+            "6d617429621207f11e3eb8138e9d5914aae56ff9cd21e2d7bd0d4a5e9e0e82b4": {
+                "Name": "cloudlazycatshellfiles-tts-1",
+                "EndpointID": "dc6896237144c669b45efe74ad9f488ef6953151169d134646b2a7c5a8690c20",
+                "MacAddress": "02:42:ac:1c:00:45",
+                "IPv4Address": "172.28.0.69/26",
+                "IPv6Address": "fd03:1136:3800::45/122"
+            },
+            "d2068bff4daf0304e528af628d2d6e40e8753d3176dddc91b04b7dade634638c": {
+                "Name": "cloudlazycatshellfiles-app-1",
+                "EndpointID": "ab683f5c8cd079ce158b40345458c0928a1f191626af783197cd378a72e0a182",
+                "MacAddress": "02:42:ac:1c:00:46",
+                "IPv4Address": "172.28.0.70/26",
+                "IPv6Address": "fd03:1136:3800::46/122"
+            },
+            "e431293aae03319c3f62c232c40f48b96f9660ac2735008b27e4e470c6fe8ea2": {
+                "Name": "cloudlazycatshellfiles-lzcmedia-1",
+                "EndpointID": "0b40c21fbe062f13922a32a70f27f10583f1520f668965cf68b18c4dab4bff14",
+                "MacAddress": "02:42:ac:1c:00:44",
+                "IPv4Address": "172.28.0.68/26",
+                "IPv6Address": "fd03:1136:3800::44/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-6d8f079f"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "ef0b887dedbf38fd17d3b9893a45c7b4d9bbac18c51109adb256fc02007c7b42",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlazycatshellfiles",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: cloudlzcappqemu_default
+[
+    {
+        "Name": "cloudlzcappqemu_default",
+        "Id": "5fafa4c2d116ad73b6246c27a0c6c206f38071b750ab4eb0b528b80ff86b9ebb",
+        "Created": "2025-11-16T14:05:28.107780588+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.3.0/26",
+                    "Gateway": "172.28.3.1"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::300/122",
+                    "Gateway": "fd03:1136:3800::301/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "633898f317b02329e825251e94044fcb20db24ed2c8b6d6a99a06ada358acedd": {
+                "Name": "cloudlzcappqemu-qemu-1",
+                "EndpointID": "fc9d885f57b53b384fe0d6b5efeb9a816b346ac4124435be67a9a1ed789f885c",
+                "MacAddress": "02:42:ac:1c:03:03",
+                "IPv4Address": "172.28.3.3/26",
+                "IPv6Address": "fd03:1136:3800::303/122"
+            },
+            "e07eb14b137e1a0b99826e9d90a326db443438c59af2b9da1a1d77b264f72f36": {
+                "Name": "cloudlzcappqemu-app-1",
+                "EndpointID": "af23598c7ff78f108ae77e66a2aae8327d1e98429c751501afa039edbfbb6615",
+                "MacAddress": "02:42:ac:1c:03:02",
+                "IPv4Address": "172.28.3.2/26",
+                "IPv6Address": "fd03:1136:3800::302/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-547c8c61"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "347974c87163ba5d62002516a6c453cd5c7348d96ac8255de4a04de7b9de8d58",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "cloudlzcappqemu",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: comlxyappclash_default
+[
+    {
+        "Name": "comlxyappclash_default",
+        "Id": "b914672c477a65a248a08e59915ef0d93ee80916db856ba4a481dc950bdcf5e7",
+        "Created": "2025-11-16T12:12:37.182104064+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.4.0/26",
+                    "Gateway": "172.28.4.1"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::400/122",
+                    "Gateway": "fd03:1136:3800::401/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "2aa1cd4ecb4e87feb1fbceaaf405c0593e82ee982390b69f90b565f7cb152f98": {
+                "Name": "comlxyappclash-app-1",
+                "EndpointID": "665b87838e9c636fe70ef6cd59eb80648b2ca002949e85cb2d4864f385a11706",
+                "MacAddress": "02:42:ac:1c:04:02",
+                "IPv4Address": "172.28.4.2/26",
+                "IPv6Address": "fd03:1136:3800::402/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-66744eb8"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "ef5dbb364f7e5117ec0346518571b9ddf4a88603091ed861b6cf893797a221f7",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "comlxyappclash",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: host
+[
+    {
+        "Name": "host",
+        "Id": "5b49d43c68f759d019ca23a0189ecbafc09571c552f32bd066b2e6267a64f058",
+        "Created": "2025-11-14T23:44:58.067507448+08:00",
+        "Scope": "local",
+        "Driver": "host",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": null
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "3e8a45dd32d588dc9d3e4408c7e7c099e4aafc947cda7208733589c600ec0f54": {
+                "Name": "cloudlazycatappforward-lan-1",
+                "EndpointID": "d3ea1b956859cc659623bad7214542fc9e22f2be33b68341a56404655e050c73",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            },
+            "684bb7777299c1d09dabf53a7b1f48f02063b2256d05c0d26d4324bd86daabb0": {
+                "Name": "cloudlazycatshellfiles-smbforward-1",
+                "EndpointID": "0cdcdbf7974fc91eff1f65bc65457fd19f1823426b4af8b28880328077727c2f",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            },
+            "81dfe4fd2362ca26714bf84c6f7d3b3acfc4406664acf24556bcca53db24cd22": {
+                "Name": "cloudlazycatdevelopertools-registry-proxy-1",
+                "EndpointID": "394c65aa77f259df3f131c5c417ea9b2577cfee3b946c1b0c3743a3244f8846a",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            },
+            "e46ce7898ded6203e82fe93b226a0e24a34edb2c3bf7ce0c53913c9eb0d2a4a6": {
+                "Name": "comlxyappclash-clash-1",
+                "EndpointID": "56d3a8f8bf38f74927d785032cfcf9d52e684e30ad13cba00188cd8ffb411bc0",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            },
+            "ea760d245b88027153b57794d03929ad1e3d9df8601e37f564b468279a441118": {
+                "Name": "cloudlazycatappai-mdns_discovery-1",
+                "EndpointID": "160df7795dfcf4ec18655b8efb781c54b69ef002be47c3a7bfb0b85574930d85",
+                "MacAddress": "",
+                "IPv4Address": "",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
+正在检查网络: lazycatcommunityappopenlist_default
+[
+    {
+        "Name": "lazycatcommunityappopenlist_default",
+        "Id": "d9b3f18de934145bbe520936f22ed18222427f537974b916ed737d51347dfd5e",
+        "Created": "2025-11-14T23:45:35.451873416+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.1.0/26",
+                    "Gateway": "172.28.1.1"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::100/122",
+                    "Gateway": "fd03:1136:3800::101/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "5f72e8e169efd5d48276004f261dea118b410cf05f2e5d8cb22115848c6d3dcf": {
+                "Name": "lazycatcommunityappopenlist-openlist-1",
+                "EndpointID": "84ee4bc4ab866680991c7ea48649bbd5374abfb951b98e9b4b23c9798a60a2d2",
+                "MacAddress": "02:42:ac:1c:01:03",
+                "IPv4Address": "172.28.1.3/26",
+                "IPv6Address": "fd03:1136:3800::103/122"
+            },
+            "921de5a6b269cbc8784483cdfcd8963181e44621ac5a8a59ac20f25391552559": {
+                "Name": "lazycatcommunityappopenlist-app-1",
+                "EndpointID": "bb7bf234954c5ff140903b712e9bba06ca3b48ce2ae56b5dcfab99bc85f0bef5",
+                "MacAddress": "02:42:ac:1c:01:02",
+                "IPv4Address": "172.28.1.2/26",
+                "IPv6Address": "fd03:1136:3800::102/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-9963f095"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "74d9dce299597db2ed3eb0b55f52a8e4cfa10079c2143a93bde717fe61eea8dc",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "lazycatcommunityappopenlist",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: none
+[
+    {
+        "Name": "none",
+        "Id": "843d2efb98347a081e66d7e8719b2ae69dcb837957e597ee809e4b3eb0c5f7bc",
+        "Created": "2025-11-14T23:44:57.720327586+08:00",
+        "Scope": "local",
+        "Driver": "null",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": null
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {},
+        "Options": {},
+        "Labels": {}
+    }
+]
+正在检查网络: topj0k3rlpk-inspector_default
+[
+    {
+        "Name": "topj0k3rlpk-inspector_default",
+        "Id": "444bd09aeb08fbe4ddc6d3fde188d15722087c230a389f8a2a08253381cedc3d",
+        "Created": "2025-11-15T17:59:35.039268697+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.1.192/26",
+                    "Gateway": "172.28.1.193"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::1c0/122",
+                    "Gateway": "fd03:1136:3800::1c1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "a03b45c4ae3a4e8c52e1867d45bac2ca79c7fb7529bb4f6a5bc5d4895d1fc0b2": {
+                "Name": "topj0k3rlpk-inspector-app-1",
+                "EndpointID": "ed8ae6beae6e7496efdd3f1297e0f958b0fca29eecb0d1c15f36e94dc182172f",
+                "MacAddress": "02:42:ac:1c:01:c2",
+                "IPv4Address": "172.28.1.194/26",
+                "IPv6Address": "fd03:1136:3800::1c2/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-8d9c1795"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "e151307ada063ae55439a085edb5f80634dd436ace8a5f7b4fe415e47592930d",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "topj0k3rlpk-inspector",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+正在检查网络: xyzmxuemaxkb_default
+[
+    {
+        "Name": "xyzmxuemaxkb_default",
+        "Id": "f33e52322e798c4fc20fe981a7ec8e684c30d18eb66e3891fcd92efa9be36226",
+        "Created": "2025-11-16T10:51:38.967788483+08:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": true,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.28.3.192/26",
+                    "Gateway": "172.28.3.193"
+                },
+                {
+                    "Subnet": "fd03:1136:3800::3c0/122",
+                    "Gateway": "fd03:1136:3800::3c1/122"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "da928bbc14df60919e4c9442fcfda7beca595d6e03ec1e7315e4f4e376c6f8a2": {
+                "Name": "xyzmxuemaxkb-app-1",
+                "EndpointID": "29f38fce91d23209abec34d4a362dfaeac143d53a49712d2e1edfdabe13ead49",
+                "MacAddress": "02:42:ac:1c:03:c2",
+                "IPv4Address": "172.28.3.194/26",
+                "IPv6Address": "fd03:1136:3800::3c2/122"
+            },
+            "f6d05025b77b4f88de3527b6a43c01838bd284df36c2b52354c1e428c3bd8124": {
+                "Name": "xyzmxuemaxkb-maxkb-1",
+                "EndpointID": "41614b127aca659bdb9b6d46e9567025a13bd9912e50540caf2924fd602e9b7d",
+                "MacAddress": "02:42:ac:1c:03:c3",
+                "IPv4Address": "172.28.3.195/26",
+                "IPv6Address": "fd03:1136:3800::3c3/122"
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.name": "lzc-br-ac3d70db"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "9c12102d004dce6ed7c8a4c426a2472952b4ddad58a519b50039b9b8ef16f4bd",
+            "com.docker.compose.network": "default",
+            "com.docker.compose.project": "xyzmxuemaxkb",
+            "com.docker.compose.version": "2.32.4"
+        }
+    }
+]
+
+real	0m1.187s
+user	0m0.796s
+sys	0m0.602s

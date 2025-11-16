@@ -1,0 +1,65 @@
+name: AI Pod
+package: cloud.lazycat.app.ai
+version: 0.9.26
+description: 
+license: https://choosealicense.com/licenses/mit/
+homepage: 
+author: 
+locales:
+  zh:
+    name: AI Pod
+  zh_CN:
+    name: AI Pod
+  en:
+    name: AI Pod
+  ja:
+    name: AI Pod
+application:
+  subdomain: ai
+  routes:
+    - /=http://caddy.cloud.lazycat.app.ai.lzcapp:80
+  public_path:
+    - /
+aipod:
+  shortcut:
+    disable: true
+services:
+  mdns_discovery:
+    image: registry.lazycat.cloud/alpine:3.18
+    entrypoint: /lzcapp/pkg/content/discover.amd64
+    network_mode: host
+  backend:
+    image: registry.lazycat.cloud/catdogai/backend:20250625
+    entrypoint: /lzcapp/pkg/content/server.amd64
+    depends_on:
+      - postgres
+  convert:
+    image: registry.lazycat.cloud/square/convert:20250819
+    entrypoint: /lzcapp/pkg/content/convert.amd64
+    environment:
+      - ASR_URL=https://asr-ai.${LAZYCAT_BOX_DOMAIN}
+    depends_on:
+      - postgres
+  postgres:
+    image: registry.lazycat.cloud/catdogai/postgres:17.4-1-pgvectorscale-20250422
+    binds:
+      - /lzcapp/var/pg-v2:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=temppassword
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - PGUSER=postgres
+    shm_size: 1g
+    health_check:
+      test:
+        - CMD
+        - pg_isready
+        - '-U'
+        - postgres
+      start_period: 60s
+  caddy:
+    image: registry.lazycat.cloud/catdogai/caddy-aipod:6c2f94c3
+    setup_script: |
+      cp /lzcapp/pkg/content/Caddyfile /etc/caddy/Caddyfile
+      cat /etc/caddy/Caddyfile
+  mtrans:
+    image: registry.lazycat.cloud/x/lzc-aipod-mtrans:3f3b3fc

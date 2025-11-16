@@ -1,0 +1,461 @@
+● lzcbox-60378f6b
+    State: running
+    Units: 530 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Fri 2025-11-14 23:44:24 CST; 1 day 21h ago
+  systemd: 254.22-1~bpo12+1
+   CGroup: /
+           ├─init.scope
+           │ └─1 /lib/systemd/systemd
+           └─system.slice
+             ├─NetworkManager.service
+             │ └─626 /usr/sbin/NetworkManager --no-daemon
+             ├─dbus.service
+             │ └─613 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+             ├─hportal-server.service
+             │ └─637 /lzcsys/sbin/hportal-server -cfgHome=/lzcsys/etc/hportal-server
+             ├─lzc-base-daemon.service
+             │ ├─   642 /lzcsys/sbin/lzc-base-daemon
+             │ ├─819718 /bin/bash /lzcsys/bin/hc upload_stdout
+             │ ├─820436 /bin/bash /lzcsys/bin/hc upload_stdout
+             │ ├─820437 /bin/bash /lzcsys/bin/hc upload_stdout
+             │ ├─820438 timeout 15 /lzcsys/share/lazycat-cloud/log-scripts/systemd-base/fetch
+             │ ├─820439 /bin/bash /lzcsys/share/lazycat-cloud/log-scripts/systemd-base/fetch
+             │ └─820509 systemctl status
+             ├─lzc-os.service
+             │ ├─ 645 /bin/bash /lzcsys/sbin/lzc-os.sh run
+             │ └─1229 runc --systemd-cgroup run -b /run/lzcsys/boot/lzc-os-init lzc-os
+             ├─lzc-plymouth.service
+             │ ├─   615 /usr/bin/bash -c "[ ! -e /lzcsys/etc/machine.bsid ] && sleep 1d; plymouth-set-default-theme lzc; plymouthd --ignore-serial-consoles; sleep 0.1; plymouth show-splash ; sleep 9; killall -STOP plymouthd; until timeout 0.5 runc exec lzc-os bash -c '[ \$(/lzcsys/bin/lzc-docker inspect lzc-tvos --format=json | jq -r .[0].State.Status) = running ]' > /dev/null 2>&1 ; do sleep 0.2; done ; killall -KILL plymouthd"
+             │ ├─   629 plymouthd --ignore-serial-consoles
+             │ └─820502 sleep 0.2
+             ├─lzc-wifip2p-switcher.service
+             │ ├─648 /lzcsys/sbin/lzc-wifip2p-switcher
+             │ └─758 nmcli monitor
+             ├─runc-lzc-os.scope
+             │ ├─init.scope
+             │ │ └─1242 /lib/systemd/systemd
+             │ ├─lzcapp.slice
+             │ │ ├─lzcapp-cloud.lazycat.aipod.knowledge.slice
+             │ │ │ ├─docker-03d0b1b584314428629685a97089753faf35e81d07adbece0bebb516c4651b7b.scope
+             │ │ │ │ ├─3928484 /lzcinit/cloud.lazycat.aipod.knowledge -setup-script caddy
+             │ │ │ │ └─3928645 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+             │ │ │ ├─docker-0a4bc94f69f98d46446d32ee51c76d3c8cf4ff43c6c8844c8dfba5e31da335a1.scope
+             │ │ │ │ └─3937557 python3 server.py
+             │ │ │ ├─docker-94074c01b7185abe2a78f8aa1f2472939bfb2d8522156190de616240d8a2d07a.scope
+             │ │ │ │ └─3928802 python3 server.py
+             │ │ │ ├─docker-9c03a296cfa76edd1cddd66f10cadb97ca5030843b260008ead3d45af100753a.scope
+             │ │ │ │ └─3928454 /lzcinit/cloud.lazycat.aipod.knowledge -listen :80 -grpc_listen :81
+             │ │ │ └─docker-b967afcb364a24f1fcaf644f6a668f09b29b851311d1e57af431e4a33954a013.scope
+             │ │ │   ├─3928721 postgres -c config_file=/etc/postgresql.conf
+             │ │ │   ├─3937061 "postgres: checkpointer "
+             │ │ │   ├─3937062 "postgres: background writer "
+             │ │ │   ├─3937089 "postgres: walwriter "
+             │ │ │   ├─3937090 "postgres: autovacuum launcher "
+             │ │ │   ├─3937091 "postgres: logical replication launcher "
+             │ │ │   ├─3938545 "postgres: postgres postgres fd03:1136:3800::346(51912) idle"
+             │ │ │   ├─3938547 "postgres: postgres postgres fd03:1136:3800::346(51930) idle"
+             │ │ │   └─3962173 "postgres: postgres postgres fd03:1136:3800::346(37574) idle"
+             │ │ ├─lzcapp-cloud.lazycat.aipod.rag.slice
+             │ │ │ ├─docker-1f39777be01c8439cd7893b520b82fcba56b63d83daffeff67513726306e0c3a.scope
+             │ │ │ │ ├─2016633 /sbin/docker-init -- python3 server.py
+             │ │ │ │ └─2016802 python3 server.py
+             │ │ │ ├─docker-4c31b456cfeb5f5c80d236d2e2aef1dade889652418b020d866bd0d856db0fc2.scope
+             │ │ │ │ ├─2018030 postgres -c config_file=/etc/postgresql.conf
+             │ │ │ │ ├─2020246 "postgres: checkpointer "
+             │ │ │ │ ├─2020247 "postgres: background writer "
+             │ │ │ │ ├─2020353 "postgres: walwriter "
+             │ │ │ │ ├─2020354 "postgres: autovacuum launcher "
+             │ │ │ │ ├─2020355 "postgres: logical replication launcher "
+             │ │ │ │ ├─2024663 "postgres: postgres postgres 172.28.4.73(33408) idle"
+             │ │ │ │ └─2024664 "postgres: postgres postgres 172.28.4.73(33412) idle"
+             │ │ │ ├─docker-4ea2fc16b064a65a20305e8e05cd947cb0abdfb3831cbd829f2cfe598a53c747.scope
+             │ │ │ │ └─2016857 /lzcinit/cloud.lazycat.aipod.rag -listen :80 -grpc_listen :81
+             │ │ │ ├─docker-61a23ae8593a581cfd0244fe41b573e2f4ad61d99bd99638c1bab4860e739463.scope
+             │ │ │ │ ├─2017155 /sbin/docker-init -- python3 server.py
+             │ │ │ │ └─2017346 python3 server.py
+             │ │ │ ├─docker-86cac99ecb3e5831748d6328cbf96d3a84006b33737dcf168c198bc81f487462.scope
+             │ │ │ │ ├─2017255 /sbin/docker-init -- python3 server.py
+             │ │ │ │ └─2017437 python3 server.py
+             │ │ │ ├─docker-c614148b5c2d42261e173ed3103c02e7f9faad104cd040f9b316452f6095b8cb.scope
+             │ │ │ │ ├─2017601 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+             │ │ │ │ ├─2019519 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+             │ │ │ │ ├─2019520 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+             │ │ │ │ ├─2019537 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+             │ │ │ │ └─2019538 /usr/local/bin/python3.12 /usr/local/bin/gunicorn -w 4 -b 0.0.0.0:5000 app:app
+             │ │ │ ├─docker-e25a2994a42e21f5d9cdc71dfdda88abac9e24229c9b4284acba6e623810a73a.scope
+             │ │ │ │ ├─2016495 /lzcinit/cloud.lazycat.aipod.rag -setup-script caddy
+             │ │ │ │ └─2016570 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+             │ │ │ └─docker-f7504ce4803c66c68fed52d87daa02c4b0996fd5c3d24f2873733844b24fe2ef.scope
+             │ │ │   └─2022802 /lzcapp/pkg/content/server.amd64
+             │ │ ├─lzcapp-cloud.lazycat.app.ai.slice
+             │ │ │ ├─docker-2d69322ac75bacafa57f60df20e1a6d7e0661182927f6a78d5d3d7dbeaa01309.scope
+             │ │ │ │ ├─  15237 postgres
+             │ │ │ │ ├─  17286 "postgres: checkpointer "
+             │ │ │ │ ├─  17287 "postgres: background writer "
+             │ │ │ │ ├─  17336 "postgres: walwriter "
+             │ │ │ │ ├─  17337 "postgres: autovacuum launcher "
+             │ │ │ │ ├─  17338 "postgres: logical replication launcher "
+             │ │ │ │ ├─  18494 "postgres: postgres postgres 172.28.0.198(50588) idle"
+             │ │ │ │ ├─  18766 "postgres: postgres postgres 172.28.0.199(59710) idle"
+             │ │ │ │ ├─ 484608 "postgres: postgres postgres 172.28.0.198(35076) idle"
+             │ │ │ │ └─2014272 "postgres: postgres postgres 172.28.0.199(41088) idle"
+             │ │ │ ├─docker-9d86db7fc369252055796dcccb8d003aa9ba047f6091ac22b145cc87a83a13c8.scope
+             │ │ │ │ └─18068 /lzcapp/pkg/content/convert.amd64
+             │ │ │ ├─docker-a8168fa366c60c75822cac38e5c9e7826cf1c6351b9f94b609231afc4ccd5444.scope
+             │ │ │ │ ├─16197 /lzcinit/cloud.lazycat.app.ai -setup-script caddy
+             │ │ │ │ └─16558 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+             │ │ │ ├─docker-bf11feb443ce5da7d8d94f112ca033083e9cec3c9aa437de60fe733a586868c3.scope
+             │ │ │ │ └─18149 /lzcapp/pkg/content/server.amd64
+             │ │ │ ├─docker-c22ddfb6a5368dcf0e1a081c8e894c0c186e13037d938ec9fd43e78327a81718.scope
+             │ │ │ │ └─15576 /app/mtrans
+             │ │ │ ├─docker-c2a386c957c202bbfce596129a9e6dfa4fa0c5061d8592b52434b6250662324b.scope
+             │ │ │ │ └─16077 /lzcinit/cloud.lazycat.app.ai -listen :80 -grpc_listen :81
+             │ │ │ └─docker-ea760d245b88027153b57794d03929ad1e3d9df8601e37f564b468279a441118.scope
+             │ │ │   └─15145 /lzcapp/pkg/content/discover.amd64
+             │ │ ├─lzcapp-cloud.lazycat.app.contacts.slice
+             │ │ │ └─docker-41bf21e970cd855c6ef70c09102bb7d8b409208a47b68a52a273510e4126738d.scope
+             │ │ │   ├─10828 /lzcinit/cloud.lazycat.app.contacts -listen :80 -grpc_listen :81
+             │ │ │   └─11054 /lzcapp/pkg/content/lzc-contacts
+             │ │ ├─lzcapp-cloud.lazycat.app.create.slice
+             │ │ │ ├─docker-1b5ebc5c35ebcab5ad77266b54ba723d5ab6cf7c9f6684543e1e14da75d1c1fa.scope
+             │ │ │ │ └─122527 node /app/main.js
+             │ │ │ └─docker-94e19b39929a112e7fd09e1350254ba319d171ef73f6b514e0e0d9fc80065d52.scope
+             │ │ │   └─123183 /lzcinit/cloud.lazycat.app.create -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.app.customrelay.slice
+             │ │ │ └─docker-0e909255e0a6df030c257aded0b9b55b17b33113d8c54c538d9167e6979e39e7.scope
+             │ │ │   ├─15676 /lzcinit/cloud.lazycat.app.customrelay -listen :80 -grpc_listen :81
+             │ │ │   └─15834 ld-linux-x86-64.so.2 --argv0 /lzcapp/pkg/content/backend --preload "/lib/libgcompat.so.0 " -- /lzcapp/pkg/content/backend
+             │ │ ├─lzcapp-cloud.lazycat.app.dockge.slice
+             │ │ │ ├─docker-b01803726dd1cb727618515d23e5b0e9db58bcdf711a7d12036d74e42712721e.scope
+             │ │ │ │ ├─3999342 /usr/bin/dumb-init -- tsx ./backend/index.ts
+             │ │ │ │ ├─3999481 node /pnpm/global/5/node_modules/tsx/dist/cli.mjs ./backend/index.ts
+             │ │ │ │ ├─3999868 /usr/local/bin/node --require /pnpm/global/5/.pnpm/tsx@4.19.2/node_modules/tsx/dist/preflight.cjs --import file:///pnpm/global/5/.pnpm/tsx@4.19.2/node_modules/tsx/dist/loader.mjs ./backend/index.ts
+             │ │ │ │ ├─4000028 /pnpm/global/5/.pnpm/@esbuild+linux-x64@0.23.1/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.23.1 --ping
+             │ │ │ │ └─4000902 /pnpm/global/5/.pnpm/@esbuild+linux-x64@0.23.1/node_modules/@esbuild/linux-x64/bin/esbuild --service=0.23.1 --ping
+             │ │ │ └─docker-f7f79e9043d436ef3c8e3ee77ac3d741239054891a5dec448973eff02420195d.scope
+             │ │ │   └─3999102 /lzcinit/cloud.lazycat.app.dockge -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.app.forward.slice
+             │ │ │ ├─docker-3e8a45dd32d588dc9d3e4408c7e7c099e4aafc947cda7208733589c600ec0f54.scope
+             │ │ │ │ └─1560320 /lzcapp/pkg/content/lzc-lan-forward
+             │ │ │ └─docker-6d6ebdc51570dbc70fe8f4af2cf2ed39e542337199fae3a46d9ca0ca65ed1e66.scope
+             │ │ │   └─1560439 /lzcinit/cloud.lazycat.app.forward -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.app.jellyfinsingle.slice
+             │ │ │ ├─docker-16481e1a6a8c1add0e0e9ea3bd1ac47c3390113be18299db28784bef578c4bd5.scope
+             │ │ │ │ └─3088401 /jellyfin/jellyfin
+             │ │ │ └─docker-ac29844475845825cc0bb4c042cfaa2c8ad431349b3fa1372b52d87b97b333c9.scope
+             │ │ │   └─3088280 /lzcinit/cloud.lazycat.app.jellyfinsingle -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.app.logviewer.slice
+             │ │ │ ├─docker-4d426929027afb81bdaba75cd7cad45746a2921971fa9d1f0d623f957f1632c5.scope
+             │ │ │ │ ├─2799225 python /app/app.py
+             │ │ │ │ └─2800173 /usr/local/bin/python /app/app.py
+             │ │ │ └─docker-789910d2bdf89fdd961cc3deef50adbd83abb8f5aab1e6d39237f48c484a67f5.scope
+             │ │ │   └─2799226 /lzcinit/cloud.lazycat.app.logviewer -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.app.onemcp.slice
+             │ │ │ ├─docker-20771b056459a1fe2d87b9e2adee136dcef5380203d021ad9a388ccc9c5b2352.scope
+             │ │ │ │ └─1004209 /lzcinit/cloud.lazycat.app.onemcp -listen :80 -grpc_listen :81
+             │ │ │ └─docker-42ac4c47098c2a60890c48eab03ea9fd852882571d6b6d38940213d72ca39664.scope
+             │ │ │   ├─1004304 /one-mcp
+             │ │ │   ├─1004470 "npm exec @wordbricks/fetch-mcp"
+             │ │ │   └─1007536 node /root/.npm/_npx/e0f3f30cc48938e4/node_modules/.bin/fetch-mcp
+             │ │ ├─lzcapp-cloud.lazycat.app.photo.slice
+             │ │ │ ├─docker-1e5130fe8aa2c7724e939cc446667012e6dafff374728b31c629d23b216757e7.scope
+             │ │ │ │ ├─498958 postgres
+             │ │ │ │ ├─500466 "postgres: checkpointer "
+             │ │ │ │ ├─500467 "postgres: background writer "
+             │ │ │ │ ├─500527 "postgres: walwriter "
+             │ │ │ │ ├─500528 "postgres: autovacuum launcher "
+             │ │ │ │ ├─500529 "postgres: logical replication launcher "
+             │ │ │ │ ├─511462 "postgres: lzc lzc [local] idle"
+             │ │ │ │ └─878116 "postgres: lzc lzc [local] idle"
+             │ │ │ ├─docker-6074fa3459ab4232a18207efb68667f9f6580b2cdd43b9c11db5b739250d5ea5.scope
+             │ │ │ │ └─499097 /bin/weaviate --host 0.0.0.0 --port 8080 --scheme http
+             │ │ │ ├─docker-8faee164fdb0bcddc2ead25b1580f6dba10452044d35bfac71d40962e66f1635.scope
+             │ │ │ │ ├─498962 /sbin/docker-init -- bash -c "date;python server.py"
+             │ │ │ │ └─499120 python server.py
+             │ │ │ └─docker-b0f6e1822ab89cc46ee509b58b34da6d8c28b1d8a329dc4bea13cd31f869db68.scope
+             │ │ │   ├─502782 /lzcinit/cloud.lazycat.app.photo -listen :80 -grpc_listen :81
+             │ │ │   ├─502916 /bin/bash /lzcapp/pkg/content/app.sh
+             │ │ │   ├─503047 /lzcapp/pkg/content/lzc-photo
+             │ │ │   └─504570 perl /usr/bin/exiftool -stay_open True -@ -
+             │ │ ├─lzcapp-cloud.lazycat.developer.tools.slice
+             │ │ │ ├─docker-06547fa1b0ca770176c77b60254c4655dcd84fdec48da88b2a0c79540b3bbe17.scope
+             │ │ │ │ └─1713633 registry serve /etc/docker/registry/config.yml
+             │ │ │ ├─docker-81dfe4fd2362ca26714bf84c6f7d3b3acfc4406664acf24556bcca53db24cd22.scope
+             │ │ │ │ ├─1714242 "nginx: master process nginx -g daemon off;"
+             │ │ │ │ └─1714598 "nginx: worker process"
+             │ │ │ ├─docker-9f8877ce6f9cc3e33d51589b5ce64228c12874c6f4289ffbbf1091dd8c02264d.scope
+             │ │ │ │ ├─1713723 /lzcinit/cloud.lazycat.developer.tools -listen :80 -grpc_listen :81
+             │ │ │ │ ├─1713911 "sshd: /usr/sbin/sshd -D -e -f /lzcapp/pkg/content/config/sshd_config [listener] 0 of 10-100 startups"
+             │ │ │ │ ├─1713943 /lzcapp/pkg/content/debug.bridge forward-rsync
+             │ │ │ │ ├─1713944 /lzcapp/pkg/content/debug.bridge server
+             │ │ │ │ └─1715036 rsync --daemon --no-detach --config=/lzcapp/pkg/content/config/rsyncd.conf
+             │ │ │ └─docker-ac3482f35b35a795c8fea00acad2d86a7e936b1c7bf7c1b32787504952195180.scope
+             │ │ │   └─1713408 /dozzle
+             │ │ ├─lzcapp-cloud.lazycat.shell.appstore.slice
+             │ │ │ └─docker-7275ad2640886a9681c2d8b521919e7da79826efa66c0d63c65918829b6345ca.scope
+             │ │ │   └─10495 /lzcinit/cloud.lazycat.shell.appstore -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-cloud.lazycat.shell.files.slice
+             │ │ │ ├─docker-0245f0a5895b09e063817c540fa5c5e539c037021064b37365902720973a75ab.scope
+             │ │ │ │ ├─12197 /sbin/tini -- /usr/local/bin/smbserver
+             │ │ │ │ ├─12322 /usr/local/bin/smbserver
+             │ │ │ │ ├─12667 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+             │ │ │ │ ├─13352 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+             │ │ │ │ └─13353 smbd --foreground --no-process-group --debuglevel=1 --debug-stdout
+             │ │ │ ├─docker-1be9683beb3059524f58a04a3c2b4b6b552d4bd23740f0517dbfbd9072f73a61.scope
+             │ │ │ │ └─10731 /lzcai -addr :10080
+             │ │ │ ├─docker-2fc3045a36a6f5537ed06fb6ff436fad150447ed024c062d8688110b419e1d36.scope
+             │ │ │ │ ├─11221 tini -- /app/lzc-file-mount
+             │ │ │ │ ├─11292 /app/lzc-file-mount
+             │ │ │ │ ├─11380 rpc.statd -F
+             │ │ │ │ └─11402 rpcbind -w
+             │ │ │ ├─docker-684bb7777299c1d09dabf53a7b1f48f02063b2256d05c0d26d4324bd86daabb0.scope
+             │ │ │ │ ├─10885 /sbin/tini -- /root/smbforwarder
+             │ │ │ │ ├─10898 /root/smbforwarder
+             │ │ │ │ ├─14421 nmbd --debug-stdout --interactive --foreground --no-process-group
+             │ │ │ │ ├─14432 /usr/sbin/wsdd2 -G WORKGROUP
+             │ │ │ │ └─14433 "avahi-daemon: running [lzcbox-60378f6b.local]"
+             │ │ │ ├─docker-6d617429621207f11e3eb8138e9d5914aae56ff9cd21e2d7bd0d4a5e9e0e82b4.scope
+             │ │ │ │ ├─11701 /bin/sh /entrypoint_cpp.sh
+             │ │ │ │ └─11871 /usr/bin/funasrgo
+             │ │ │ ├─docker-d2068bff4daf0304e528af628d2d6e40e8753d3176dddc91b04b7dade634638c.scope
+             │ │ │ │ ├─11972 /lzcinit/cloud.lazycat.shell.files -listen :80 -grpc_listen :81
+             │ │ │ │ ├─12151 sh -c /lzcapp/pkg/content/app.sh
+             │ │ │ │ ├─12301 /bin/bash /lzcapp/pkg/content/app.sh
+             │ │ │ │ ├─12467 /lzcapp/pkg/content/backend
+             │ │ │ │ └─15018 rclone rcd --rc-addr unix:///tmp/rclone/rclone.sock --rc-no-auth --config /tmp/rclone.conf
+             │ │ │ └─docker-e431293aae03319c3f62c232c40f48b96f9660ac2735008b27e4e470c6fe8ea2.scope
+             │ │ │   └─11491 /lzc-media/bin/lzc-media-service-static -config /lzc-media/defaultConfig.json
+             │ │ ├─lzcapp-cloud.lzcapp.qemu.slice
+             │ │ │ ├─docker-633898f317b02329e825251e94044fcb20db24ed2c8b6d6a99a06ada358acedd.scope
+             │ │ │ │ ├─3050038 /usr/bin/tini -s /run/entry.sh
+             │ │ │ │ ├─3050131 qemu-system-x86_64 -nodefaults -cpu host,kvm=on,l3-cache=on,+hypervisor,migratable=no,+invtsc -smp 2,sockets=1,dies=1,cores=2,threads=1 -m 2G -machine type=q35,smm=off,graphics=off,vmport=off,dump-guest-core=off,hpet=off,accel=kvm -enable-kvm -global kvm-pit.lost_tick_policy=discard -smbios type=1,serial=Defaultstring -display vnc=:0,websocket=5700 -vga virtio -monitor telnet:localhost:7100,server,nowait,nodelay -name qemu,process=qemu,debug-threads=on -serial mon:stdio -device qemu-xhci,id=xhci,p2=7,p3=7 -device usb-tablet -netdev tap,id=hostnet0,ifname=qemu,vhost=on,vhostfd=40,script=no,downscript=no -device virtio-net-pci,id=net0,netdev=hostnet0,romfile=,mac=02:D3:83:55:FA:3D -drive file=/storage/alpine-extended-3.11.0-x86_64/boot.iso,id=cdrom9,format=raw,cache=unsafe,readonly=on,media=cdrom,if=none -device usb-storage,drive=cdrom9,bootindex=9,removable=on -drive file=/storage/alpine-extended-3.11.0-x86_64/data.img,id=data3,format=raw,cache=none,aio=native,discard=on,detect-zeroes=on,if=none -device virtio-scsi-pci,id=data3b,bus=pcie.0,addr=0xa,iothread=io2 -device scsi-hd,drive=data3,bus=data3b.0,channel=0,scsi-id=0,lun=0,rotation_rate=1,bootindex=3 -object iothread,id=io2 -drive file=/storage/alpine-extended-3.11.0-x86_64/uefi.rom,if=pflash,unit=0,format=raw,readonly=on -drive file=/storage/alpine-extended-3.11.0-x86_64/uefi.vars,if=pflash,unit=1,format=raw -object rng-random,id=objrng0,filename=/dev/urandom -device virtio-rng-pci,rng=objrng0,id=rng0,bus=pcie.0 -device virtio-balloon-pci,id=balloon0,bus=pcie.0
+             │ │ │ │ ├─3050415 "nginx: master process nginx -e stderr"
+             │ │ │ │ ├─3050416 "nginx: worker process"
+             │ │ │ │ ├─3050417 websocketd --address 127.0.0.1 --port=8004 /run/socket.sh
+             │ │ │ │ └─3050809 /usr/sbin/dnsmasq --dhcp-authoritative --dhcp-range=172.30.3.3,172.30.3.3 --dhcp-host=02:D3:83:55:FA:3D,,172.30.3.3,QEMU,infinite --dhcp-option=option:netmask,255.255.255.0 --dhcp-option=option:router,172.30.3.1 --dhcp-option=option:dns-server,172.30.3.1 --interface=docker --bind-interfaces --address=/host.lan/172.30.3.1 --log-facility=/var/log/dnsmasq.log
+             │ │ │ └─docker-e07eb14b137e1a0b99826e9d90a326db443438c59af2b9da1a1d77b264f72f36.scope
+             │ │ │   └─3049911 /lzcinit/cloud.lzcapp.qemu -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-com.lxy.app.clash.slice
+             │ │ │ ├─docker-2aa1cd4ecb4e87feb1fbceaaf405c0593e82ee982390b69f90b565f7cb152f98.scope
+             │ │ │ │ └─1328051 /lzcinit/com.lxy.app.clash -listen :80 -grpc_listen :81
+             │ │ │ └─docker-e46ce7898ded6203e82fe93b226a0e24a34edb2c3bf7ce0c53913c9eb0d2a4a6.scope
+             │ │ │   ├─1327924 /bin/sh /entrypoint.sh
+             │ │ │   └─1327972 /usr/local/bin/mihomo -d /etc/mihomo
+             │ │ ├─lzcapp-lazycat.community.app.openlist.slice
+             │ │ │ ├─docker-5f72e8e169efd5d48276004f261dea118b410cf05f2e5d8cb22115848c6d3dcf.scope
+             │ │ │ │ ├─13980 ./openlist server --no-prefix
+             │ │ │ │ ├─14321 runsvdir /opt/service/start
+             │ │ │ │ ├─14513 runsv aria2
+             │ │ │ │ ├─14514 svlogd /opt/openlist/data/log/aria2
+             │ │ │ │ └─14515 aria2c --enable-rpc --rpc-allow-origin-all --conf-path=/opt/aria2/.aria2/aria2.conf
+             │ │ │ └─docker-921de5a6b269cbc8784483cdfcd8963181e44621ac5a8a59ac20f25391552559.scope
+             │ │ │   └─13497 /lzcinit/lazycat.community.app.openlist -listen :80 -grpc_listen :81
+             │ │ ├─lzcapp-top.j0k3r.lpk.slice
+             │ │ │ └─lzcapp-top.j0k3r.lpk-inspector.slice
+             │ │ │   └─docker-a03b45c4ae3a4e8c52e1867d45bac2ca79c7fb7529bb4f6a5bc5d4895d1fc0b2.scope
+             │ │ │     └─4182927 /lzcinit/top.j0k3r.lpk-inspector -listen :80 -grpc_listen :81
+             │ │ └─lzcapp-xyz.mxue.maxkb.slice
+             │ │   ├─docker-da928bbc14df60919e4c9442fcfda7beca595d6e03ec1e7315e4f4e376c6f8a2.scope
+             │ │   │ └─155154 /lzcinit/xyz.mxue.maxkb -listen :80 -grpc_listen :81
+             │ │   └─docker-f6d05025b77b4f88de3527b6a43c01838bd284df36c2b52354c1e428c3bd8124.scope
+             │ │     ├─155406 /bin/bash /usr/bin/start-all.sh
+             │ │     ├─155635 /bin/bash /usr/bin/start-postgres.sh
+             │ │     ├─155679 postgres -c max_connections=1000
+             │ │     ├─171612 /bin/bash /usr/bin/start-redis.sh
+             │ │     ├─171622 "redis-server 0.0.0.0:6379"
+             │ │     ├─171669 "postgres: checkpointer "
+             │ │     ├─171670 "postgres: background writer "
+             │ │     ├─171823 "postgres: walwriter "
+             │ │     ├─171824 "postgres: autovacuum launcher "
+             │ │     ├─171825 "postgres: logical replication launcher "
+             │ │     ├─172916 /bin/bash /usr/bin/start-maxkb.sh
+             │ │     ├─172926 python /opt/maxkb-app/main.py start
+             │ │     ├─173425 "postgres: root maxkb 127.0.0.1(46284) idle"
+             │ │     ├─176146 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 127.0.0.1:11636 -k gthread --threads 200 -w 1 --max-requests 0 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─176147 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─176148 /opt/py3/bin/python /opt/py3/bin/celery -A ops worker -P threads -l error -c 10 -Q celery --heartbeat-interval 10 -n celery@%h --without-mingle
+             │ │     ├─176384 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─176385 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 127.0.0.1:11636 -k gthread --threads 200 -w 1 --max-requests 0 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─176400 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─176401 /opt/py3/bin/python /opt/py3/bin/gunicorn maxkb.wsgi:application -b 0.0.0.0:8080 -k gthread --threads 200 -w 3 --max-requests 10240 --max-requests-jitter 2048 --timeout 0 --graceful-timeout 0 --access-logformat "%(h)s %(t)s %(L)ss \"%(r)s\" %(s)s %(b)s " --access-logfile /dev/null --error-logfile -
+             │ │     ├─177132 "postgres: root maxkb 127.0.0.1(51230) idle"
+             │ │     ├─180876 "postgres: root maxkb 127.0.0.1(47368) idle"
+             │ │     ├─181439 "postgres: root maxkb 127.0.0.1(47382) idle"
+             │ │     ├─181461 "postgres: root maxkb 127.0.0.1(47392) idle"
+             │ │     ├─193528 "postgres: root maxkb 127.0.0.1(42716) idle"
+             │ │     ├─193529 "postgres: root maxkb 127.0.0.1(42726) idle"
+             │ │     ├─206186 "postgres: root maxkb 127.0.0.1(45620) idle"
+             │ │     ├─210454 "postgres: root maxkb 127.0.0.1(51222) idle"
+             │ │     └─276647 "postgres: root maxkb 127.0.0.1(56238) idle"
+             │ ├─pg_docker.slice
+             │ │ ├─docker-104294e3395deee3905a75ef8715e6c5ab328483bc06c972a4e53875076de106.scope
+             │ │ │ └─3877074 "redis-server *:6379"
+             │ │ └─docker-ee262912e36ecfe1cd3b769ba9efe3c966af781151314f0089c6733d8c8cb4d6.scope
+             │ │   └─3877078 mysqld
+             │ ├─sys_docker.slice
+             │ │ ├─docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope
+             │ │ │ ├─4726 /lzcapp/pkg/content/lzcshell-iscsi
+             │ │ │ └─4777 iscsid -f
+             │ │ ├─docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope
+             │ │ │ └─3394 /sspk/bin/lzc-apiserver
+             │ │ ├─docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope
+             │ │ │ └─3060 /sspk/lzc-registry-proxy
+             │ │ ├─docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope
+             │ │ │ ├─4343 /sbin/docker-init -- /sspk/bin/lzc-pkgm
+             │ │ │ └─4367 /sspk/bin/lzc-pkgm
+             │ │ ├─docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope
+             │ │ │ ├─4335 /sbin/docker-init -- /sspk/bin/lzc-ingress -a
+             │ │ │ └─4380 /sspk/bin/lzc-ingress -a
+             │ │ ├─docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope
+             │ │ │ ├─4734 /lzcinit/cloud.lazycat.shell.home -listen :80 -grpc_listen :81
+             │ │ │ └─4818 /lzcapp/pkg/content/lzcshell
+             │ │ ├─docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope
+             │ │ │ ├─2534 /sspk/bin/hext -l /lzcsys/var/log/monitors/hext.log
+             │ │ │ └─2602 /lzcsys/bin/nm/nmcli monitor
+             │ │ ├─docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope
+             │ │ │ ├─2736 /sbin/docker-init -- /sspk/lzc-hal
+             │ │ │ └─2750 ld-linux-x86-64.so.2 --argv0 /sspk/lzc-hal --preload "/lib/libgcompat.so.0 " -- /sspk/lzc-hal
+             │ │ ├─docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope
+             │ │ │ ├─2535 /sbin/docker-init -- /sspk/bin/lzc-recovery daemon
+             │ │ │ ├─2554 /sspk/bin/lzc-recovery daemon
+             │ │ │ ├─2675 dmesg -w
+             │ │ │ ├─4837 ping -W 5 -D -i 10 192.168.3.1
+             │ │ │ └─4843 ping -W 5 -D -i 10 ping.lazycat.cloud
+             │ │ ├─docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope
+             │ │ │ └─3402 dex serve /tmp/config.yaml
+             │ │ ├─docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope
+             │ │ │ ├─3475 /sspk/bin/pd-service
+             │ │ │ ├─3507 /sspk/bin/pd-service
+             │ │ │ └─3526 /lib/systemd/systemd-udevd --daemon
+             │ │ └─docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope
+             │ │   └─2878 /sspk/lzc-installer
+             │ ├─system.slice
+             │ │ ├─bluetooth.service
+             │ │ │ └─1646 /usr/libexec/bluetooth/bluetoothd
+             │ │ ├─containerd.service
+             │ │ │ ├─   1651 /usr/bin/containerd
+             │ │ │ ├─   2493 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd -address /run/containerd/containerd.sock
+             │ │ │ ├─   2494 /usr/bin/containerd-shim-runc-v2 -namespace moby -id cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084 -address /run/containerd/containerd.sock
+             │ │ │ ├─   2716 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b -address /run/containerd/containerd.sock
+             │ │ │ ├─   2859 /usr/bin/containerd-shim-runc-v2 -namespace moby -id fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4 -address /run/containerd/containerd.sock
+             │ │ │ ├─   3039 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1 -address /run/containerd/containerd.sock
+             │ │ │ ├─   3344 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957 -address /run/containerd/containerd.sock
+             │ │ │ ├─   3372 /usr/bin/containerd-shim-runc-v2 -namespace moby -id e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9 -address /run/containerd/containerd.sock
+             │ │ │ ├─   3449 /usr/bin/containerd-shim-runc-v2 -namespace moby -id fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e -address /run/containerd/containerd.sock
+             │ │ │ ├─   4272 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d -address /run/containerd/containerd.sock
+             │ │ │ ├─   4287 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21 -address /run/containerd/containerd.sock
+             │ │ │ ├─   4679 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884 -address /run/containerd/containerd.sock
+             │ │ │ ├─   4705 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa -address /run/containerd/containerd.sock
+             │ │ │ ├─   5646 /usr/bin/containerd-shim-runc-v2 -namespace plugins.moby -id b75f6d649f882deabea30cf1e3222d3881a78e14d8a93ebb04e1957aa786a0c4 -address /run/containerd/containerd.sock
+             │ │ │ ├─  10467 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 7275ad2640886a9681c2d8b521919e7da79826efa66c0d63c65918829b6345ca -address /run/containerd/containerd.sock
+             │ │ │ ├─  10700 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1be9683beb3059524f58a04a3c2b4b6b552d4bd23740f0517dbfbd9072f73a61 -address /run/containerd/containerd.sock
+             │ │ │ ├─  10800 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 41bf21e970cd855c6ef70c09102bb7d8b409208a47b68a52a273510e4126738d -address /run/containerd/containerd.sock
+             │ │ │ ├─  10863 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 684bb7777299c1d09dabf53a7b1f48f02063b2256d05c0d26d4324bd86daabb0 -address /run/containerd/containerd.sock
+             │ │ │ ├─  11200 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2fc3045a36a6f5537ed06fb6ff436fad150447ed024c062d8688110b419e1d36 -address /run/containerd/containerd.sock
+             │ │ │ ├─  11472 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e431293aae03319c3f62c232c40f48b96f9660ac2735008b27e4e470c6fe8ea2 -address /run/containerd/containerd.sock
+             │ │ │ ├─  11681 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6d617429621207f11e3eb8138e9d5914aae56ff9cd21e2d7bd0d4a5e9e0e82b4 -address /run/containerd/containerd.sock
+             │ │ │ ├─  11953 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id d2068bff4daf0304e528af628d2d6e40e8753d3176dddc91b04b7dade634638c -address /run/containerd/containerd.sock
+             │ │ │ ├─  12159 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0245f0a5895b09e063817c540fa5c5e539c037021064b37365902720973a75ab -address /run/containerd/containerd.sock
+             │ │ │ ├─  13477 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 921de5a6b269cbc8784483cdfcd8963181e44621ac5a8a59ac20f25391552559 -address /run/containerd/containerd.sock
+             │ │ │ ├─  13959 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 5f72e8e169efd5d48276004f261dea118b410cf05f2e5d8cb22115848c6d3dcf -address /run/containerd/containerd.sock
+             │ │ │ ├─  15126 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ea760d245b88027153b57794d03929ad1e3d9df8601e37f564b468279a441118 -address /run/containerd/containerd.sock
+             │ │ │ ├─  15218 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2d69322ac75bacafa57f60df20e1a6d7e0661182927f6a78d5d3d7dbeaa01309 -address /run/containerd/containerd.sock
+             │ │ │ ├─  15540 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c22ddfb6a5368dcf0e1a081c8e894c0c186e13037d938ec9fd43e78327a81718 -address /run/containerd/containerd.sock
+             │ │ │ ├─  15657 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0e909255e0a6df030c257aded0b9b55b17b33113d8c54c538d9167e6979e39e7 -address /run/containerd/containerd.sock
+             │ │ │ ├─  16058 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c2a386c957c202bbfce596129a9e6dfa4fa0c5061d8592b52434b6250662324b -address /run/containerd/containerd.sock
+             │ │ │ ├─  16177 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id a8168fa366c60c75822cac38e5c9e7826cf1c6351b9f94b609231afc4ccd5444 -address /run/containerd/containerd.sock
+             │ │ │ ├─  18044 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9d86db7fc369252055796dcccb8d003aa9ba047f6091ac22b145cc87a83a13c8 -address /run/containerd/containerd.sock
+             │ │ │ ├─  18129 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id bf11feb443ce5da7d8d94f112ca033083e9cec3c9aa437de60fe733a586868c3 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 122489 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1b5ebc5c35ebcab5ad77266b54ba723d5ab6cf7c9f6684543e1e14da75d1c1fa -address /run/containerd/containerd.sock
+             │ │ │ ├─ 123162 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 94e19b39929a112e7fd09e1350254ba319d171ef73f6b514e0e0d9fc80065d52 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 155135 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id da928bbc14df60919e4c9442fcfda7beca595d6e03ec1e7315e4f4e376c6f8a2 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 155383 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f6d05025b77b4f88de3527b6a43c01838bd284df36c2b52354c1e428c3bd8124 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 498915 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1e5130fe8aa2c7724e939cc446667012e6dafff374728b31c629d23b216757e7 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 498916 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 8faee164fdb0bcddc2ead25b1580f6dba10452044d35bfac71d40962e66f1635 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 499077 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6074fa3459ab4232a18207efb68667f9f6580b2cdd43b9c11db5b739250d5ea5 -address /run/containerd/containerd.sock
+             │ │ │ ├─ 502762 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b0f6e1822ab89cc46ee509b58b34da6d8c28b1d8a329dc4bea13cd31f869db68 -address /run/containerd/containerd.sock
+             │ │ │ ├─1004189 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 20771b056459a1fe2d87b9e2adee136dcef5380203d021ad9a388ccc9c5b2352 -address /run/containerd/containerd.sock
+             │ │ │ ├─1004283 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 42ac4c47098c2a60890c48eab03ea9fd852882571d6b6d38940213d72ca39664 -address /run/containerd/containerd.sock
+             │ │ │ ├─1327905 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e46ce7898ded6203e82fe93b226a0e24a34edb2c3bf7ce0c53913c9eb0d2a4a6 -address /run/containerd/containerd.sock
+             │ │ │ ├─1328032 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 2aa1cd4ecb4e87feb1fbceaaf405c0593e82ee982390b69f90b565f7cb152f98 -address /run/containerd/containerd.sock
+             │ │ │ ├─1560300 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 3e8a45dd32d588dc9d3e4408c7e7c099e4aafc947cda7208733589c600ec0f54 -address /run/containerd/containerd.sock
+             │ │ │ ├─1560386 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 6d6ebdc51570dbc70fe8f4af2cf2ed39e542337199fae3a46d9ca0ca65ed1e66 -address /run/containerd/containerd.sock
+             │ │ │ ├─1713389 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ac3482f35b35a795c8fea00acad2d86a7e936b1c7bf7c1b32787504952195180 -address /run/containerd/containerd.sock
+             │ │ │ ├─1713613 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 06547fa1b0ca770176c77b60254c4655dcd84fdec48da88b2a0c79540b3bbe17 -address /run/containerd/containerd.sock
+             │ │ │ ├─1713702 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9f8877ce6f9cc3e33d51589b5ce64228c12874c6f4289ffbbf1091dd8c02264d -address /run/containerd/containerd.sock
+             │ │ │ ├─1714223 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 81dfe4fd2362ca26714bf84c6f7d3b3acfc4406664acf24556bcca53db24cd22 -address /run/containerd/containerd.sock
+             │ │ │ ├─2016476 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e25a2994a42e21f5d9cdc71dfdda88abac9e24229c9b4284acba6e623810a73a -address /run/containerd/containerd.sock
+             │ │ │ ├─2016614 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 1f39777be01c8439cd7893b520b82fcba56b63d83daffeff67513726306e0c3a -address /run/containerd/containerd.sock
+             │ │ │ ├─2016838 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4ea2fc16b064a65a20305e8e05cd947cb0abdfb3831cbd829f2cfe598a53c747 -address /run/containerd/containerd.sock
+             │ │ │ ├─2017135 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 61a23ae8593a581cfd0244fe41b573e2f4ad61d99bd99638c1bab4860e739463 -address /run/containerd/containerd.sock
+             │ │ │ ├─2017236 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 86cac99ecb3e5831748d6328cbf96d3a84006b33737dcf168c198bc81f487462 -address /run/containerd/containerd.sock
+             │ │ │ ├─2017580 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id c614148b5c2d42261e173ed3103c02e7f9faad104cd040f9b316452f6095b8cb -address /run/containerd/containerd.sock
+             │ │ │ ├─2017961 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4c31b456cfeb5f5c80d236d2e2aef1dade889652418b020d866bd0d856db0fc2 -address /run/containerd/containerd.sock
+             │ │ │ ├─2022763 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f7504ce4803c66c68fed52d87daa02c4b0996fd5c3d24f2873733844b24fe2ef -address /run/containerd/containerd.sock
+             │ │ │ ├─2799184 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 789910d2bdf89fdd961cc3deef50adbd83abb8f5aab1e6d39237f48c484a67f5 -address /run/containerd/containerd.sock
+             │ │ │ ├─2799185 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 4d426929027afb81bdaba75cd7cad45746a2921971fa9d1f0d623f957f1632c5 -address /run/containerd/containerd.sock
+             │ │ │ ├─3049892 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id e07eb14b137e1a0b99826e9d90a326db443438c59af2b9da1a1d77b264f72f36 -address /run/containerd/containerd.sock
+             │ │ │ ├─3050008 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 633898f317b02329e825251e94044fcb20db24ed2c8b6d6a99a06ada358acedd -address /run/containerd/containerd.sock
+             │ │ │ ├─3088261 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id ac29844475845825cc0bb4c042cfaa2c8ad431349b3fa1372b52d87b97b333c9 -address /run/containerd/containerd.sock
+             │ │ │ ├─3088380 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 16481e1a6a8c1add0e0e9ea3bd1ac47c3390113be18299db28784bef578c4bd5 -address /run/containerd/containerd.sock
+             │ │ │ ├─3877028 /usr/bin/containerd-shim-runc-v2 -namespace playground-docker -id 104294e3395deee3905a75ef8715e6c5ab328483bc06c972a4e53875076de106 -address /run/containerd/containerd.sock
+             │ │ │ ├─3877051 /usr/bin/containerd-shim-runc-v2 -namespace playground-docker -id ee262912e36ecfe1cd3b769ba9efe3c966af781151314f0089c6733d8c8cb4d6 -address /run/containerd/containerd.sock
+             │ │ │ ├─3928407 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 9c03a296cfa76edd1cddd66f10cadb97ca5030843b260008ead3d45af100753a -address /run/containerd/containerd.sock
+             │ │ │ ├─3928450 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 03d0b1b584314428629685a97089753faf35e81d07adbece0bebb516c4651b7b -address /run/containerd/containerd.sock
+             │ │ │ ├─3928683 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b967afcb364a24f1fcaf644f6a668f09b29b851311d1e57af431e4a33954a013 -address /run/containerd/containerd.sock
+             │ │ │ ├─3928783 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 94074c01b7185abe2a78f8aa1f2472939bfb2d8522156190de616240d8a2d07a -address /run/containerd/containerd.sock
+             │ │ │ ├─3937519 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id 0a4bc94f69f98d46446d32ee51c76d3c8cf4ff43c6c8844c8dfba5e31da335a1 -address /run/containerd/containerd.sock
+             │ │ │ ├─3999071 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id f7f79e9043d436ef3c8e3ee77ac3d741239054891a5dec448973eff02420195d -address /run/containerd/containerd.sock
+             │ │ │ ├─3999322 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id b01803726dd1cb727618515d23e5b0e9db58bcdf711a7d12036d74e42712721e -address /run/containerd/containerd.sock
+             │ │ │ └─4182908 /usr/bin/containerd-shim-runc-v2 -namespace lzc-docker -id a03b45c4ae3a4e8c52e1867d45bac2ca79c7fb7529bb4f6a5bc5d4895d1fc0b2 -address /run/containerd/containerd.sock
+             │ │ ├─dbus.service
+             │ │ │ └─1572 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+             │ │ ├─docker.service
+             │ │ │ └─1952 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+             │ │ ├─earlyoom.service
+             │ │ │ └─1581 /usr/bin/earlyoom -r 3600
+             │ │ ├─lzc-docker.service
+             │ │ │ └─4439 /usr/bin/dockerd --config-file /lzcsys/etc/docker/daemon.json
+             │ │ ├─playground-docker.service
+             │ │ │ ├─3873900 /usr/bin/dockerd --config-file /lzcsys/var/playground/daemon.json
+             │ │ │ ├─3875030 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 8000 -container-ip 172.100.1.3 -container-port 8094
+             │ │ │ └─3875039 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 8000 -container-ip 172.100.1.3 -container-port 8094
+             │ │ ├─rpcbind.service
+             │ │ │ └─1459 /sbin/rpcbind -f -w
+             │ │ ├─runc-b75f6d649f882deabea30cf1e3222d3881a78e14d8a93ebb04e1957aa786a0c4.scope
+             │ │ │ └─5669 /usr/bin/docker-logging-driver
+             │ │ ├─ssh.service
+             │ │ │ └─2144 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+             │ │ ├─system-getty.slice
+             │ │ │ └─getty@tty1.service
+             │ │ │   └─1656 /sbin/agetty -o "-p -- \\u" --noclear - linux
+             │ │ ├─systemd-journald.service
+             │ │ │ └─1334 /lib/systemd/systemd-journald
+             │ │ ├─systemd-logind.service
+             │ │ │ └─1587 /lib/systemd/systemd-logind
+             │ │ └─systemd-udevd.service
+             │ │   └─udev
+             │ │     └─1350 /lib/systemd/systemd-udevd
+             │ └─user.slice
+             │   └─user-0.slice
+             │     └─user@0.service
+             │       └─init.scope
+             │         ├─1660 /lib/systemd/systemd --user
+             │         └─1667 "(sd-pam)"
+             ├─systemd-journald.service
+             │ └─360 /lib/systemd/systemd-journald
+             ├─systemd-logind.service
+             │ └─616 /lib/systemd/systemd-logind
+             ├─systemd-resolved.service
+             │ └─549 /lib/systemd/systemd-resolved
+             ├─systemd-timedated.service
+             │ └─819788 /lib/systemd/systemd-timedated
+             ├─systemd-timesyncd.service
+             │ └─4549 /lib/systemd/systemd-timesyncd
+             ├─systemd-udevd.service
+             │ └─udev
+             │   └─379 /lib/systemd/systemd-udevd
+             └─wpa_supplicant.service
+               └─628 /sbin/wpa_supplicant -u -s -O "DIR=/run/wpa_supplicant GROUP=netdev"

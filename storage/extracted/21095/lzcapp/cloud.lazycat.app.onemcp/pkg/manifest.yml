@@ -1,0 +1,22 @@
+lzc-sdk-version: '0.1'
+name: One MCP
+package: cloud.lazycat.app.onemcp
+version: 0.1.24
+description: Modern npm package manager web dashboard
+homepage: https://github.com/burugo/one-mcp
+license: MIT
+application:
+  subdomain: onemcp
+  background_task: true
+  routes:
+    - /=http://onemcp.cloud.lazycat.app.onemcp.lzcapp:3000/
+  public_path:
+    - /
+services:
+  onemcp:
+    image: registry.lazycat.cloud/edward/buru2020/one-mcp:e35aecbd7bcd50eb
+    binds:
+      - /lzcapp/var/data:/data
+    environment:
+      - JWT_SECRET=209dd9ab423a94e748b6f28f9e4cc7c2
+      - SQLITE_PATH=/data/one-mcp.db

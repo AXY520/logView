@@ -1,0 +1,8 @@
+● lzcbox-60378f6b
+    State: degraded
+    Units: 797 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 2 units
+    Since: Fri 2025-11-14 23:44:30 CST; 1 day 21h ago
+  systemd: 254.26-1~bpo12+1
+   CGroup: /system.slice/runc-lzc-os.scope

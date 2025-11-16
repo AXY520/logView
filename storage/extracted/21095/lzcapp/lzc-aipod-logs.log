@@ -1,0 +1,7 @@
+context canceled
+
+real	0m10.001s
+user	0m0.001s
+sys	0m0.001s
+execute "/lzcsys/share/lazycat-cloud/log-scripts/lzcapp/lzc-aipod-logs" timeout (timeout = 10s)
+execute "/lzcsys/share/lazycat-cloud/log-scripts/lzcapp/lzc-aipod-logs" error code: 124

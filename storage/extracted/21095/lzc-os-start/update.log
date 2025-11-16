@@ -1,0 +1,23 @@
+2025-04-07 15:20:52 CST  v1.3.4 full from full-v1.3.4
+2025-04-07 15:27:55 CST  lzc-os var erased
+2025-04-07 15:28:02 CST  base var erased
+2025-04-07 15:28:14 CST  data disk erased
+2025-07-07 14:43:59 CST  v1.3.8+fix.1 full from full-v1.3.8+fix.1
+2025-08-14 16:56:53 CST  v1.3.9 full from full-v1.3.9
+2025-08-29 11:21:18 CST  v1.3.10 full from full-v1.3.10
+2025-09-09 17:42:10 CST  lzc-os var erased
+2025-09-09 17:42:18 CST  base var erased
+2025-09-09 17:42:31 CST  data disk erased
+2025-09-23 11:13:23 CST  v1.3.11 full from full-v1.3.11
+2025-09-28 14:06:00 CST  lzc-os var erased
+2025-09-28 14:06:06 CST  base var erased
+2025-09-28 14:06:19 CST  data disk erased
+2025-09-28 17:59:31 CST  v1.3.12 full from full-v1.3.12
+2025-10-22 19:02:07 CST  v1.3.13 full from full-v1.3.13
+2025-11-14 23:44:04 CST  v1.4.0-alpha.12 full from full-v1.4.0-alpha.12
+cp: cannot stat '/run/lzcsys/boot/lzc-os-init/update/log/*': No such file or directory
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.000s
+execute "/lzcsys/share/lazycat-cloud/log-scripts/lzc-os-start/update" error code: 1

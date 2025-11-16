@@ -1,0 +1,16 @@
+/lzcsys/etc
+/lzcsys/etc/box-profile
+/lzcsys/etc/client_compatibility.json
+/lzcsys/etc/docker
+/lzcsys/etc/docker/daemon.json
+/lzcsys/etc/playground-default.json
+/lzcsys/etc/version
+/lzcsys/etc/box.data.path
+/lzcsys/etc/box.domain
+/lzcsys/etc/box.origin
+/lzcsys/etc/box.id
+/lzcsys/etc/box.name
+
+real	0m0.011s
+user	0m0.007s
+sys	0m0.004s

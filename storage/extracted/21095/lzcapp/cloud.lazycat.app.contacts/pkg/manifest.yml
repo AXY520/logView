@@ -1,0 +1,26 @@
+lzc-sdk-version: v0.2.3-233-g22a1e18a
+package: cloud.lazycat.app.contacts
+version: 1.0.10
+name: 通讯录
+description: 管理本地和云端的通讯录工具
+license: https://choosealicense.com/licenses/mit/
+homepage: https://lazycat.cloud/appstore/%2Fshop%2Fdetail%2Fcloud.lazycat.app.contacts
+unsupported_platforms:
+  - linux
+  - macos
+  - windows
+  - tvos
+locales:
+  zh:
+    name: 通讯录
+  en:
+    name: Contacts
+  ja:
+    name: 連絡先
+ext_config:
+  enable_document_access: true
+application:
+  subdomain: contacts
+  routes:
+    - /=file:///lzcapp/pkg/content/dist
+    - /api/=exec://6002,/lzcapp/pkg/content/lzc-contacts

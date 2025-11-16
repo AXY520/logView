@@ -1,3 +1,0 @@
-tun_running:2 len_tuns:2
-	tun(fc03:1136:3895:7925:73e3:796:851d:0)->ostun, R:539,W:429
-	tun(fc03:1136:38be:6125:4163:700f:8e0:0)->metaverse_12D3KooWNC-5, R:178,W:178

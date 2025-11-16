@@ -1,0 +1,96 @@
+[2025-11-02 09:59:07.010] [info]  [
+  "懒猫部署向导-axy|642|https://opennotebook.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
+]
+[2025-11-02 10:00:48.150] [info]  [
+  'Open Notebook 启动中-axy|145|https://opennotebook.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 10:02:19.321] [info]  [
+  'Open Notebook 启动中-axy|200|https://opennotebook.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-02 10:06:13.629] [info]  [
+  'Open Notebook 启动中-axy|200|https://opennotebook.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]
+[2025-11-02 10:06:13.994] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Starting configuration detection...'
+]
+[2025-11-02 10:06:13.994] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Build time: 2025-11-02T02:06:13.955Z'
+]
+[2025-11-02 10:06:13.994] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Attempting to fetch runtime config from /config endpoint...'
+]
+[2025-11-02 10:06:14.040] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|✅ [Config] Runtime API URL from server: https://api-opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:06:14.040] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] NEXT_PUBLIC_API_URL from build: (not set)'
+]
+[2025-11-02 10:06:14.040] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Current frontend URL: https://opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:06:14.041] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Detected remote hostname, using: https://opennotebook.axy.heiyu.space:5055'
+]
+[2025-11-02 10:06:14.041] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Final base URL to try: https://api-opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:06:14.041] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Selection priority: runtime=✅, build-time=❌, smart-default=❌'
+]
+[2025-11-02 10:06:14.041] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Fetching backend config from: https://api-opennotebook.axy.heiyu.space/api/config'
+]
+[2025-11-02 10:06:15.726] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|✅ [Config] Successfully loaded API config: [object Object]'
+]
+[2025-11-02 10:06:15.740] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/(dashboard)/layout-91c16b2d58983a19.js|🔔 [Version Check] Update available: 1.1.0 → 1.2.0'
+]
+[2025-11-02 10:06:22.588] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/(dashboard)/layout-91c16b2d58983a19.js|🔔 [Version Check] Update available: 1.1.0 → 1.2.0'
+]
+[2025-11-02 10:07:15.574] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Starting configuration detection...'
+]
+[2025-11-02 10:07:15.574] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Build time: 2025-11-02T02:07:15.547Z'
+]
+[2025-11-02 10:07:15.574] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Attempting to fetch runtime config from /config endpoint...'
+]
+[2025-11-02 10:07:15.586] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|✅ [Config] Runtime API URL from server: https://api-opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] NEXT_PUBLIC_API_URL from build: (not set)'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Current frontend URL: https://opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Detected remote hostname, using: https://opennotebook.axy.heiyu.space:5055'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Final base URL to try: https://api-opennotebook.axy.heiyu.space'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Selection priority: runtime=✅, build-time=❌, smart-default=❌'
+]
+[2025-11-02 10:07:15.587] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|🔧 [Config] Fetching backend config from: https://api-opennotebook.axy.heiyu.space/api/config'
+]
+[2025-11-02 10:07:15.631] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/layout-6a786c6b2f1ad4b5.js|✅ [Config] Successfully loaded API config: [object Object]'
+]
+[2025-11-02 10:07:15.664] [info]  [
+  'Open Notebook-axy|1|https://opennotebook.axy.heiyu.space/_next/static/chunks/app/(dashboard)/layout-91c16b2d58983a19.js|🔔 [Version Check] Update available: 1.1.0 → 1.2.0'
+]
+[2025-11-02 10:07:22.650] [info]  [
+  "懒猫部署向导-axy|642|https://opennotebook.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
+]
+[2025-11-02 10:08:13.511] [info]  [
+  'Open Notebook 启动中-axy|145|https://opennotebook.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 10:13:36.845] [info]  [
+  'Open Notebook 启动中-axy|200|https://opennotebook.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]

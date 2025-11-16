@@ -1,0 +1,33 @@
+lzc-sdk-version: '0.1'
+name: MoonTV
+package: cloud.lazycat.app.moontv
+version: 1.0.6
+description: 一个开箱即用的、跨平台的影视聚合播放器。
+author: Edward
+license: MIT License
+homepage: https://github.com/senshinya/MoonTV
+application:
+  subdomain: moontv
+  routes:
+    - /=http://moontv.cloud.lazycat.app.moontv.lzcapp:3000
+services:
+  moontv:
+    image: registry.lazycat.cloud/edward/senshinya/moontv:f3a9755b2dc8026f
+    environment:
+      - USERNAME=admin
+      - PASSWORD=admin123
+      - NEXT_PUBLIC_STORAGE_TYPE=redis
+      - REDIS_URL=redis://moontv-redis:6379
+      - NEXT_PUBLIC_ENABLE_REGISTER=true
+    bind:
+      - /lzcapp/var/config.json:/app/config.json:ro
+    depends_on:
+      - moontv-redis
+    ports:
+      - '3000:3000'
+  moontv-redis:
+    image: registry.lazycat.cloud/edward/library/redis:4c6b9d7b7a334a2e
+    binds:
+      - /lzcapp/var/redis:/data
+    ports:
+      - '6379:6379'

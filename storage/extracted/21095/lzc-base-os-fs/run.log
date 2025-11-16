@@ -1,0 +1,12 @@
+/lzcsys/run
+/lzcsys/run/lzc-os.pid
+/lzcsys/run/machine
+/lzcsys/run/machine/hardware.json
+/lzcsys/run/machine/pincode
+/lzcsys/run/machine/bsid
+/lzcsys/run/log
+/lzcsys/run/log/lzc-fs-pre.log
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s

@@ -1,0 +1,10 @@
+[1A[1B[0G[?25l[+] Pulling 8/8
+ [32m✔[0m backend_rag Skipped - Image is already present locally      [32m[0m[34m0.0s [0m
+ [32m✔[0m backend_videorag Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [32m✔[0m caddy Skipped - Image is already present locally            [32m[0m[34m0.0s [0m
+ [32m✔[0m postgres Skipped - Image is already present locally         [32m[0m[34m0.0s [0m
+ [32m✔[0m app Skipped - Image is already present locally              [32m[0m[34m0.0s [0m
+ [32m✔[0m backend Skipped - Image is already present locally          [32m[0m[34m0.0s [0m
+ [32m✔[0m backend_filechat Skipped - Image is already present locally [32m[0m[34m0.0s [0m
+ [32m✔[0m backend_jieba Skipped - Image is already present locally    [32m[0m[34m0.0s [0m
+[?25h

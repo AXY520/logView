@@ -1,0 +1,3 @@
+NAME                IMAGE                                      COMMAND                  SERVICE   CREATED        STATUS        PORTS
+lzc-shell-app-1     registry.lazycat.cloud/lzc/lzcapp:3.20.3   "/lzcinit/cloud.lazy…"   app       45 hours ago   Up 45 hours   
+lzc-shell-iscsi-1   registry.lazycat.cloud/lzc/lzcapp:3.20.3   "/lzcapp/pkg/content…"   iscsi     45 hours ago   Up 45 hours   

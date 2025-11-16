@@ -1,0 +1,23 @@
+start	2025-11-16 20:45:20
+	69.486µs
+	298.753µs
+	22.999µs
+memory.txt	793.639µs
+	564.412µs
+peers.txt	1.021041ms
+boxes.json	1.083702ms
+tuninfo.txt	948.676µs
+buildinfo.txt	1.014954ms
+env.txt	1.231796ms
+clientinfo.json	1.340165ms
+stderr.log	3.312826ms
+heap.pprof	10.464311ms
+log.json	11.65503ms
+punchhole.log	13.276832ms
+pc_render.log	34.4699ms
+netstat.txt	99.032117ms
+box_home.txt	129.375332ms
+other.txt	525.955886ms
+relay.log	2.472520896s
+nettype.json	5.001406156s
+over	5.106136304s

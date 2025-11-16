@@ -1,0 +1,30 @@
+lzc-sdk-version: 0.1
+package: cloud.lazycat.app.forward
+version: 0.6.9
+name: 局域网端口转发工具
+description: 用于映射懒猫微服中应用暴露的端口
+license: https://choosealicense.com/licenses/mit/
+homepage: 
+author: fish
+locales:
+  zh:
+    name: 局域网端口转发工具
+  en:
+    name: Port Forwarder
+application:
+  subdomain: forward
+  background_task: true
+  routes:
+    - /=file:///lzcapp/pkg/content/dist
+    - /api/=http://host.lzcapp:53443
+denpends_on:
+  - lan
+services:
+  lan:
+    image: registry.lazycat.cloud/vim/library/alpine:forward20250513171707
+    network_mode: host
+    command: /lzcapp/pkg/content/lzc-lan-forward
+ext_config:
+  permissions:
+    - PERM_LZC_DOCKER_ADMIN
+    - PERM_OTHER_APP_DATA_ADMIN

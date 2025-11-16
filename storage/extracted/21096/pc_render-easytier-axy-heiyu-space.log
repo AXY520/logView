@@ -1,0 +1,12 @@
+[2025-11-02 09:34:12.585] [info]  [
+  "懒猫部署向导-axy|270|https://easytier.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
+]
+[2025-11-02 09:34:23.594] [info]  [
+  'easytier 启动中-axy|145|https://easytier.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
+]
+[2025-11-02 09:34:26.646] [info]  [
+  'easytier 启动中-axy|200|https://easytier.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
+]
+[2025-11-02 09:34:37.746] [info]  [
+  'easytier 启动中-axy|200|https://easytier.axy.heiyu.space/|请求成功，状态码： [object Response] 5'
+]

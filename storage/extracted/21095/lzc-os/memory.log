@@ -1,0 +1,289 @@
+======== System Memory Report ========
+
+>> Overall Memory Usage (free -h):
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       8.1Gi       1.3Gi       370Mi       6.7Gi       7.3Gi
+Swap:           31Gi       2.4Gi        29Gi
+
+>> Summary from /proc/meminfo:
+MemTotal:       16142628 kB
+MemFree:         1382424 kB
+MemAvailable:    7635920 kB
+Buffers:           24248 kB
+Cached:          6489120 kB
+SwapCached:        30828 kB
+Active:          3560280 kB
+Inactive:       10076248 kB
+Active(anon):    2238212 kB
+Inactive(anon):  5269700 kB
+Active(file):    1322068 kB
+Inactive(file):  4806548 kB
+Unevictable:        7764 kB
+Mlocked:            7632 kB
+SwapTotal:      33554428 kB
+SwapFree:       31055452 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:               808 kB
+Writeback:             0 kB
+AnonPages:       6933892 kB
+Mapped:          1667324 kB
+Shmem:            379160 kB
+KReclaimable:     466424 kB
+Slab:             739004 kB
+SReclaimable:     466424 kB
+SUnreclaim:       272580 kB
+KernelStack:       43628 kB
+PageTables:        63516 kB
+SecPageTables:       340 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    41625740 kB
+Committed_AS:   30597180 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       91308 kB
+VmallocChunk:          0 kB
+Percpu:            11840 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   4521984 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+Unaccepted:            0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      281216 kB
+DirectMap2M:    14166016 kB
+DirectMap1G:     2097152 kB
+
+>> All Slab Allocator Components (/proc/slabinfo):
+Cache Name                       Active Objs    Obj Size   Total Memory Slabs     
+btrfs_inode                      169291         1136         183.41 MB   6188      
+dentry                           415395         192           76.06 MB   19782     
+radix_tree_node                  116253         584           64.75 MB   5263      
+ovl_inode                        60280          720           41.39 MB   3152      
+xfrm_dst_cache                   78841          320           24.06 MB   5008      
+inode_cache                      35655          640           21.76 MB   1473      
+task_struct                      2764           8192          21.59 MB   694       
+btrfs_extent_map                 106658         144           14.65 MB   4900      
+proc_inode_cache                 21168          712           14.37 MB   922       
+kernfs_node_cache                87670          128           10.70 MB   2740      
+lsm_file_cache                   320166         32             9.77 MB   2673      
+kmalloc-2k                       4834           2048           9.44 MB   315       
+vm_area_struct                   43710          184            7.67 MB   2037      
+kmalloc-4k                       1941           4096           7.58 MB   252       
+kmalloc-512                      14904          512            7.28 MB   472       
+kmalloc-256                      26036          256            6.36 MB   849       
+erofs_inode                      8786           712            5.97 MB   382       
+kmalloc-192                      31114          192            5.70 MB   1596      
+kmalloc-cg-4k                    1347           4096           5.26 MB   171       
+shmem_inode_cache                6972           776            5.16 MB   335       
+UNIX                             4938           1088           5.12 MB   165       
+kmalloc-8k                       578            8192           4.52 MB   155       
+kmalloc-cg-2k                    2176           2048           4.25 MB   136       
+kmalloc-1k                       3942           1024           3.85 MB   125       
+sock_inode_cache                 4514           832            3.58 MB   127       
+filp                             11504          256            2.81 MB   442       
+kmalloc-32                       84710          32             2.59 MB   778       
+mnt_cache                        8194           320            2.50 MB   330       
+kmalloc-64                       39498          64             2.41 MB   629       
+kioctx                           3586           576            1.97 MB   228       
+TCP                              849            2304           1.87 MB   70        
+biovec-max                       471            4096           1.84 MB   62        
+anon_vma_chain                   29852          64             1.82 MB   528       
+vma_lock                         43673          40             1.67 MB   453       
+vmap_area                        23883          72             1.64 MB   635       
+kmalloc-cg-512                   3219           512            1.57 MB   101       
+anon_vma                         15673          104            1.55 MB   432       
+skbuff_small_head                2461           640            1.50 MB   99        
+btrfs_free_space                 14914          104            1.48 MB   439       
+signal_cache                     1337           1152           1.47 MB   51        
+buffer_head                      14153          104            1.40 MB   454       
+maple_node                       5712           256            1.39 MB   214       
+kmalloc-rcl-64                   21073          64             1.29 MB   370       
+kmalloc-cg-8k                    163            8192           1.27 MB   42        
+sighand_cache                    620            2112           1.25 MB   44        
+bfq_io_cq                        957            1360           1.24 MB   41        
+kmalloc-cg-1k                    1267           1024           1.24 MB   41        
+drm_i915_gem_object              1102           1152           1.21 MB   54        
+skbuff_head_cache                4942           256            1.21 MB   157       
+TCPv6                            479            2432           1.11 MB   44        
+proc_dir_entry                   5376           192         1008.00 KB   256       
+UDPv6                            754            1344         989.62 KB   34        
+pid                              7446           128          930.75 KB   257       
+btrfs_extent_buffer              3950           240          925.78 KB   163       
+kmalloc-96                       9191           96           861.66 KB   237       
+mm_struct                        569            1408         782.38 KB   26        
+kmalloc-rcl-96                   7772           96           728.62 KB   242       
+task_group                       1012           640          632.50 KB   45        
+kmalloc-16                       37330          16           583.28 KB   150       
+MPTCPv6                          270            2112         556.88 KB   18        
+biovec-64                        544            1024         544.00 KB   19        
+cred_jar                         2826           192          529.88 KB   154       
+names_cache                      128            4096         512.00 KB   19        
+MPTCP                            256            1984         496.00 KB   16        
+kmalloc-128                      3874           128          484.25 KB   132       
+i915_request                     677            704          465.44 KB   30        
+ftrace_event_field               8418           56           460.36 KB   119       
+RAWv6                            364            1216         432.25 KB   14        
+skbuff_fclone_cache              834            512          417.00 KB   30        
+files_cache                      602            704          413.88 KB   29        
+net_namespace                    91             4480         398.12 KB   13        
+kmalloc-cg-192                   1922           192          360.38 KB   98        
+nf_conntrack                     1382           256          345.50 KB   92        
+skbuff_ext_cache                 1836           192          344.25 KB   100       
+ext4_inode_cache                 297            1184         343.41 KB   11        
+shared_policy_node               7055           48           330.70 KB   83        
+bio-440                          720            448          315.00 KB   20        
+btrfs_ordered_extent             684            424          283.22 KB   23        
+trace_event_file                 3220           88           276.72 KB   70        
+kmalloc-cg-256                   1060           256          265.00 KB   34        
+biovec-128                       128            2048         256.00 KB   8         
+mqueue_inode_cache               272            960          255.00 KB   8         
+perf_event                       200            1264         246.88 KB   8         
+bio-192                          960            256          240.00 KB   34        
+x86_emulator                     84             2656         217.88 KB   7         
+kmalloc-rcl-192                  1073           192          201.19 KB   64        
+tw_sock_TCP                      750            272          199.22 KB   29        
+kvm_vcpu                         21             9152         187.69 KB   7         
+bio-368                          462            384          173.25 KB   23        
+khugepaged_mm_slot               1510           112          165.16 KB   65        
+btrfs_delayed_ref_head           1230           136          163.36 KB   41        
+request_queue                    175            936          159.96 KB   5         
+bdev_cache                       100            1600         156.25 KB   5         
+extent_status                    3876           40           151.41 KB   38        
+kmalloc-cg-128                   1184           128          148.00 KB   37        
+kmalloc-rcl-128                  1056           128          132.00 KB   33        
+uts_namespace                    296            432          124.88 KB   8         
+taskstats                        296            432          124.88 KB   8         
+kmalloc-8                        15324          8            119.72 KB   30        
+x86_lbr                          140            800          109.38 KB   7         
+hugetlbfs_inode_cache            168            664          108.94 KB   7         
+kmalloc-cg-96                    1092           96           102.38 KB   26        
+RAW                              96             1024          96.00 KB   3         
+xfrm_state                       126            768           94.50 KB   6         
+kmem_cache                       352            256           88.00 KB   11        
+kmalloc-cg-64                    1408           64            88.00 KB   22        
+ep_head                          5003           16            78.17 KB   20        
+sigqueue                         969            80            75.70 KB   19        
+kmalloc-cg-16                    4573           16            71.45 KB   19        
+Acpi-State                       867            80            67.73 KB   17        
+bio-128                          357            192           66.94 KB   17        
+dquot                            256            256           64.00 KB   8         
+PING                             64             1024          64.00 KB   2         
+tw_sock_TCPv6                    240            272           63.75 KB   8         
+kmalloc-cg-8                     8159           8             63.74 KB   16        
+request_sock_TCPv6               208            312           63.38 KB   8         
+request_sock_TCP                 208            312           63.38 KB   8         
+request_sock_subflow_v6          168            384           63.00 KB   8         
+request_sock_subflow_v4          168            384           63.00 KB   8         
+file_lock_cache                  296            216           62.44 KB   8         
+PINGv6                           52             1216          61.75 KB   2         
+bio-384                          108            448           47.25 KB   3         
+scsi_sense_cache                 320            128           40.00 KB   10        
+ip_fib_alias                     730            56            39.92 KB   10        
+kmem_cache_node                  576            64            36.00 KB   9         
+kmalloc-cg-32                    1152           32            36.00 KB   9         
+ip_fib_trie                      765            48            35.86 KB   9         
+ext4_io_end                      512            64            32.00 KB   8         
+dmaengine-unmap-2                512            64            32.00 KB   8         
+jbd2_journal_handle              584            56            31.94 KB   8         
+seq_file                         272            120           31.88 KB   8         
+jbd2_journal_head                272            120           31.88 KB   8         
+dmaengine-unmap-128              30             1088          31.88 KB   1         
+dax_cache                        39             832           31.69 KB   1         
+task_delay_info                  224            144           31.50 KB   8         
+nsproxy                          448            72            31.50 KB   8         
+ext4_prealloc_space              288            112           31.50 KB   8         
+dmaengine-unmap-256              15             2112          30.94 KB   1         
+ext4_allocation_context          208            152           30.88 KB   8         
+erofs_pcluster-4                 132            184           23.72 KB   6         
+kmalloc-rcl-256                  64             256           16.00 KB   2         
+rpc_inode_cache                  23             704           15.81 KB   1         
+bio-256                          50             320           15.62 KB   2         
+fat_inode_cache                  20             792           15.47 KB   1         
+audit_buffer                     510            24            11.95 KB   3         
+jbd2_revoke_table_s              512            16             8.00 KB   2         
+numa_policy                      30             272            7.97 KB   1         
+ext4_system_zone                 204            40             7.97 KB   2         
+bio_post_read_ctx                170            48             7.97 KB   2         
+bio-304                          25             320            7.81 KB   1         
+jbd2_revoke_record_s             128            32             4.00 KB   1         
+v9fs_inode_cache                 0              720            0.00 B   0         
+userfaultfd_ctx_cache            0              192            0.00 B   0         
+user_namespace                   0              624            0.00 B   0         
+squashfs_inode_cache             0              704            0.00 B   0         
+p9_req_t                         0              160            0.00 B   0         
+nf_conntrack_expect              0              208            0.00 B   0         
+kmalloc-rcl-8k                   0              8192           0.00 B   0         
+kmalloc-rcl-8                    0              8              0.00 B   0         
+kmalloc-rcl-512                  0              512            0.00 B   0         
+kmalloc-rcl-4k                   0              4096           0.00 B   0         
+kmalloc-rcl-32                   0              32             0.00 B   0         
+kmalloc-rcl-2k                   0              2048           0.00 B   0         
+kmalloc-rcl-1k                   0              1024           0.00 B   0         
+kmalloc-rcl-16                   0              16             0.00 B   0         
+kcopyd_job                       0              3240           0.00 B   0         
+isofs_inode_cache                0              688            0.00 B   0         
+ip6-frags                        0              184            0.00 B   0         
+ip4-frags                        0              200            0.00 B   0         
+io_kiocb                         0              256            0.00 B   0         
+iint_cache                       0              120            0.00 B   0         
+i915_dependency                  0              128            0.00 B   0         
+fuse_request                     0              152            0.00 B   0         
+fuse_inode                       0              832            0.00 B   0         
+fsverity_info                    0              272            0.00 B   0         
+fscrypt_info                     0              128            0.00 B   0         
+fscache_cookie_jar               0              176            0.00 B   0         
+fat_cache                        0              40             0.00 B   0         
+fanotify_perm_event              0              96             0.00 B   0         
+ext4_fc_dentry_update            0              96             0.00 B   0         
+execute_cb                       0              64             0.00 B   0         
+erofs_pcluster-64                0              1144           0.00 B   0         
+erofs_pcluster-256               0              4216           0.00 B   0         
+erofs_pcluster-16                0              376            0.00 B   0         
+erofs_pcluster-128               0              2168           0.00 B   0         
+erofs_pcluster-1                 0              136            0.00 B   0         
+dnotify_struct                   0              32             0.00 B   0         
+dma-kmalloc-96                   0              96             0.00 B   0         
+dma-kmalloc-8k                   0              8192           0.00 B   0         
+dma-kmalloc-8                    0              8              0.00 B   0         
+dma-kmalloc-64                   0              64             0.00 B   0         
+dma-kmalloc-512                  0              512            0.00 B   0         
+dma-kmalloc-4k                   0              4096           0.00 B   0         
+dma-kmalloc-32                   0              32             0.00 B   0         
+dma-kmalloc-2k                   0              2048           0.00 B   0         
+dma-kmalloc-256                  0              256            0.00 B   0         
+dma-kmalloc-1k                   0              1024           0.00 B   0         
+dma-kmalloc-192                  0              192            0.00 B   0         
+dma-kmalloc-16                   0              16             0.00 B   0         
+dma-kmalloc-128                  0              128            0.00 B   0         
+dm_uevent                        0              2888           0.00 B   0         
+
+>> Disk Statistics (vmstat -d):
+disk- ------------reads------------ ------------writes----------- -----IO------
+       total merged sectors      ms  total merged sectors      ms    cur    sec
+sdb    45928   4036 8908072  874155 587486 308605 30123320 15181920      0   4276
+sda    37220   6397 11643272  857913 318904  71350 16644272 14505699      0   4175
+nvme0n1  57900  49486 4999368    8688 1251000 1373913 40403702  335552      0    442
+loop0    789      0  114216     388      0      0       0       0      0      0
+loop1   3927      0  351336     777      0      0       0       0      0      2
+loop2    683      0   61728     189      0      0       0       0      0      0
+loop3    402      0   33224     116      0      0       0       0      0      0
+loop4    149      0    2560      16      0      0       0       0      0      0
+loop5    143      0    7984      29      0      0       0       0      0      0
+loop6   3778      0  306066    1002 215895      0 1901216   26923      0     71
+loop7     75      0     600      10      0      0       0       0      0      0
+loop8  17243      0 1737160    2712      0      0       0       0      0      7
+
+======== End of Report ========
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.002s

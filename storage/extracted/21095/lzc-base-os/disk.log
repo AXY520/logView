@@ -1,0 +1,94 @@
+/dev/disk/by-diskseq:
+total 0
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 1 -> ../../sda
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 1-part1 -> ../../sda1
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 12 -> ../../loop0
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 13 -> ../../loop1
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 14 -> ../../loop2
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 15 -> ../../loop3
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 16 -> ../../loop4
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 17 -> ../../loop5
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 18 -> ../../loop6
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 19 -> ../../loop7
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 2 -> ../../sdb
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 2-part1 -> ../../sdb1
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 23 -> ../../loop8
+lrwxrwxrwx 1 root root 13 Nov 14 23:44 3 -> ../../nvme0n1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 3-part1 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 3-part2 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 3-part3 -> ../../nvme0n1p3
+
+/dev/disk/by-drive:
+total 0
+lrwxrwxrwx 1 root root 8 Nov 14 23:44 1 -> /dev/sdb
+lrwxrwxrwx 1 root root 8 Nov 14 23:44 2 -> /dev/sda
+
+/dev/disk/by-id:
+total 0
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 ata-WDC_WD10SPZX-22Z10T1_WD-WX42A23PM742 -> ../../sda
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 ata-WDC_WD10SPZX-22Z10T1_WD-WX42A23PM742-part1 -> ../../sda1
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 ata-WDC_WD10SPZX-22Z10T1_WD-WXL2A135XFD2 -> ../../sdb
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 ata-WDC_WD10SPZX-22Z10T1_WD-WXL2A135XFD2-part1 -> ../../sdb1
+lrwxrwxrwx 1 root root 13 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A -> ../../nvme0n1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A-part1 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A-part2 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A-part3 -> ../../nvme0n1p3
+lrwxrwxrwx 1 root root 13 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A_1 -> ../../nvme0n1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A_1-part1 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A_1-part2 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-SOLIDIGM_SSDPFKNU512GZ_BTEH322109UM512A_1-part3 -> ../../nvme0n1p3
+lrwxrwxrwx 1 root root 13 Nov 14 23:44 nvme-eui.0000000001000000b7d6c8dff30d0f00 -> ../../nvme0n1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-eui.0000000001000000b7d6c8dff30d0f00-part1 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-eui.0000000001000000b7d6c8dff30d0f00-part2 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 nvme-eui.0000000001000000b7d6c8dff30d0f00-part3 -> ../../nvme0n1p3
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 wwn-0x50014ee2c04f2987 -> ../../sdb
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 wwn-0x50014ee2c04f2987-part1 -> ../../sdb1
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 wwn-0x50014ee2c04f4403 -> ../../sda
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 wwn-0x50014ee2c04f4403-part1 -> ../../sda1
+
+/dev/disk/by-label:
+total 0
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 data -> ../../sda1
+
+/dev/disk/by-partuuid:
+total 0
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 04bce4a2-5c95-9d4f-84e4-99c78ef76340 -> ../../nvme0n1p3
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 0e1c8ec6-34e7-ab40-9c67-26cf38a43f1e -> ../../sdb1
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 2f43ba4d-5c4f-164a-b233-33cc09edd3a9 -> ../../sda1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 45c7eb03-1021-9841-bf4d-c1a5eb52c971 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 d37428c7-bf4c-eb42-8829-f2f9ceb39507 -> ../../nvme0n1p1
+
+/dev/disk/by-path:
+total 0
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 pci-0000:00:17.0-ata-1 -> ../../sdb
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 pci-0000:00:17.0-ata-1-part1 -> ../../sdb1
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 pci-0000:00:17.0-ata-1.0 -> ../../sdb
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 pci-0000:00:17.0-ata-1.0-part1 -> ../../sdb1
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 pci-0000:00:17.0-ata-2 -> ../../sda
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 pci-0000:00:17.0-ata-2-part1 -> ../../sda1
+lrwxrwxrwx 1 root root  9 Nov 14 23:44 pci-0000:00:17.0-ata-2.0 -> ../../sda
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 pci-0000:00:17.0-ata-2.0-part1 -> ../../sda1
+lrwxrwxrwx 1 root root 13 Nov 14 23:44 pci-0000:01:00.0-nvme-1 -> ../../nvme0n1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 pci-0000:01:00.0-nvme-1-part1 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 pci-0000:01:00.0-nvme-1-part2 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 pci-0000:01:00.0-nvme-1-part3 -> ../../nvme0n1p3
+
+/dev/disk/by-uuid:
+total 0
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 173133ff-667e-4248-b6ad-88242ee7e846 -> ../../loop4
+lrwxrwxrwx 1 root root 10 Nov 14 23:44 4315e910-56fe-4d9c-ad0c-a0c5de4325a5 -> ../../sda1
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 46a8782a-657b-4a58-9190-8cc97f5d285c -> ../../loop7
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 48a66fef-140a-4557-a65f-6b17a27a388e -> ../../loop6
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 6ec14787-d2c1-4312-beb4-1883667f97d7 -> ../../nvme0n1p2
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 76a6bbb2-d867-4355-b0e4-997f86c4fc5a -> ../../loop3
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 78ec64d2-5ed2-40df-b9dc-a4a0e1bcc44c -> ../../loop8
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 8798e52b-904b-4971-950b-ae527e15e2bc -> ../../loop5
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 BCC3-A3A2 -> ../../nvme0n1p1
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 e0a9adc7-c071-41b8-8a26-dc9578f9e44b -> ../../loop2
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 e3e69f39-c2c4-437f-9362-e08a0aed0542 -> ../../loop1
+lrwxrwxrwx 1 root root 15 Nov 14 23:44 e41222a0-d4b5-4e31-8da0-7b36e84ed427 -> ../../nvme0n1p3
+lrwxrwxrwx 1 root root 11 Nov 14 23:44 e9b7797e-4f08-4dd5-bb3f-7ea3c98de994 -> ../../loop0
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.002s

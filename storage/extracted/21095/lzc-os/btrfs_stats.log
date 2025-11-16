@@ -1,0 +1,70 @@
++ btrfs device stats /lzcsys/var/
+[/dev/nvme0n1p3].write_io_errs    0
+[/dev/nvme0n1p3].read_io_errs     0
+[/dev/nvme0n1p3].flush_io_errs    0
+[/dev/nvme0n1p3].corruption_errs  0
+[/dev/nvme0n1p3].generation_errs  0
++ btrfs device stats /data
+[/dev/sda1].write_io_errs    0
+[/dev/sda1].read_io_errs     0
+[/dev/sda1].flush_io_errs    0
+[/dev/sda1].corruption_errs  0
+[/dev/sda1].generation_errs  0
+[/dev/sdb].write_io_errs    0
+[/dev/sdb].read_io_errs     0
+[/dev/sdb].flush_io_errs    0
+[/dev/sdb].corruption_errs  0
+[/dev/sdb].generation_errs  0
++ btrfs balance status /lzcsys/var
+No balance found on '/lzcsys/var'
++ btrfs balance status /data
+No balance found on '/data'
++ btrfs filesystem usage -T /lzcsys/var
+Overall:
+    Device size:		 462.94GiB
+    Device allocated:		  74.02GiB
+    Device unallocated:		 388.92GiB
+    Device missing:		     0.00B
+    Device slack:		     0.00B
+    Used:			  49.63GiB
+    Free (estimated):		 411.39GiB	(min: 216.93GiB)
+    Free (statfs, df):		 411.39GiB
+    Data ratio:			      1.00
+    Metadata ratio:		      2.00
+    Global reserve:		  32.30MiB	(used: 0.00B)
+    Multiple profiles:		        no
+
+                  Data     Metadata System                              
+Id Path           single   DUP      DUP      Unallocated Total     Slack
+-- -------------- -------- -------- -------- ----------- --------- -----
+ 1 /dev/nvme0n1p3 72.01GiB  2.00GiB 16.00MiB   388.92GiB 462.94GiB     -
+-- -------------- -------- -------- -------- ----------- --------- -----
+   Total          72.01GiB  1.00GiB  8.00MiB   388.92GiB 462.94GiB 0.00B
+   Used           49.53GiB 52.39MiB 16.00KiB                            
++ btrfs filesystem usage -T /data
+Overall:
+    Device size:		   1.82TiB
+    Device allocated:		 193.02GiB
+    Device unallocated:		   1.63TiB
+    Device missing:		     0.00B
+    Device slack:		     0.00B
+    Used:			 158.36GiB
+    Free (estimated):		   1.66TiB	(min: 867.73GiB)
+    Free (statfs, df):		   1.66TiB
+    Data ratio:			      1.00
+    Metadata ratio:		      2.00
+    Global reserve:		 274.69MiB	(used: 0.00B)
+    Multiple profiles:		        no
+
+             Data      Metadata System                              
+Id Path      single    DUP      DUP      Unallocated Total     Slack
+-- --------- --------- -------- -------- ----------- --------- -----
+ 1 /dev/sda1  94.01GiB  2.00GiB 16.00MiB   835.49GiB 931.51GiB     -
+ 2 /dev/sdb   93.00GiB  4.00GiB        -   834.51GiB 931.51GiB     -
+-- --------- --------- -------- -------- ----------- --------- -----
+   Total     187.01GiB  3.00GiB  8.00MiB     1.63TiB   1.82TiB 0.00B
+   Used      154.28GiB  2.04GiB 48.00KiB                            
+
+real	0m0.102s
+user	0m0.014s
+sys	0m0.002s

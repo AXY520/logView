@@ -1,0 +1,22 @@
+NAME        FSTYPE UUID                                 RM RO   SIZE LABEL MOUNTPOINT
+loop0       erofs  e9b7797e-4f08-4dd5-bb3f-7ea3c98de994  0  0 536.3M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/vendor
+loop1       erofs  e3e69f39-c2c4-437f-9362-e08a0aed0542  0  0 320.4M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/rootfs
+loop2       erofs  e0a9adc7-c071-41b8-8a26-dc9578f9e44b  0  0  38.3M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/hportal
+loop3       erofs  76a6bbb2-d867-4355-b0e4-997f86c4fc5a  0  0  16.5M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/daemon
+loop4       erofs  173133ff-667e-4248-b6ad-88242ee7e846  0  0  10.3M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/config
+loop5       erofs  8798e52b-904b-4971-950b-ae527e15e2bc  0  0   5.1M       /run/lzcsys/boot/lzc-base-os-overlay/lowerdir/wifip2p
+loop6       ext4   48a66fef-140a-4557-a65f-6b17a27a388e  0  0   512M       /run/lzcsys/var
+loop7       erofs  46a8782a-657b-4a58-9190-8cc97f5d285c  0  0   8.7M       /run/lzcsys/boot/update-bundle/update-tool
+loop8       erofs  78ec64d2-5ed2-40df-b9dc-a4a0e1bcc44c  0  0   1.3G       
+sda                                                      0  0 931.5G       
+`-sda1      btrfs  4315e910-56fe-4d9c-ad0c-a0c5de4325a5  0  0 931.5G data  
+sdb         btrfs  4315e910-56fe-4d9c-ad0c-a0c5de4325a5  0  0 931.5G data  
+`-sdb1                                                   0  0 931.5G       
+nvme0n1                                                  0  0 476.9G       
+|-nvme0n1p1 vfat   BCC3-A3A2                             0  0     2G       
+|-nvme0n1p2 ext4   6ec14787-d2c1-4312-beb4-1883667f97d7  0  0    12G       /run/lzcsys/boot/lzc-base-os-init
+`-nvme0n1p3 btrfs  e41222a0-d4b5-4e31-8da0-7b36e84ed427  0  0 462.9G       /run/lzcsys/boot/lzc-os-init
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.005s

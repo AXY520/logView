@@ -1,0 +1,8 @@
+NEXT                            LEFT LAST                         PASSED UNIT                         ACTIVATES
+Sun 2025-11-16 23:59:33 CST 3h 13min Sat 2025-11-15 23:59:33 CST 20h ago systemd-tmpfiles-clean.timer systemd-tmpfiles-clean.service
+Mon 2025-11-17 00:00:00 CST 3h 13min Sun 2025-11-16 00:00:01 CST 20h ago dpkg-db-backup.timer         dpkg-db-backup.service
+Mon 2025-11-17 03:14:16 CST       6h Sun 2025-11-16 10:45:20 CST 10h ago man-db.timer                 man-db.service
+Sun 2025-11-23 03:10:43 CST   6 days Sun 2025-11-16 03:10:23 CST 17h ago e2scrub_all.timer            e2scrub_all.service
+
+4 timers listed.
+Pass --all to see loaded but inactive timers, too.

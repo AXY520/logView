@@ -1,0 +1,948 @@
+--------------- all lzcos ----------
+./runc-lzc-os.scope/pids.peak:2573
+./runc-lzc-os.scope/memory.peak:15332769792
+./runc-lzc-os.scope/memory.pressure:some avg10=0.05 avg60=0.04 avg300=0.00 total=6653385
+./runc-lzc-os.scope/memory.pressure:full avg10=0.05 avg60=0.04 avg300=0.00 total=6069094
+./runc-lzc-os.scope/cpu.idle:0
+./runc-lzc-os.scope/cpu.max:max 100000
+./runc-lzc-os.scope/cpu.max.burst:0
+./runc-lzc-os.scope/cpu.pressure:some avg10=1.12 avg60=0.77 avg300=0.77 total=1328410838
+./runc-lzc-os.scope/cpu.pressure:full avg10=0.09 avg60=0.02 avg300=0.00 total=665757035
+./runc-lzc-os.scope/cpu.stat:usage_usec 80483616064
+./runc-lzc-os.scope/cpu.stat:user_usec 57992325383
+./runc-lzc-os.scope/cpu.stat:system_usec 22491290681
+./runc-lzc-os.scope/cpu.stat:nr_periods 0
+./runc-lzc-os.scope/cpu.stat:nr_throttled 0
+./runc-lzc-os.scope/cpu.stat:throttled_usec 0
+./runc-lzc-os.scope/cpu.stat:nr_bursts 0
+./runc-lzc-os.scope/cpu.stat:burst_usec 0
+./runc-lzc-os.scope/cpu.weight:100
+./runc-lzc-os.scope/cpu.weight.nice:0
+./runc-lzc-os.scope/io.bfq.weight:default 100
+./runc-lzc-os.scope/io.pressure:some avg10=0.98 avg60=1.05 avg300=1.31 total=1035846286
+./runc-lzc-os.scope/io.pressure:full avg10=0.79 avg60=0.93 avg300=1.15 total=956507618
+./runc-lzc-os.scope/io.stat:7:2 
+./runc-lzc-os.scope/io.stat:7:5 
+./runc-lzc-os.scope/io.stat:7:3 
+./runc-lzc-os.scope/io.stat:7:7 
+./runc-lzc-os.scope/io.stat:7:4 
+./runc-lzc-os.scope/io.stat:7:1 rbytes=45056 wbytes=0 rios=1 wios=0 dbytes=0 dios=0
+./runc-lzc-os.scope/io.stat:7:0 
+./runc-lzc-os.scope/io.stat:8:0 rbytes=32768 wbytes=1040384 rios=2 wios=13 dbytes=0 dios=0
+./runc-lzc-os.scope/io.stat:8:16 rbytes=0 wbytes=1220608 rios=0 wios=72 dbytes=0 dios=0
+./runc-lzc-os.scope/io.stat:7:6 rbytes=0 wbytes=0 rios=0 wios=1 dbytes=0 dios=0
+./runc-lzc-os.scope/io.stat:7:8 rbytes=65744896 wbytes=0 rios=2069 wios=0 dbytes=0 dios=0
+./runc-lzc-os.scope/io.stat:259:0 rbytes=822927360 wbytes=1418113024 rios=10067 wios=143674 dbytes=0 dios=0
+./runc-lzc-os.scope/io.weight:default 100
+-----------------sys dockers
+./sys_docker.slice/pids.peak:397
+./sys_docker.slice/memory.peak:1417363456
+./sys_docker.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=317288
+./sys_docker.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=294453
+./sys_docker.slice/cpu.idle:0
+./sys_docker.slice/cpu.max:max 100000
+./sys_docker.slice/cpu.max.burst:0
+./sys_docker.slice/cpu.pressure:some avg10=0.28 avg60=0.07 avg300=0.01 total=572539423
+./sys_docker.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=323493045
+./sys_docker.slice/cpu.stat:usage_usec 27127200678
+./sys_docker.slice/cpu.stat:user_usec 20853834874
+./sys_docker.slice/cpu.stat:system_usec 6273365803
+./sys_docker.slice/cpu.stat:nr_periods 0
+./sys_docker.slice/cpu.stat:nr_throttled 0
+./sys_docker.slice/cpu.stat:throttled_usec 0
+./sys_docker.slice/cpu.stat:nr_bursts 0
+./sys_docker.slice/cpu.stat:burst_usec 0
+./sys_docker.slice/cpu.weight:200
+./sys_docker.slice/cpu.weight.nice:-3
+./sys_docker.slice/io.bfq.weight:default 363
+./sys_docker.slice/io.pressure:some avg10=0.62 avg60=0.92 avg300=1.13 total=925617503
+./sys_docker.slice/io.pressure:full avg10=0.60 avg60=0.88 avg300=1.09 total=907261767
+./sys_docker.slice/io.stat:7:0 rbytes=880640 wbytes=0 rios=75 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:1 rbytes=172032 wbytes=0 rios=23 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:2 rbytes=495616 wbytes=0 rios=66 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:5 rbytes=200704 wbytes=0 rios=49 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:3 rbytes=688128 wbytes=0 rios=68 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:6 rbytes=397312 wbytes=0 rios=54 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:7 rbytes=184320 wbytes=0 rios=45 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:4 rbytes=688128 wbytes=0 rios=68 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.stat:8:0 rbytes=38711296 wbytes=1672339456 rios=1601 wios=117501 dbytes=0 dios=0
+./sys_docker.slice/io.stat:8:16 rbytes=117497856 wbytes=4971954176 rios=7046 wios=321086 dbytes=0 dios=0
+./sys_docker.slice/io.stat:259:0 rbytes=555409408 wbytes=596287488 rios=4570 wios=114597 dbytes=0 dios=0
+./sys_docker.slice/io.stat:7:8 rbytes=324345856 wbytes=0 rios=5586 wios=0 dbytes=0 dios=0
+./sys_docker.slice/io.weight:default 3000
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/pids.peak:13
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/pids.peak:19
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/pids.peak:10
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/pids.peak:151
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/pids.peak:106
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/pids.peak:34
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/pids.peak:20
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/pids.peak:15
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/pids.peak:19
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/pids.peak:11
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/pids.peak:42
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/pids.peak:16
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/memory.peak:45051904
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/memory.peak:564822016
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/memory.peak:28794880
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/memory.peak:418656256
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/memory.peak:146423808
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/memory.peak:292306944
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/memory.peak:92491776
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/memory.peak:47558656
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/memory.peak:102428672
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/memory.peak:16658432
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/memory.peak:69861376
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/memory.peak:68120576
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=3378
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=3330
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=285843
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=266282
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=507
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=507
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=3190
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=3149
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=6211
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=6196
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=805
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=805
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.idle:0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.max:max 100000
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.max.burst:0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=927
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=694
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:usage_usec 235753
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:user_usec 129664
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:system_usec 106089
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.weight:100
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.idle:0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.max:max 100000
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.max.burst:0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=75419409
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=48973293
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:usage_usec 2243568602
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:user_usec 1699980007
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:system_usec 543588595
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.weight:100
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.idle:0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.max:max 100000
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.max.burst:0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=231580
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=219296
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:usage_usec 6008910
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:user_usec 2310072
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:system_usec 3698838
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.weight:100
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.idle:0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.max:max 100000
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.max.burst:0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.pressure:some avg10=0.24 avg60=0.06 avg300=0.01 total=346286477
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=134686297
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:usage_usec 20232490447
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:user_usec 16012570308
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:system_usec 4219920138
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.weight:100
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.idle:0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.max:max 100000
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.max.burst:0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=1583190
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=1279954
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:usage_usec 101354157
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:user_usec 61434222
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:system_usec 39919935
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.weight:100
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.idle:0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.max:max 100000
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.max.burst:0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=173335415
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=171061243
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:usage_usec 2664526836
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:user_usec 1502850121
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:system_usec 1161676714
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.weight:100
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.idle:0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.max:max 100000
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.max.burst:0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=6683931
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=6320975
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:usage_usec 163733313
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:user_usec 94149475
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:system_usec 69583837
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.weight:100
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.idle:0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.max:max 100000
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.max.burst:0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=568655
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=538148
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:usage_usec 163172817
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:user_usec 97112221
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:system_usec 66060595
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.weight:100
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.idle:0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.max:max 100000
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.max.burst:0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=32165157
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=25051098
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:usage_usec 1522033339
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:user_usec 1038523952
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:system_usec 483509387
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.weight:100
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.idle:0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.max:max 100000
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.max.burst:0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=29980
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=24039
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:usage_usec 14495481
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:user_usec 13773890
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:system_usec 721590
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.weight:100
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.idle:0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.max:max 100000
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.max.burst:0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=978897
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=656864
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:usage_usec 10769158
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:user_usec 5559791
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:system_usec 5209366
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.weight:100
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.idle:0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.max:max 100000
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.max.burst:0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=546239
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=456142
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:usage_usec 4814108
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:user_usec 4393416
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:system_usec 420692
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:nr_periods 0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:nr_throttled 0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:throttled_usec 0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:nr_bursts 0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.stat:burst_usec 0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.weight:100
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/cpu.weight.nice:0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=10843
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=10714
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.stat:259:0 rbytes=20021248 wbytes=2498560 rios=119 wios=540 dbytes=0 dios=0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.stat:7:8 rbytes=13840384 wbytes=0 rios=199 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-0c93ad8d9442129aff2bc2400d09cb8d215189c99f13d3cfd84837831471c884.scope/io.weight:default 100
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.pressure:some avg10=1.39 avg60=1.87 avg300=2.23 total=1309061113
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.pressure:full avg10=1.39 avg60=1.87 avg300=2.22 total=1306772922
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.stat:8:0 rbytes=9633792 wbytes=1582596096 rios=588 wios=115093 dbytes=0 dios=0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.stat:8:16 rbytes=43384832 wbytes=4899586048 rios=2648 wios=317546 dbytes=0 dios=0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.stat:259:0 rbytes=54738944 wbytes=290816 rios=588 wios=61 dbytes=0 dios=0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.stat:7:8 rbytes=29429760 wbytes=0 rios=619 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-51f62b239bb3613ba0599899bae617059d41315c215886eefa13609e463bb957.scope/io.weight:default 100
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2762
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2755
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.stat:259:0 rbytes=12017664 wbytes=0 rios=98 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.stat:7:8 rbytes=7233536 wbytes=0 rios=109 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-5d7aa52b1cac65e84d1572271b1845ddda8874680cef12559d400bf2e363c7f1.scope/io.weight:default 100
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=14023345
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=13530873
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.stat:8:16 rbytes=66596864 wbytes=69222400 rios=4114 wios=3348 dbytes=0 dios=0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.stat:8:0 rbytes=9965568 wbytes=89006080 rios=627 wios=2363 dbytes=0 dios=0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.stat:259:0 rbytes=170328064 wbytes=31703040 rios=1238 wios=204 dbytes=0 dios=0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.stat:7:8 rbytes=89628672 wbytes=0 rios=1881 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-65fd62496ce086217c91ace54e1682af1469f54adb85a5320dc34d6be413ae21.scope/io.weight:default 100
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2816595
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2774873
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.stat:8:16 rbytes=1777664 wbytes=0 rios=70 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.stat:8:0 rbytes=13234176 wbytes=0 rios=162 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.stat:259:0 rbytes=34017280 wbytes=123088896 rios=241 wios=9277 dbytes=0 dios=0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.stat:7:8 rbytes=26341376 wbytes=0 rios=384 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-791742f4c5b585108fe4e12fe7f50842f5528ee64d8df974c33326ecd7e9829d.scope/io.weight:default 100
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=1539881
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=1496896
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.stat:8:16 rbytes=1085440 wbytes=0 rios=38 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.stat:8:0 rbytes=1089536 wbytes=0 rios=39 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.stat:259:0 rbytes=98185216 wbytes=15532032 rios=560 wios=2938 dbytes=0 dios=0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.stat:7:8 rbytes=56303616 wbytes=0 rios=819 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-85c1380a6df9b73566900b89c206f7b2941f990dcd556c8f70d8c33f3e0ebdfa.scope/io.weight:default 100
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=11903
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=11793
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.stat:259:0 rbytes=37105664 wbytes=34623488 rios=219 wios=6904 dbytes=0 dios=0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.stat:7:8 rbytes=25513984 wbytes=0 rios=362 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-8abb27492073eea569fb229fa1268e72083838af98e9480028d2a934d88294bd.scope/io.weight:default 100
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=9670
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=9670
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.stat:259:0 rbytes=20295680 wbytes=393216 rios=94 wios=96 dbytes=0 dios=0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.stat:7:8 rbytes=14323712 wbytes=0 rios=211 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-8de7c46e14143ce9cf89c7e85ac278770f322e0387139dd7c578c97aaebeec2b.scope/io.weight:default 100
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=89920430
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=89658548
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.stat:8:0 rbytes=2592768 wbytes=737280 rios=125 wios=45 dbytes=0 dios=0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.stat:8:16 rbytes=4653056 wbytes=3145728 rios=176 wios=192 dbytes=0 dios=0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.stat:259:0 rbytes=42512384 wbytes=384708608 rios=612 wios=93735 dbytes=0 dios=0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.stat:7:8 rbytes=25554944 wbytes=0 rios=511 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-cbd5c9af5aab8d5d884923f983f145e1fc2d4bfeaa7c2afafaa8bcbd3647c084.scope/io.weight:default 100
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/io.stat:259:0 rbytes=0 wbytes=159744 rios=0 wios=39 dbytes=0 dios=0
+./sys_docker.slice/docker-e40430a95da830c9a071d64334b860843d146f72d3a46b8d7d0d2c7c5d4244f9.scope/io.weight:default 100
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=400913
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=400889
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:0 rbytes=880640 wbytes=0 rios=75 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:1 rbytes=172032 wbytes=0 rios=23 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:2 rbytes=495616 wbytes=0 rios=66 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:5 rbytes=200704 wbytes=0 rios=49 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:3 rbytes=688128 wbytes=0 rios=68 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:6 rbytes=397312 wbytes=0 rios=54 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:7 rbytes=184320 wbytes=0 rios=45 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:4 rbytes=688128 wbytes=0 rios=68 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:8:0 rbytes=2195456 wbytes=0 rios=60 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:259:0 rbytes=38301696 wbytes=3280896 rios=655 wios=801 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.stat:7:8 rbytes=14495744 wbytes=0 rios=219 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fa6aabd66175e3feb5ac5ed45e1facc91bea21d15b7974395e4e27ea5e6dcd5e.scope/io.weight:default 100
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.bfq.weight:default 100
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=5149
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=5136
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.stat:259:0 rbytes=27885568 wbytes=8192 rios=146 wios=2 dbytes=0 dios=0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.stat:7:8 rbytes=21680128 wbytes=0 rios=272 wios=0 dbytes=0 dios=0
+./sys_docker.slice/docker-fca647c06b455f0e3a267916c73da140ad21b502564d6616015b2326839df5f4.scope/io.weight:default 100
+-----------------lzcapp dockers
+./lzcapp.slice/pids.peak:1079
+./lzcapp.slice/memory.peak:12649799680
+./lzcapp.slice/memory.pressure:some avg10=0.13 avg60=0.09 avg300=0.02 total=8486026
+./lzcapp.slice/memory.pressure:full avg10=0.13 avg60=0.09 avg300=0.02 total=8288431
+./lzcapp.slice/cpu.idle:0
+./lzcapp.slice/cpu.max:max 100000
+./lzcapp.slice/cpu.max.burst:0
+./lzcapp.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=441624648
+./lzcapp.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=334957589
+./lzcapp.slice/cpu.stat:usage_usec 15968267950
+./lzcapp.slice/cpu.stat:user_usec 11764211851
+./lzcapp.slice/cpu.stat:system_usec 4204056098
+./lzcapp.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/cpu.weight:100
+./lzcapp.slice/cpu.weight.nice:0
+./lzcapp.slice/io.bfq.weight:default 272
+./lzcapp.slice/io.pressure:some avg10=1.28 avg60=0.96 avg300=1.07 total=500631501
+./lzcapp.slice/io.pressure:full avg10=1.10 avg60=0.91 avg300=1.04 total=488028182
+./lzcapp.slice/io.stat:259:0 
+./lzcapp.slice/io.stat:8:0 
+./lzcapp.slice/io.stat:7:8 
+./lzcapp.slice/io.stat:8:16 rbytes=60047360 wbytes=734928896 rios=1755 wios=1667 dbytes=0 dios=0
+./lzcapp.slice/io.weight:default 2000
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/pids.peak:72
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/pids.peak:84
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/pids.peak:89
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/pids.peak:23
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/pids.peak:21
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/pids.peak:30
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/pids.peak:159
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/pids.peak:29
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/pids.peak:59
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/pids.peak:18
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/pids.peak:48
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/pids.peak:112
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/pids.peak:75
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/pids.peak:13
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/pids.peak:191
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/pids.peak:38
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/pids.peak:52
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/pids.peak:29
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/pids.peak:13
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/pids.peak:97
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/memory.peak:790511616
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/memory.peak:3166113792
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/memory.peak:1027342336
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/memory.peak:51912704
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/memory.peak:101031936
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/memory.peak:351473664
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/memory.peak:511184896
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/memory.peak:66011136
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/memory.peak:531853312
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/memory.peak:298483712
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/memory.peak:391790592
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/memory.peak:6071644160
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/memory.peak:304054272
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/memory.peak:56033280
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/memory.peak:5387546624
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/memory.peak:878465024
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/memory.peak:86704128
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/memory.peak:146182144
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/memory.peak:21245952
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/memory.peak:2313654272
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=120711
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=120597
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/memory.pressure:some avg10=0.09 avg60=0.09 avg300=0.02 total=1507368
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/memory.pressure:full avg10=0.09 avg60=0.09 avg300=0.02 total=1506909
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.01 total=2225505
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.01 total=2223360
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=786686
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=786562
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=296148
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=296148
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=246646
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=246646
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=131807
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=131798
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/memory.pressure:some avg10=0.13 avg60=0.07 avg300=0.01 total=2053419
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/memory.pressure:full avg10=0.13 avg60=0.07 avg300=0.01 total=2020743
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=87390
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=87379
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=3610822
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=3567928
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=336001
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=335823
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=960352
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=957948
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/memory.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=107385
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/memory.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=107268
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=7486407
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=7408139
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:usage_usec 154886356
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:user_usec 137140399
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:system_usec 17745956
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=12107046
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=8631017
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:usage_usec 627282168
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:user_usec 457091423
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:system_usec 170190745
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=13364369
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=12259466
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:usage_usec 699776642
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:user_usec 458240889
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:system_usec 241535752
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=454717
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=320863
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:usage_usec 11453047
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:user_usec 9669828
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:system_usec 1783219
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=30009
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=26341
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:usage_usec 1928149
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:user_usec 1453605
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:system_usec 474544
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=94943385
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=92735658
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:usage_usec 1818223811
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:user_usec 1319187892
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:system_usec 499035918
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=1318042
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=1217735
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:usage_usec 147347308
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:user_usec 92472044
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:system_usec 54875263
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=33715
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=27053
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:usage_usec 8892134
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:user_usec 2704205
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:system_usec 6187929
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=817244
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=512895
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:usage_usec 41043829
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:user_usec 31971328
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:system_usec 9072501
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=404082
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=399143
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:usage_usec 79910845
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:user_usec 57353304
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:system_usec 22557541
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=203384
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=162974
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:usage_usec 14767740
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:user_usec 11818715
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:system_usec 2949025
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=36050689
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=31512030
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:usage_usec 1351398994
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:user_usec 1089311517
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:system_usec 262087477
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=1620680
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=1358191
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:usage_usec 48018089
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:user_usec 35582068
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:system_usec 12436021
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=140683045
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=139841902
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:usage_usec 1421995893
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:user_usec 624457674
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:system_usec 797538219
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=231333021
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=144074945
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:usage_usec 8592337211
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:user_usec 6674638612
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:system_usec 1917698599
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=4106680
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=3970610
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:usage_usec 175628042
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:user_usec 108452263
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:system_usec 67175779
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=6800563
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=3457822
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:usage_usec 485172889
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:user_usec 316701939
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:system_usec 168470950
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=206473
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=184516
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:usage_usec 27821062
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:user_usec 23684260
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:system_usec 4136801
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=151296
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=108292
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:usage_usec 4107139
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:user_usec 2455395
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:system_usec 1651744
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.idle:0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.max:max 100000
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.max.burst:0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=4781859
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=4615728
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:usage_usec 256277076
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:user_usec 211256806
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:system_usec 45020269
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:nr_periods 0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:nr_throttled 0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:throttled_usec 0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:nr_bursts 0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.stat:burst_usec 0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.weight:100
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/cpu.weight.nice:0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=19754487
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=19697710
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.stat:259:0 rbytes=2973696 wbytes=150937600 rios=642 wios=36850 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.stat:7:8 rbytes=229376 wbytes=0 rios=5 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.stat:8:0 rbytes=22319104 wbytes=3366912 rios=212 wios=891 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.stat:8:16 rbytes=159981568 wbytes=38834176 rios=2853 wios=3663 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.knowledge.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.pressure:some avg10=0.09 avg60=0.09 avg300=0.02 total=40904897
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.pressure:full avg10=0.09 avg60=0.09 avg300=0.02 total=40442386
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.stat:259:0 rbytes=277954560 wbytes=3391619072 rios=67860 wios=828032 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.stat:8:0 rbytes=130887680 wbytes=85909504 rios=2187 wios=5400 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.stat:8:16 rbytes=366039040 wbytes=85295104 rios=6969 wios=3753 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.aipod.rag.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.01 total=18172091
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.01 total=18109108
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.stat:7:8 rbytes=4096 wbytes=0 rios=1 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.stat:259:0 rbytes=471040 wbytes=587931648 rios=112 wios=143538 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.stat:8:0 rbytes=230260736 wbytes=19705856 rios=2855 wios=1293 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.stat:8:16 rbytes=54538240 wbytes=3289088 rios=859 wios=281 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.ai.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2936148
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2935843
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.stat:259:0 rbytes=0 wbytes=204800 rios=0 wios=14 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.stat:8:0 rbytes=1585152 wbytes=2146304 rios=16 wios=197 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.stat:8:16 rbytes=17653760 wbytes=110592 rios=92 wios=54 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.contacts.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=713089
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=712245
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.stat:259:0 rbytes=0 wbytes=57344 rios=0 wios=14 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.stat:8:0 rbytes=46874624 wbytes=0 rios=435 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.stat:8:16 rbytes=1703936 wbytes=0 rios=104 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.create.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2855606
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2853128
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.stat:259:0 rbytes=8192 wbytes=2387968 rios=2 wios=583 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.stat:8:0 rbytes=34557952 wbytes=0 rios=251 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.stat:8:16 rbytes=507904 wbytes=0 rios=31 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.customrelay.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2454326
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2433722
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.stat:259:0 rbytes=114688 wbytes=78217216 rios=28 wios=19096 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.stat:8:0 rbytes=130277376 wbytes=0 rios=596 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.stat:8:16 rbytes=90648576 wbytes=94208 rios=1291 wios=14 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.dockge.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=358694
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=356718
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.stat:8:0 rbytes=602112 wbytes=0 rios=27 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.stat:8:16 rbytes=19263488 wbytes=0 rios=201 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.forward.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=6900436
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=6868822
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.stat:259:0 rbytes=3194880 wbytes=32858112 rios=780 wios=8022 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.stat:8:0 rbytes=250884096 wbytes=73728 rios=2388 wios=8 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.stat:8:16 rbytes=58843136 wbytes=151552 rios=348 wios=20 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.jellyfinsingle.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=4392119
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=4392004
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.stat:259:0 rbytes=45056 wbytes=37478400 rios=11 wios=9150 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.stat:8:0 rbytes=19496960 wbytes=13922304 rios=363 wios=95 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.stat:8:16 rbytes=5894144 wbytes=54403072 rios=342 wios=2353 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.logviewer.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=1567630
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=1567071
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.stat:259:0 rbytes=749568 wbytes=23498752 rios=175 wios=5737 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.stat:7:8 rbytes=765952 wbytes=0 rios=187 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.stat:8:16 rbytes=30650368 wbytes=36184064 rios=592 wios=1823 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.stat:8:0 rbytes=101834752 wbytes=4460544 rios=655 wios=64 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.onemcp.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.pressure:some avg10=1.72 avg60=1.14 avg300=1.23 total=266230258
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.pressure:full avg10=1.72 avg60=1.14 avg300=1.22 total=262388350
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.stat:7:8 rbytes=16384 wbytes=0 rios=4 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.stat:259:0 rbytes=311296 wbytes=652713984 rios=76 wios=159354 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.stat:8:0 rbytes=2171420672 wbytes=102207488 rios=10548 wios=6547 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.stat:8:16 rbytes=499658752 wbytes=222367744 rios=1825 wios=17189 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.app.photo.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=5993082
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=5950145
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.stat:7:8 rbytes=217088 wbytes=0 rios=2 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.stat:259:0 rbytes=962560 wbytes=1732608 rios=24 wios=423 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.stat:8:0 rbytes=187871232 wbytes=249856 rios=2212 wios=122 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.stat:8:16 rbytes=59592704 wbytes=71266304 rios=1219 wios=1420 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.developer.tools.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.bfq.weight:default 303
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=227622
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=227530
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.stat:259:0 rbytes=4096 wbytes=376832 rios=1 wios=92 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.stat:8:0 rbytes=24576 wbytes=118784 rios=5 wios=14 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.stat:7:8 rbytes=49152 wbytes=0 rios=1 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.stat:8:16 rbytes=32768 wbytes=12288 rios=2 wios=6 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.appstore.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.bfq.weight:default 202
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=39772513
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=39468672
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.stat:259:0 rbytes=851968 wbytes=40632320 rios=201 wios=9920 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.stat:7:8 rbytes=32768 wbytes=0 rios=5 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.stat:8:0 rbytes=2121244672 wbytes=249618432 rios=8226 wios=2479 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.stat:8:16 rbytes=2447974400 wbytes=40099840 rios=6864 wios=1569 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lazycat.shell.files.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=6180445
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=6168910
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.stat:259:0 rbytes=118784 wbytes=137424896 rios=29 wios=33551 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.stat:8:0 rbytes=120631296 wbytes=510148608 rios=1556 wios=925 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.stat:8:16 rbytes=109412352 wbytes=734928896 rios=2405 wios=1667 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-cloud.lzcapp.qemu.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.pressure:some avg10=0.00 avg60=0.04 avg300=0.01 total=1489401
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.pressure:full avg10=0.00 avg60=0.04 avg300=0.01 total=1484849
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.stat:259:0 rbytes=4096 wbytes=233472 rios=1 wios=57 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.stat:8:16 rbytes=7602176 wbytes=0 rios=224 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.stat:8:0 rbytes=70709248 wbytes=0 rios=930 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-com.lxy.app.clash.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=2938797
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=2934981
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.stat:259:0 rbytes=53248 wbytes=946176 rios=13 wios=231 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.stat:8:0 rbytes=45436928 wbytes=2715648 rios=144 wios=213 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.stat:8:16 rbytes=39530496 wbytes=24576 rios=522 wios=9 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-lazycat.community.app.openlist.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.bfq.weight:default 100
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.pressure:some avg10=0.00 avg60=0.00 avg300=0.00 total=834553
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.pressure:full avg10=0.00 avg60=0.00 avg300=0.00 total=832418
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.stat:8:0 
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.stat:8:16 
+./lzcapp.slice/lzcapp-top.j0k3r.lpk.slice/io.weight:default 100
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.bfq.weight:default 55
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.pressure:some avg10=0.00 avg60=0.29 avg300=0.41 total=258309823
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.pressure:full avg10=0.00 avg60=0.29 avg300=0.41 total=258015080
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.stat:259:0 rbytes=2293760 wbytes=52649984 rios=519 wios=12854 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.stat:7:8 rbytes=1470464 wbytes=0 rios=350 wios=0 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.stat:8:0 rbytes=35876864 wbytes=239382528 rios=2218 wios=16661 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.stat:8:16 rbytes=78630912 wbytes=366166016 rios=2910 wios=29246 dbytes=0 dios=0
+./lzcapp.slice/lzcapp-xyz.mxue.maxkb.slice/io.weight:default 100
+
+real	0m0.037s
+user	0m0.018s
+sys	0m0.020s

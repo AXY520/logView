@@ -1,0 +1,33 @@
+lzc-sdk-version: "0.1"
+name: MaxKB
+package: xyz.mxue.maxkb
+version: 0.0.2
+description: MaxKB = Max Knowledge Base，是一款基于大语言模型和 RAG
+  的开源知识库问答系统，广泛应用于智能客服、企业内部知识库、学术研究与教育等场景。
+homepage: https://github.com/1Panel-dev/MaxKB
+author: 1Panel-dev
+locales:
+  zh: 
+    name: MaxKB
+    description: MaxKB = Max Knowledge Base，是一款基于大语言模型和 RAG
+      的开源知识库问答系统，广泛应用于智能客服、企业内部知识库、学术研究与教育等场景。
+  en:
+    name: MaxKB
+    description: MaxKB = Max Knowledge Base is an open-source knowledge base Q&A system
+      based on large language models and RAG, widely used in intelligent customer service,
+      enterprise internal knowledge bases, academic research, and education.
+application:
+  subdomain: maxkb
+  background_task: false
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  routes:
+    - /=http://maxkb.xyz.mxue.maxkb.lzcapp:8080/
+services:
+  maxkb:
+    image: registry.lazycat.cloud/aixinyin/1panel/maxkb:bc6d7a430b9aa53e
+    binds:
+      - /lzcapp/var/data:/var/lib/postgresql/data
+      - /lzcapp/var/python-packages:/opt/maxkb/app/sandbox/python-packages

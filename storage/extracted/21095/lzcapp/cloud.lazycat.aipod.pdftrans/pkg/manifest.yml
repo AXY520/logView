@@ -1,0 +1,47 @@
+name: PDF 翻译
+package: cloud.lazycat.aipod.pdftrans
+version: 1.0.3
+description: 基于 PDFMathTranslate-next 的 PDF 翻译工具
+license: AGPL-v3
+homepage: https://github.com/PDFMathTranslate/PDFMathTranslate-next
+author: PDFMathTranslate
+locales:
+  zh:
+    name: PDF 翻译
+    description: 基于 PDFMathTranslate-next 的 PDF 翻译工具
+  en:
+    name: PDF Translator
+    description: PDF Translator based on PDFMathTranslate-next
+  ja:
+    name: PDF Translator
+    description: PDFMathTranslate-nextを基にしたPDF翻訳ツール
+application:
+  subdomain: pdftrans
+  routes:
+    - /=http://caddy:80
+aipod:
+  shortcut:
+    disable: false
+  depends_on_others:
+    - trans
+services:
+  caddy:
+    image: registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce
+    setup_script: |
+      cat <<'EOF' > /etc/caddy/Caddyfile
+      {
+        auto_https off
+        http_port 80
+        https_port 0
+      }
+
+      :80 {
+        handle {
+          route {
+            lzcaipod
+            redir https://pdftrans-ai.{$LAZYCAT_BOX_DOMAIN}{uri}
+          }
+        }
+      }
+      EOF
+      cat /etc/caddy/Caddyfile

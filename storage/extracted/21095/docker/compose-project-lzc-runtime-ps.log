@@ -1,0 +1,6 @@
+NAME                              IMAGE                                              COMMAND                  SERVICE             CREATED        STATUS                  PORTS
+lzc-runtime-api-servers-1         registry.lazycat.cloud/lzc/lzcapp:3.20.3           "/sspk/bin/lzc-apise…"   api-servers         45 hours ago   Up 45 hours (healthy)   
+lzc-runtime-dex                   registry.lazycat.cloud/dexidp/dex:v2.42.0-alpine   "/usr/local/bin/dock…"   dex                 45 hours ago   Up 45 hours             
+lzc-runtime-ingress-control-1     registry.lazycat.cloud/lzc/lzcapp:3.20.3           "/sspk/bin/lzc-ingre…"   ingress-control     45 hours ago   Up 45 hours (healthy)   
+lzc-runtime-peripheral-device-1   registry.lazycat.cloud/lzc/lzcapp:3.20.3           "/sspk/bin/pd-service"   peripheral-device   45 hours ago   Up 45 hours             
+lzc-runtime-pkgm-1                registry.lazycat.cloud/lzc/lzcapp:3.20.3           "/sspk/bin/lzc-pkgm"     pkgm                45 hours ago   Up 45 hours (healthy)   

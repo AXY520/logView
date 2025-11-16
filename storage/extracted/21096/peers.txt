@@ -1,0 +1,37 @@
+my(12D3KooWArYUgwHJwgDwugWCf32Szrx4UxsaibfUSD5UgRJ4t1h5)
+	protocols:[/libp2p/circuit/relay/0.2.0/stop /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /hportal/tun/0.0.1 /remotesocks/socks5/0.0.1 /hportal/sgrpc/0.0.1 /sgrpc/space.heiyu.hportal.HClientService]
+
+12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k (Connected) horigin@aa110bcf1
+	ADDRS:[/ip4/119.91.142.202/udp/32000/quic-v1 /ip4/127.0.0.1/udp/32000/quic-v1 /ip4/172.20.0.4/tcp/32000 /ip4/172.20.0.4/tcp/32000/ws /ip4/172.20.0.4/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000 /ip4/119.91.142.202/tcp/32000/ws /ip4/127.0.0.1/tcp/32000 /ip4/127.0.0.1/tcp/32000/ws]
+	Protocols:[/ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/stop /sgrpc/any /sgrpc/space.heiyu.hportal.relaymanager.RelayManager /horigin/kad/1.0.0 /hportal/sgrpc/0.0.1 /ipfs/id/1.0.0]
+	C0:/ip4/0.0.0.0/udp/38754/quic-v1<-->/ip4/119.91.142.202/udp/32000/quic-v1(Direction:Outbound, Transient:false, 持续:11.021960879s)
+		Connection State:{"StreamMultiplexer":"","Security":"","Transport":"quic-v1","UsedEarlyMuxerNegotiation":false}
+
+
+12D3KooWGDaCjwJPAfeLGLKwUFtr7hxVt1FeqvZxdGpVWaDYpWAM (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/114.66.59.177/tcp/4001 /ip4/114.66.59.177/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0]
+	C0:/ip4/192.168.10.36/tcp/40486<-->/ip4/114.66.59.177/tcp/4001(Direction:Outbound, Transient:false, 持续:10.26067798s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/libp2p/circuit/relay/0.2.0/hop(Outbound,Transisent:false)持续:10.230494706s
+
+
+12D3KooWNWhaKgkjjwJWN6neBc5zbJGvfeEq34QhP4o1Knc3S9aX (Connected) axy_hserver@0.7.2
+	ADDRS:[/ip6/fdfe:dcba:9876::1/tcp/5500 /ip4/198.18.0.1/tcp/5500 /ip4/198.18.0.1/udp/5500/quic-v1 /p2p/12D3KooWGDaCjwJPAfeLGLKwUFtr7hxVt1FeqvZxdGpVWaDYpWAM/p2p-circuit /ip6/fdfe:dcba:9876::1/udp/5500/quic-v1]
+	Protocols:[/sgrpc/space.heiyu.hportal.LoginHServerService /hportal/boxsrvs/0.0.2 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /libp2p/dcutr /nearbybox/info /sgrpc/space.heiyu.hportal.HServerService /hportal/tun/0.0.1 /ipfs/id/1.0.0]
+	C0:/ip4/192.168.10.36/tcp/40486<-->/ip4/114.66.59.177/tcp/4001/p2p/12D3KooWGDaCjwJPAfeLGLKwUFtr7hxVt1FeqvZxdGpVWaDYpWAM/p2p-circuit(Direction:Outbound, Transient:false, 持续:10.077898651s)
+		Connection State:{"StreamMultiplexer":"","Security":"","Transport":"p2p-circuit","UsedEarlyMuxerNegotiation":false}
+		S0:/sgrpc/space.heiyu.hportal.LoginHServerService(Outbound,Transisent:false)持续:10.027403581s
+		S1:/sgrpc/space.heiyu.hportal.HServerService(Outbound,Transisent:false)持续:10.077121144s
+	C1:/ip6/2408:824e:d23:6080::997/tcp/42985<-->/ip6/240e:36d:326:9620:ee26:e189:dda7:a7f5/tcp/37464(Direction:Inbound, Transient:false, 持续:9.794141886s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/tls/1.0.0","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/hportal/tun/0.0.1(Outbound,Transisent:false)持续:7.716229806s
+		S1:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:5.932513054s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+		S2:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:5.405492895s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S3:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:87.286895ms
+			Name: map[serviceName:cloud.lazycat.os.recovery]
+
+
+共3个peer,4条物理链接,7条逻辑连接

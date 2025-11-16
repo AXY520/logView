@@ -1,0 +1,11 @@
+NAME                 STATUS              CONFIG FILES
+lzc-hal              running(1)          /lzcsys/sspks/lzc-hal/docker-compose.yml
+lzc-installer        running(1)          /lzcsys/sspks/lzc-installer/docker-compose.yml
+lzc-recovery         running(2)          /lzcsys/sspks/lzc-recovery/docker-compose.yml
+lzc-registry-proxy   running(1)          /lzcsys/sspks/lzc-registry-proxy/docker-compose.yml
+lzc-runtime          running(5)          /lzcsys/sspks/lzc-runtime/docker-compose.yml
+lzc-shell            running(2)          /lzcsys/sspks/lzc-shell/docker-compose.yml
+
+real	0m1.037s
+user	0m0.708s
+sys	0m0.368s

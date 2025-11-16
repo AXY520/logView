@@ -1,0 +1,122 @@
+name: Knowledge Base
+package: cloud.lazycat.aipod.knowledge
+version: 1.1.12
+description: Your personal knowledge base
+license: https://choosealicense.com/licenses/apache-2.0/
+homepage: https://lazycat.cloud
+author: x
+locales:
+  zh:
+    name: 知识库
+    description: 你的私人知识库
+  en:
+    name: Knowledge Base
+    description: Your personal knowledge base
+  ja:
+    name: 知識ベース
+    description: あなたの個人的な知識ベース
+application:
+  subdomain: knowledge
+  gpu_accel: true
+  routes:
+    - /=http://caddy:80
+  public_path:
+    - /api/fileloader/
+    - /debug/backend/
+    - /api/
+  file_handler:
+    mime:
+      - '*/*'
+    actions:
+      open: /open?file=%u
+services:
+  caddy:
+    image: registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce
+    setup_script: |
+      cat <<'EOF' > /etc/caddy/Caddyfile
+      {
+              auto_https off
+              http_port 80
+              https_port 0
+      }
+      :80 {
+              handle /api/fileloader/* {
+                      uri strip_prefix /api/fileloader
+                      reverse_proxy fileloader:3001
+              }
+              handle /api/* {
+                      reverse_proxy backend:3000
+              }
+              handle {
+                      route {
+                              lzcaipod
+                              root * /lzcapp/pkg/content/dist/
+                              try_files {path} /index.html
+
+                              header Cache-Control "max-age=60, private, must-revalidate"
+                              file_server
+                              # reverse_proxy wei.heiyu.space:5173
+                              # reverse_proxy 192.168.102.152:5173
+                      }
+              }
+      }
+      EOF
+      cat /etc/caddy/Caddyfile
+  backend:
+    image: registry.lazycat.cloud/x/lzc-knowledge:82f8bf2
+    health_check:
+      test:
+        - CMD
+        - curl
+        - '-f'
+        - http://localhost:3000/api/health
+      start_period: 180s
+    environment:
+      - LLM_API_BASE=https://ollama-ai.${LAZYCAT_BOX_DOMAIN}/v1
+      - LLM_ANSWER_MODEL=qwen3:30b-a3b
+      - LLM_QUERY_MODEL=qwen3:30b-a3b
+      - EMBEDDING_API_BASE=https://bgem3vllm-ai.${LAZYCAT_BOX_DOMAIN}
+      - EMBEDDING_MODEL=bge-m3
+      - RERANK_API_BASE=https://bgererankerv2m3vllm-ai.${LAZYCAT_BOX_DOMAIN}
+      - RERANK_MODEL=bge-reranker-v2-m3
+      - DB_URL=postgresql+asyncpg://postgres:temppassword@postgres:5432/postgres
+    depends_on:
+      - postgres
+      - fileloader
+  fileloader:
+    image: registry.lazycat.cloud/x/rag:bb78b8b
+    environment:
+      - EMBEDDING_BASE_URL=https://bgem3vllm-ai.${LAZYCAT_BOX_DOMAIN}/v1
+      - EMBEDDING_MODEL=bge-m3
+      - OCR_BASE_URL=https://ocr-ai.${LAZYCAT_BOX_DOMAIN}
+    health_check:
+      test:
+        - CMD
+        - curl
+        - '-f'
+        - http://localhost:3001/health
+      start_period: 60s
+  postgres:
+    image: registry.lazycat.cloud/x/lzc-knowledge-db:bbbd89a
+    binds:
+      - /lzcapp/var/pg-v4:/var/lib/postgresql/data
+      - /lzcapp/pkg/content/postgresql.conf:/etc/postgresql.conf
+      - /lzcapp/pkg/content/pg_hba.conf:/var/lib/postgresql/data/pg_hba.conf
+    command: '-c config_file=/etc/postgresql.conf'
+    environment:
+      - POSTGRES_PASSWORD=temppassword
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - PGUSER=postgres
+    health_check:
+      test:
+        - CMD
+        - pg_isready
+        - '-U'
+        - postgres
+      start_period: 60s
+ext_config:
+  enable_document_access: true
+  enable_media_access: true
+  permissions:
+    - PERM_DOCKER_CAP_SYS_ADMIN
+    - PERM_MEDIA_MOUNT_SHARED
