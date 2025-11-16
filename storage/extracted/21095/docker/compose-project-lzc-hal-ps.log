@@ -1,2 +1,0 @@
-NAME      IMAGE                                      COMMAND           SERVICE   CREATED        STATUS        PORTS
-lzc-hal   registry.lazycat.cloud/lzc/lzcapp:3.20.3   "/sspk/lzc-hal"   lzc-hal   45 hours ago   Up 45 hours   

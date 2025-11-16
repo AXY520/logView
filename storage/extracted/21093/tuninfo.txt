@@ -1,4 +1,0 @@
-tun_running:3 len_tuns:3
-	tun(fc03:1136:3857:1692:bdd2:fd35:1721:0)->ostun, R:1,W:0
-	tun(fc03:1136:38ec:4d2f:d654:6f8f:23cc:0)->wangjia666_12D3KooWGu-3, R:1,W:0
-	tun(fc03:1136:3804:b695:d5fd:e83a:b23e:0)->wangjia_12D3KooWLi-4, R:1,W:0

@@ -1,3 +1,0 @@
-Nov 14 23:44:34 lzcbox-60378f6b 8de7c46e1414[606]: 2025-11-14T15:44:34.806Z	INFO	dri	dri/dri.go:100	pmuNameStr = icelake
-Nov 14 23:44:34 lzcbox-60378f6b 8de7c46e1414[606]: 2025-11-14T15:44:34.806Z	INFO	dri	dri/dri.go:111	driver = I11Driver
-Nov 14 23:44:34 lzcbox-60378f6b 8de7c46e1414[606]: 2025-11-14T15:44:34.820Z	INFO	thermal-control	fanctl/fanctl.go:41	load thermal controller config failed, use default config

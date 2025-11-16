@@ -1,9 +1,0 @@
-[2025-11-01 00:04:49.136] [info]  [
-  "懒猫部署向导-axy|282|https://duplicati.axy.heiyu.space/_lzc/sys/setup/index|Uncaught TypeError: Cannot read properties of null (reading 'addEventListener')"
-]
-[2025-11-01 00:04:58.045] [info]  [
-  'Duplicati 启动中-axy|145|https://duplicati.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
-]
-[2025-11-01 00:05:17.115] [info]  [
-  'Duplicati 启动中-axy|200|https://duplicati.axy.heiyu.space/|请求成功，状态码： [object Response] 13'
-]

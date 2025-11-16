@@ -1,2 +1,0 @@
-NAME            IMAGE                                      COMMAND                 SERVICE         CREATED        STATUS        PORTS
-lzc-installer   registry.lazycat.cloud/lzc/lzcapp:3.20.3   "/sspk/lzc-installer"   lzc-installer   45 hours ago   Up 45 hours   

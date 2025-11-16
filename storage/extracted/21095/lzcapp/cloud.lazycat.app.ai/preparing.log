@@ -1,9 +1,0 @@
-[1A[1B[0G[?25l[+] Pulling 7/7
- [32m✔[0m backend Skipped - Image is already present locally        [32m[0m[34m0.0s [0m
- [32m✔[0m caddy Skipped - Image is already present locally          [32m[0m[34m0.0s [0m
- [32m✔[0m convert Skipped - Image is already present locally        [32m[0m[34m0.0s [0m
- [32m✔[0m mdns_discovery Skipped - Image is already present locally [32m[0m[34m0.0s [0m
- [32m✔[0m mtrans Skipped - Image is already present locally         [32m[0m[34m0.0s [0m
- [32m✔[0m postgres Skipped - Image is already present locally       [32m[0m[34m0.0s [0m
- [32m✔[0m app Skipped - Image is already present locally            [32m[0m[34m0.0s [0m
-[?25h

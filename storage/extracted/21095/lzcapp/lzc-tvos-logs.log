@@ -1,6 +1,0 @@
-Error response from daemon: No such container: lzc-tvos
-
-real	0m0.011s
-user	0m0.005s
-sys	0m0.008s
-execute "/lzcsys/share/lazycat-cloud/log-scripts/lzcapp/lzc-tvos-logs" error code: 1

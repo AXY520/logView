@@ -1,9 +1,0 @@
-NAME                                      IMAGE                                                                      COMMAND                  SERVICE            CREATED       STATUS                 PORTS
-cloudlazycataipodrag-app-1                registry.lazycat.cloud/lzc/lzcapp:3.20.3                                   "/lzcinit/cloud.lazy…"   app                8 hours ago   Up 8 hours (healthy)   
-cloudlazycataipodrag-backend-1            registry.lazycat.cloud/catdogai/backend:20250625                           "/lzcapp/pkg/content…"   backend            8 hours ago   Up 8 hours             
-cloudlazycataipodrag-backend_filechat-1   registry.lazycat.cloud/x/filechat:603cb4a                                  "python3 server.py"      backend_filechat   8 hours ago   Up 8 hours             3000/tcp
-cloudlazycataipodrag-backend_jieba-1      registry.lazycat.cloud/catdogai/jieba:0.42.1-403da521                      "gunicorn -w 4 -b 0.…"   backend_jieba      8 hours ago   Up 8 hours             
-cloudlazycataipodrag-backend_rag-1        registry.lazycat.cloud/x/rag:bb78b8b                                       "python3 server.py"      backend_rag        8 hours ago   Up 8 hours (healthy)   3001/tcp
-cloudlazycataipodrag-backend_videorag-1   registry.lazycat.cloud/x/videorag/rag:93c36f3                              "python3 server.py"      backend_videorag   8 hours ago   Up 8 hours (healthy)   3000/tcp
-cloudlazycataipodrag-caddy-1              registry.lazycat.cloud/catdogai/caddy-aipod:65e058ce                       "/lzcinit/cloud.lazy…"   caddy              8 hours ago   Up 8 hours             80/tcp, 443/tcp, 2019/tcp, 443/udp
-cloudlazycataipodrag-postgres-1           registry.lazycat.cloud/catdogai/postgres:17.4-pgvectorscale-202509121813   "docker-entrypoint.s…"   postgres           8 hours ago   Up 8 hours (healthy)   5432/tcp

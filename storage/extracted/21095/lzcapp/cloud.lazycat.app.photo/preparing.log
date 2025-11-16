@@ -1,6 +1,0 @@
-[1A[1B[0G[?25l[+] Pulling 4/4
- [32m✔[0m weaviate Skipped - Image is already present locally    [32m[0m[34m0.0s [0m
- [32m✔[0m app Skipped - Image is already present locally         [32m[0m[34m0.0s [0m
- [32m✔[0m photosearch Skipped - Image is already present locally [32m[0m[34m0.0s [0m
- [32m✔[0m postgres Skipped - Image is already present locally    [32m[0m[34m0.0s [0m
-[?25h

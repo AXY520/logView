@@ -1,6 +1,0 @@
-[2025-10-31 10:19:00.142] [info]  [
-  '即时通讯多合一 启动中-axy|145|https://im.axy.heiyu.space/|请求成功，状态码： [object Response] 8'
-]
-[2025-10-31 21:58:29.080] [info]  [
-  'ed717908152b:1 (lazycat) - KasmVNC-axy|5355|https://im.axy.heiyu.space/dist/main.bundle.js|Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently'
-]

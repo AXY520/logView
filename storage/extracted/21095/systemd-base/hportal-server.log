@@ -1,6 +1,0 @@
-cat: /var/log/punchhole.log: No such file or directory
-
-real	0m0.050s
-user	0m0.008s
-sys	0m0.017s
-execute "/lzcsys/share/lazycat-cloud/log-scripts/systemd-base/hportal-server" error code: 7

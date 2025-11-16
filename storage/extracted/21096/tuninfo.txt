@@ -1,3 +1,0 @@
-tun_running:2 len_tuns:2
-	tun(fc03:1136:387f:7a80:c8cc:58be:371d:0)->axy_12D3KooWNW-4, R:11,W:15
-	tun(fc03:1136:38a5:5f5f:1cd6:73bd:8922:0)->ostun, R:18,W:10
