@@ -21,8 +21,8 @@ function initializeComponents() {
 
 // 绑定事件
 function bindEvents() {
-    // 下载按钮
-    document.getElementById('downloadBtn').addEventListener('click', showDownloadModal);
+    // 下载按钮 - 显示远程日志列表
+    document.getElementById('downloadBtn').addEventListener('click', showRemoteLogsList);
     
     // 刷新按钮
     document.getElementById('refreshBtn').addEventListener('click', refreshAll);
@@ -40,27 +40,96 @@ function bindEvents() {
     document.getElementById('downloadForm').addEventListener('submit', downloadLog);
 }
 
-// 显示下载模态框
-function showDownloadModal() {
-    document.getElementById('modal').style.display = 'block';
-    document.getElementById('logIdInput').focus();
-}
-
-// 关闭模态框
-function closeModal() {
-    document.getElementById('modal').style.display = 'none';
-    document.getElementById('downloadForm').reset();
-}
-
-// 下载日志
-function downloadLog(event) {
-    event.preventDefault();
+// 显示远程日志列表
+function showRemoteLogsList() {
+    const modal = document.getElementById('modal');
+    const modalContent = modal.querySelector('.modal-content');
     
-    const logId = document.getElementById('logIdInput').value.trim();
-    if (!logId) {
-        alert('请输入日志ID');
-        return;
-    }
+    // 更新模态框内容
+    modalContent.innerHTML = `
+        <span class="close">&times;</span>
+        <h2>选择要下载的日志</h2>
+        <div id="remoteLogsLoading" class="loading">
+            <i class="fas fa-spinner"></i>
+            <p>正在加载远程日志列表...</p>
+        </div>
+        <div id="remoteLogsList" style="display: none;">
+            <ul id="remoteLogsItems" class="remote-logs-list"></ul>
+        </div>
+    `;
+    
+    // 重新绑定关闭按钮
+    modalContent.querySelector('.close').addEventListener('click', closeModal);
+    
+    modal.style.display = 'block';
+    
+    // 加载远程日志列表
+    loadRemoteLogsList();
+}
+
+// 加载远程日志列表
+function loadRemoteLogsList() {
+    const loadingEl = document.getElementById('remoteLogsLoading');
+    const listEl = document.getElementById('remoteLogsList');
+    const itemsEl = document.getElementById('remoteLogsItems');
+    
+    fetch('/api/remote-logs')
+        .then(response => response.json())
+        .then(data => {
+            loadingEl.style.display = 'none';
+            
+            if (data.error) {
+                listEl.innerHTML = `<div class="error-message">${data.error}</div>`;
+                listEl.style.display = 'block';
+                return;
+            }
+            
+            if (data.length === 0) {
+                listEl.innerHTML = '<div class="empty-state"><p>没有可用的远程日志</p></div>';
+                listEl.style.display = 'block';
+                return;
+            }
+            
+            // 渲染远程日志列表
+            itemsEl.innerHTML = '';
+            data.forEach(log => {
+                const li = document.createElement('li');
+                li.className = 'remote-log-item';
+                li.innerHTML = `
+                    <div class="remote-log-info">
+                        <div class="remote-log-id">${log.id}</div>
+                        <div class="remote-log-details">
+                            ${log.boxname ? `<span class="boxname">${log.boxname}</span>` : ''}
+                            <span class="log-time">${log.createat}</span>
+                        </div>
+                    </div>
+                `;
+                
+                // 点击自动下载
+                li.addEventListener('click', function() {
+                    downloadLogById(log.id);
+                });
+                
+                itemsEl.appendChild(li);
+            });
+            
+            listEl.style.display = 'block';
+        })
+        .catch(error => {
+            loadingEl.style.display = 'none';
+            listEl.innerHTML = `<div class="error-message">加载远程日志列表失败: ${error.message}</div>`;
+            listEl.style.display = 'block';
+            console.error('Error loading remote logs:', error);
+        });
+}
+
+// 根据ID下载日志（无需确认）
+function downloadLogById(logId) {
+    // 关闭模态框
+    closeModal();
+    
+    // 显示下载提示
+    showDownloadingMessage(logId);
     
     // 发送下载请求
     fetch('/api/download', {
@@ -72,18 +141,44 @@ function downloadLog(event) {
     })
     .then(response => response.json())
     .then(data => {
+        hideDownloadingMessage();
         if (data.error) {
             alert('下载失败: ' + data.error);
         } else {
-            alert('日志下载成功');
-            closeModal();
+            // 刷新日志列表
             loadLogList();
         }
     })
     .catch(error => {
+        hideDownloadingMessage();
         console.error('Error:', error);
         alert('下载过程中发生错误');
     });
+}
+
+// 显示下载中的消息
+function showDownloadingMessage(logId) {
+    const message = document.createElement('div');
+    message.id = 'downloadingMessage';
+    message.className = 'downloading-message';
+    message.innerHTML = `
+        <i class="fas fa-spinner fa-spin"></i>
+        <span>正在下载日志 ${logId}...</span>
+    `;
+    document.body.appendChild(message);
+}
+
+// 隐藏下载中的消息
+function hideDownloadingMessage() {
+    const message = document.getElementById('downloadingMessage');
+    if (message) {
+        message.remove();
+    }
+}
+
+// 关闭模态框
+function closeModal() {
+    document.getElementById('modal').style.display = 'none';
 }
 
 // 刷新所有数据

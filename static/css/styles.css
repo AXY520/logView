@@ -118,8 +118,18 @@ body {
 
 .panel-content {
     flex: 1;
-    overflow: auto;
+    overflow: hidden;
     padding: 1rem;
+}
+
+/* 隐藏滚动条但保持滚动功能 */
+.panel-content:hover {
+    overflow-y: auto;
+}
+
+.panel-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 /* 日志列表面板 */
@@ -348,7 +358,16 @@ body {
     padding: 1rem;
     border-radius: 4px;
     max-height: 100%;
-    overflow: auto;
+    overflow: hidden;
+}
+
+.content-text:hover {
+    overflow-y: auto;
+}
+
+.content-text::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 /* JSON内容样式 */
@@ -452,4 +471,76 @@ body {
     .log-list-panel, .file-tree-panel {
         flex: none;
     }
+}
+
+/* 远程日志列表样式 */
+.remote-logs-list {
+    list-style: none;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.remote-logs-list::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.remote-log-item {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.remote-log-item:hover {
+    background-color: #f0f7ff;
+    border-color: #007bff;
+    transform: translateX(5px);
+}
+
+.remote-log-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.remote-log-id {
+    font-weight: 600;
+    color: #007bff;
+    font-size: 1.1rem;
+}
+
+.remote-log-details {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.remote-log-details .boxname {
+    font-weight: 500;
+    color: #28a745;
+}
+
+/* 下载中的消息 */
+.downloading-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 10000;
+    font-size: 1.1rem;
+}
+
+.downloading-message i {
+    font-size: 1.5rem;
 }

@@ -1,0 +1,26 @@
+[2025-11-16T03:33:22.191Z] WebSocket 错误 [object Event]
+Stack: @user-script:6:19:33
+@https://hajimi.heiyu.space/assets/index-5c59e094.js:388:47640
+---
+[2025-11-16T03:37:13.997Z] Error: Response closed without headers
+Stack: @user-script:6:19:33
+logError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1597
+handleError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1524
+@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:982
+---
+[2025-11-16T07:42:51.741Z] WebSocket 错误 [object Event]
+Stack: @user-script:6:19:33
+@https://hajimi.heiyu.space/assets/index-5c59e094.js:388:47640
+---
+[2025-11-16T07:58:50.816Z] TypeError: Load failed
+Stack: @user-script:6:19:33
+logError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1597
+handleError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1524
+@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:982
+---
+[2025-11-16T07:58:50.823Z] Error: Response closed without headers
+Stack: @user-script:6:19:33
+logError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1597
+handleError@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:1524
+@https://hajimi.heiyu.space/assets/index-5c59e094.js:16:982
+---

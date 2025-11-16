@@ -1,0 +1,28 @@
+[2025-10-21T12:15:43.662Z] AxiosError: Network Error
+Stack: @user-script:5:19:33
+@https://biglime.heiyu.space/assets/index-5c59e094.js:388:15474
+---
+[2025-10-21T12:15:43.662Z] TypeError: undefined is not an object (evaluating '(await axiosInstance.get("/dotstatus/get")).data')
+Stack: @user-script:5:19:33
+logError@https://biglime.heiyu.space/assets/index-5c59e094.js:16:1597
+handleError@https://biglime.heiyu.space/assets/index-5c59e094.js:16:1524
+@https://biglime.heiyu.space/assets/index-5c59e094.js:16:982
+---
+[2025-10-22T02:05:05.477Z] Error: Response closed without headers
+Stack: @user-script:5:19:33
+@https://biglime.heiyu.space/assets/index-5c59e094.js:388:44174
+---
+[2025-10-22T02:05:05.483Z] AxiosError: Network Error
+Stack: @user-script:5:19:33
+@https://biglime.heiyu.space/assets/index-5c59e094.js:388:15474
+---
+[2025-10-22T02:05:05.483Z] TypeError: undefined is not an object (evaluating '(await axiosInstance.get("/dotstatus/get")).data')
+Stack: @user-script:5:19:33
+logError@https://biglime.heiyu.space/assets/index-5c59e094.js:16:1597
+handleError@https://biglime.heiyu.space/assets/index-5c59e094.js:16:1524
+@https://biglime.heiyu.space/assets/index-5c59e094.js:16:982
+---
+[2025-10-22T03:06:35.405Z] WebSocket 错误 [object Event]
+Stack: @user-script:5:19:33
+@https://biglime.heiyu.space/assets/index-5c59e094.js:388:47640
+---

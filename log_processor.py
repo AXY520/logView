@@ -37,6 +37,8 @@ class LogProcessor:
     def download_log_direct(self, log_id):
         """直接在Python中下载，不依赖外部脚本"""
         try:
+            # 确保log_id是字符串类型
+            log_id = str(log_id)
             print(f"=== 开始直接下载日志 {log_id} ===")
             
             url = f"https://hlogs.lazycat.cloud/api/v1/download-log/{log_id}"
@@ -45,13 +47,18 @@ class LogProcessor:
             print(f"下载URL: {url}")
             print(f"保存到: {zip_path}")
             
-            # 使用requests下载
+            # 使用requests下载，允许重定向
             response = requests.get(
                 url,
                 auth=HTTPBasicAuth('lnks', 'N5JKpyiw97zhrY0U'),
                 stream=True,
-                timeout=300
+                timeout=300,
+                allow_redirects=True
             )
+            
+            # 检查响应状态
+            if response.status_code == 404:
+                return {'success': False, 'error': f'日志 {log_id} 不存在或已过期'}
             
             response.raise_for_status()
             
@@ -123,6 +130,7 @@ class LogProcessor:
 
     def get_file_structure(self, log_id):
         """获取文件树状结构"""
+        log_id = str(log_id)
         extract_path = os.path.join(self.extract_dir, log_id)
         if not os.path.exists(extract_path):
             raise FileNotFoundError(f"日志 {log_id} 不存在")
@@ -151,6 +159,7 @@ class LogProcessor:
 
     def get_file_content(self, log_id, file_path):
         """获取文件内容"""
+        log_id = str(log_id)
         extract_path = os.path.join(self.extract_dir, log_id)
         full_path = os.path.join(extract_path, file_path)
         
@@ -227,6 +236,7 @@ class LogProcessor:
 
     def delete_log_files(self, log_id):
         """删除日志文件"""
+        log_id = str(log_id)
         zip_path = os.path.join(self.zip_dir, f"{log_id}.zip")
         extract_path = os.path.join(self.extract_dir, log_id)
         

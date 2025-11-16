@@ -1,0 +1,72 @@
+my(12D3KooWGK5YNLJMpZBfzecL2R1S4Wkni4jEdfBpGKimbA2kmDAz)
+	protocols:[/libp2p/circuit/relay/0.2.0/stop /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /hportal/tun/0.0.1 /remotesocks/socks5/0.0.1 /hportal/sgrpc/0.0.1 /sgrpc/space.heiyu.hportal.HClientService]
+
+12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27 (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/183.136.206.164/tcp/4001/ws /ip4/183.136.206.164/tcp/4001 /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0]
+	C0:/ip4/10.34.164.246/tcp/56437<-->/ip4/183.136.206.164/tcp/4001(Direction:Outbound, Transient:false, 持续:48.346253167s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/libp2p/circuit/relay/0.2.0/hop(Outbound,Transisent:false)持续:48.269844417s
+		S1:/libp2p/circuit/relay/0.2.0/hop(Outbound,Transisent:false)持续:48.269864459s
+
+
+12D3KooWGu2uMHQnfbSojzeZc6HuUqoC81vqDo4MHbuTFD2cd71r (Connected) wangjia666_hserver@0.7.2
+	ADDRS:[/ip4/192.168.0.156/tcp/5500 /ip4/192.168.0.156/udp/5500/quic-v1 /p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit /ip4/192.168.0.169/tcp/5500 /ip4/192.168.0.169/udp/5500/quic-v1 /punchhole]
+	Protocols:[/hportal/boxsrvs/0.0.2 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.LoginHServerService /hportal/connreaper/0.0.1 /hportal/tun/0.0.1 /libp2p/circuit/relay/0.2.0/hop /nearbybox/info /sgrpc/space.heiyu.hportal.HServerService]
+	C0:/ip4/10.34.164.246/tcp/56437<-->/ip4/183.136.206.164/tcp/4001/p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit(Direction:Outbound, Transient:false, 持续:47.981699458s)
+		Connection State:{"StreamMultiplexer":"","Security":"","Transport":"p2p-circuit","UsedEarlyMuxerNegotiation":false}
+		S0:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:39.634340584s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S1:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:642.593792ms
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S2:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:45.250345125s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+		S3:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:534.698041ms
+			Name: map[serviceName:cloud.lazycat.hext.address]
+		S4:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:25.634022s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S5:/sgrpc/space.heiyu.hportal.HServerService(Outbound,Transisent:false)持续:4.139944s
+		S6:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:44.250127459s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+		S7:/hportal/tun/0.0.1(Outbound,Transisent:false)持续:46.501193417s
+		S8:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:36.126279292s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S9:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:45.632356625s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S10:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:45.61040825s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S11:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:29.156901625s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S12:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:4.014268542s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S13:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:175.450041ms
+			Name: map[serviceName:cloud.lazycat.os.recovery]
+		S14:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:43.593343416s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S15:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:43.153718625s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S16:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:32.642462625s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S17:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:4.861708ms
+			Name: map[serviceName:_sys_]
+
+
+12D3KooWLir74Xr5b4qabTFzhvCKWqvtGwdbV2bwXp2tvFXxxfrJ (Connected) wangjia_hserver@0.7.2
+	ADDRS:[/punchhole /ip4/192.168.0.104/tcp/5500 /p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit /ip4/192.168.0.104/udp/5500/quic-v1 /ip4/192.168.0.170/tcp/5500 /ip4/192.168.0.170/udp/5500/quic-v1]
+	Protocols:[/ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/hop /nearbybox/info /sgrpc/space.heiyu.hportal.LoginHServerService /hportal/boxsrvs/0.0.2 /hportal/connreaper/0.0.1 /hportal/tun/0.0.1 /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.HServerService]
+	C0:/ip4/10.34.164.246/tcp/56437<-->/ip4/183.136.206.164/tcp/4001/p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit(Direction:Outbound, Transient:false, 持续:47.889847375s)
+		Connection State:{"StreamMultiplexer":"","Security":"","Transport":"p2p-circuit","UsedEarlyMuxerNegotiation":false}
+		S0:/hportal/tun/0.0.1(Outbound,Transisent:false)持续:46.275998875s
+		S1:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:44.250669542s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+
+
+12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k (Connected) horigin@aa110bcf1
+	ADDRS:[/ip4/172.20.0.4/tcp/32000/ws /ip4/127.0.0.1/tcp/32000 /ip4/172.20.0.4/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000 /ip4/119.91.142.202/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000/ws /ip4/127.0.0.1/tcp/32000/ws /ip4/127.0.0.1/udp/32000/quic-v1 /ip4/172.20.0.4/tcp/32000]
+	Protocols:[/sgrpc/any /sgrpc/space.heiyu.hportal.relaymanager.RelayManager /horigin/kad/1.0.0 /hportal/sgrpc/0.0.1 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/stop]
+	C0:/ip4/10.34.164.246/tcp/56687<-->/ip4/119.91.142.202/tcp/32000(Direction:Outbound, Transient:false, 持续:3.235059458s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/hportal/sgrpc/0.0.1(Outbound,Transisent:false)持续:3.186589208s
+
+
+共4个peer,4条物理链接,23条逻辑连接

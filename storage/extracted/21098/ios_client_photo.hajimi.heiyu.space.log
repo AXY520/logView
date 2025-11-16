@@ -1,0 +1,9 @@
+[2025-11-16T03:35:29.954Z] Error: Embedded Dark Reader cannot access a cross-origin resource https://hajimi.heiyu.space/sys/static/npm/@xterm/xterm@5.5.0/css/xterm.min.css Overview your URLs and CORS policies or use `DarkReader.setFetchMethod(fetch: (url) => Promise<Response>))`. See if using `DarkReader.setFetchMethod(window.fetch)` before `DarkReader.enable()` works.
+Stack: @user-script:60:19:33
+@https://photo.hajimi.heiyu.space/:238:22
+---
+[2025-11-16T13:13:02.315Z] 获取商店应用信息出错: AxiosError: Request failed with status code 502
+Stack: @user-script:49:19:33
+@https://photo.hajimi.heiyu.space/assets/index.45c24348.js:566:82665
+s0@https://photo.hajimi.heiyu.space/assets/index.45c24348.js:1:865
+---

@@ -1,0 +1,67 @@
+my(12D3KooWCSkA3tq28KGvaajiSbBXn8aYLN9DDXiEcyRcja74AS9x)
+	protocols:[/libp2p/circuit/relay/0.2.0/stop /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /hportal/tun/0.0.1 /remotesocks/socks5/0.0.1 /hportal/sgrpc/0.0.1 /sgrpc/space.heiyu.hportal.HClientService]
+
+12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k (NotConnected) horigin@aa110bcf1
+	ADDRS:[/ip4/127.0.0.1/tcp/32000 /ip4/127.0.0.1/tcp/32000/ws /ip4/127.0.0.1/udp/32000/quic-v1 /ip4/172.20.0.4/tcp/32000 /ip4/172.20.0.4/tcp/32000/ws /ip4/172.20.0.4/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000 /ip4/119.91.142.202/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000/ws]
+12D3KooWCbkdiY692TXK5S2JjKLkrVSiuQF3xaoz897wsQirCEKc (Connected) orangenekko_hserver@0.7.2
+	ADDRS:[/ip4/192.168.0.120/udp/5500/quic-v1 /ip4/192.168.0.120/tcp/5500 /p2p/12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27/p2p-circuit /ip4/192.168.1.6/tcp/43660]
+	Protocols:[/hportal/tun/0.0.1 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/stop /nearbybox/info /libp2p/circuit/relay/0.2.0/hop /sgrpc/space.heiyu.hportal.HServerService /sgrpc/space.heiyu.hportal.LoginHServerService /hportal/boxsrvs/0.0.2 /hportal/connreaper/0.0.1]
+	C0:/ip4/192.168.0.112/tcp/46518<-->/ip4/192.168.0.120/tcp/5500(Direction:Outbound, Transient:false, 持续:29.124889312s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:121.825ms
+			Name: map[serviceName:cloud.lazycat.os.recovery]
+		S1:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:26.032476865s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S2:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:25.164891813s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+		S3:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:25.073229938s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S4:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:23.135442595s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S5:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:11.327371923s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S6:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:220.751146ms
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S7:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:5.518594ms
+			Name: map[serviceName:cloud.lazycat.sys.dns]
+		S8:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:20.111856346s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S9:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:14.120078588s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S10:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:25.082159365s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S11:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:24.793997699s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S12:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:12.647101402s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S13:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:9.003967653s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S14:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:6.694048383s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S15:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:5.523764113s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S16:/hportal/tun/0.0.1(Outbound,Transisent:false)持续:26.298334053s
+		S17:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:14.939884317s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S18:/sgrpc/space.heiyu.hportal.HServerService(Outbound,Transisent:false)持续:13.997309473s
+		S19:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:13.777114474s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S20:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:4.111049269s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S21:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:2.525376666s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S22:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:1.370664062s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S23:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:2.495284895s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S24:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:18.077372754s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S25:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:10.159610412s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S26:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:7.838393591s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+
+
+12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27 (NotConnected) hrelay@aa110bcf1
+	ADDRS:[/ip4/183.136.206.164/tcp/4001/ws /ip4/183.136.206.164/tcp/4001 /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+共3个peer,1条物理链接,27条逻辑连接

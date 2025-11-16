@@ -1,0 +1,30 @@
+IPv6网关查询(2001::68f4:2b23):dial udp [2001::68f4:2b23]:443: connect: network is unreachable
+
+IPv6网关查询(fc00::):dial udp [fc00::]:443: connect: network is unreachable
+
+IPv6网关查询(::):dial udp [2000::6666]:443: connect: network is unreachable
+
+DNS PREFER GO::true
+
+DNS DIAL FUNCTION POINT ADDRESS::0x7ba2cea330 hportal/hclient/clientcore.NewLocalDNS.func1
+
+snyh的微服ID解析(TXT查询):[dnsaddr=/p2p/12D3KooWLmDPLuCWy3GSQ27wyum18bt6EtiX5EWBfTgu3WXZtPhg]
+
+snyh的微服ID解析(CGO TXT查询):lookup _dnsaddr.snyh.heiyu.space on [::1]:53: read udp [::1]:44890->[::1]:53: read: connection refused
+
+snyh的微服IP解析(AAAA查询):[fc03:1136:38bb:5ee2:44bb:7479:f44e:0]
+
+snyh的微服ID解析(CGO AAAA查询):[fc03:1136:38bb:5ee2:44bb:7479:f44e:0]
+
+origin的dnsaddr查询:[{12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k: [/ip4/119.91.142.202/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000/ws /ip4/119.91.142.202/tcp/32000]}]
+
+dial origin.lazycat.cloud:443:<nil>
+
+dial origin.lazycat.cloud:32000:<nil>
+
+当前路径:/
+
+设备网卡信息:route ip+net: netlinkrib: permission denied
+
+路由表信息:不支持
+

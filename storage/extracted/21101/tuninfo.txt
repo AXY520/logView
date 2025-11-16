@@ -1,0 +1,3 @@
+tun_running:2 len_tuns:2
+	tun(fc03:1136:38ae:ccd6:2f97:333e:faf0:0)->ostun, R:40,W:13
+	tun(fc03:1136:38f4:40c1:644c:f578:deb2:0)->orangenekko_12D3KooWCb-10, R:4,W:5
