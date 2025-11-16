@@ -2,6 +2,46 @@
 let currentLogId = null;
 let currentFilePath = null;
 
+// 时间格式化函数
+function formatTimeAgo(timestamp) {
+    const now = new Date();
+    const time = new Date(timestamp);
+    const diffMs = now - time;
+    const diffSecs = Math.floor(diffMs / 1000);
+    const diffMins = Math.floor(diffSecs / 60);
+    const diffHours = Math.floor(diffMins / 60);
+    const diffDays = Math.floor(diffHours / 24);
+    
+    let timeAgo = '';
+    if (diffSecs < 60) {
+        timeAgo = '刚刚';
+    } else if (diffMins < 60) {
+        timeAgo = `${diffMins}分钟前`;
+    } else if (diffHours < 24) {
+        timeAgo = `${diffHours}小时前`;
+    } else if (diffDays < 30) {
+        timeAgo = `${diffDays}天前`;
+    } else {
+        // 超过30天显示具体日期
+        const months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
+        const month = months[time.getMonth()];
+        const day = String(time.getDate()).padStart(2, '0');
+        const hours = String(time.getHours()).padStart(2, '0');
+        const minutes = String(time.getMinutes()).padStart(2, '0');
+        const seconds = String(time.getSeconds()).padStart(2, '0');
+        return `${month}-${day} ${hours}:${minutes}:${seconds}`;
+    }
+    
+    // 添加具体时间
+    const month = String(time.getMonth() + 1).padStart(2, '0');
+    const day = String(time.getDate()).padStart(2, '0');
+    const hours = String(time.getHours()).padStart(2, '0');
+    const minutes = String(time.getMinutes()).padStart(2, '0');
+    const seconds = String(time.getSeconds()).padStart(2, '0');
+    
+    return `${timeAgo} (${month}-${day} ${hours}:${minutes}:${seconds})`;
+}
+
 // DOM加载完成后初始化
 document.addEventListener('DOMContentLoaded', function() {
     // 初始化组件
@@ -100,7 +140,7 @@ function loadRemoteLogsList() {
                         <div class="remote-log-id">${log.id}</div>
                         <div class="remote-log-details">
                             ${log.boxname ? `<span class="boxname">${log.boxname}</span>` : ''}
-                            <span class="log-time">${log.createat}</span>
+                            <span class="log-time">${formatTimeAgo(log.createat)}</span>
                         </div>
                     </div>
                 `;
@@ -220,7 +260,7 @@ function loadLogList() {
                 li.innerHTML = `
                     <div>
                         <div class="log-id">${log.log_id}</div>
-                        <div class="log-time">${log.download_time}</div>
+                        <div class="log-time">${formatTimeAgo(log.download_time)}</div>
                     </div>
                     <div class="log-actions">
                         <button class="btn btn-danger btn-sm delete-btn" data-log-id="${log.log_id}">
