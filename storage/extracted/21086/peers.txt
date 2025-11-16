@@ -1,0 +1,102 @@
+my(12D3KooWMqSkG7c5aBxKMC1Cdjcs5NHBV4A6dcFAoub4LyFswR2b)
+	protocols:[/libp2p/circuit/relay/0.2.0/stop /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /hportal/tun/0.0.1 /remotesocks/socks5/0.0.1 /hportal/sgrpc/0.0.1 /sgrpc/space.heiyu.hportal.HClientService /ipfs/ping/1.0.0]
+
+12D3KooWAN8a5wM1ijWDvncAhhj71X6swXqYt319kiHzYgeZyR6o (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/110.42.99.21/tcp/4001 /ip4/110.42.99.21/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop]
+	C0:/ip4/192.168.0.249/tcp/9452<-->/ip4/110.42.99.21/tcp/4001(Direction:Outbound, Transient:false, 持续:18.41249s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWGdT9D1NeEyBN68afktJN9rhUgLNeESX6Y3J2FRJhYwaN (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/107.172.76.12/tcp/4001 /ip4/107.172.76.12/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService]
+	C0:/ip4/192.168.0.249/tcp/9449<-->/ip4/107.172.76.12/tcp/4001(Direction:Outbound, Transient:false, 持续:19.7999239s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWLvk2qFzHKV7z7djWv9E2PpaQ9EDKBYnvS6BvdntbSaWn (Connected) hrelay@v0.0.0-20250418071340-a700003b12a8
+	ADDRS:[/ip4/59.173.31.112/tcp/4001 /ip4/59.173.31.112/tcp/40011/ws]
+	Protocols:[/libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop]
+	C0:/ip4/192.168.0.249/tcp/9455/ws<-->/ip4/59.173.31.112/tcp/40011/ws(Direction:Outbound, Transient:false, 持续:18.9921847s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"websocket","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWGDaCjwJPAfeLGLKwUFtr7hxVt1FeqvZxdGpVWaDYpWAM (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws /ip4/114.66.59.177/tcp/4001 /ip4/114.66.59.177/tcp/4001/ws]
+	Protocols:[/horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService]
+	C0:/ip4/192.168.0.249/tcp/9444<-->/ip4/114.66.59.177/tcp/4001(Direction:Outbound, Transient:false, 持续:19.4676041s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWE7YkvTDruvH85Kc8nKCQB8GvnfDjUtSCRZAUyz13Xwgn (Connected) jacob_hserver@0.7.2
+	ADDRS:[/ip4/192.168.0.69/tcp/5500 /ip4/192.168.0.69/udp/5500/quic-v1 /ip4/192.168.0.60/tcp/5500 /ip4/192.168.0.60/udp/5500/quic-v1 /p2p/12D3KooWGdT9D1NeEyBN68afktJN9rhUgLNeESX6Y3J2FRJhYwaN/p2p-circuit]
+	Protocols:[/hportal/boxsrvs/0.0.2 /hportal/connreaper/0.0.1 /hportal/tun/0.0.1 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/hop /ipfs/id/1.0.0 /libp2p/circuit/relay/0.2.0/stop /nearbybox/info /sgrpc/space.heiyu.hportal.HServerService /sgrpc/space.heiyu.hportal.LoginHServerService]
+	C0:/ip4/192.168.0.249/tcp/1205<-->/ip4/192.168.0.60/tcp/5500(Direction:Outbound, Transient:false, 持续:20m5.6496074s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWBdFmJrGXVERtVtCUYd3zYQ6LqceMvKf4aNgdGYUyZLdk (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/45.32.239.193/tcp/4001 /ip4/45.32.239.193/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0]
+	C0:/ip4/192.168.0.249/tcp/9448<-->/ip4/45.32.239.193/tcp/4001(Direction:Outbound, Transient:false, 持续:19.4847577s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWLSgi8393n55MLNZ2eKWG7JgKnff7zypPNxqYqYUQqA27 (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/183.136.206.164/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws /ip4/183.136.206.164/tcp/4001]
+	Protocols:[/ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0]
+	C0:/ip4/192.168.0.249/tcp/9442<-->/ip4/183.136.206.164/tcp/4001(Direction:Outbound, Transient:false, 持续:19.4508195s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWMqti4wm6SiBMzvMZzr7ZFuWrAhmRvUg9YVaj7QKUCRW7 (Connected) horigin@v0.0.0-20250829062529-883de980c789
+	ADDRS:[/ip4/127.0.0.1/udp/32000/quic-v1 /ip4/172.18.0.2/tcp/32000 /ip4/172.18.0.2/tcp/32000/ws /ip4/172.18.0.2/udp/32000/quic-v1 /ip4/107.172.76.12/udp/32000/quic-v1 /ip4/107.172.76.12/tcp/32000 /ip4/127.0.0.1/tcp/32000/ws /dns/origin-us.lazycat.cloud/tcp/32000/ws /ip4/107.172.76.12/tcp/32000/ws /ip4/127.0.0.1/tcp/32000]
+	Protocols:[/hportal/sgrpc/0.0.1 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /libp2p/circuit/relay/0.2.0/stop /sgrpc/any /sgrpc/space.heiyu.hportal.relaymanager.RelayManager /horigin/kad/1.0.0]
+	C0:/ip4/0.0.0.0/udp/60445/quic-v1<-->/ip4/107.172.76.12/udp/32000/quic-v1(Direction:Outbound, Transient:false, 持续:20m11.0622543s)
+		Connection State:{"StreamMultiplexer":"","Security":"","Transport":"quic-v1","UsedEarlyMuxerNegotiation":false}
+
+
+12D3KooWFd4noKubT52xXD9huT9H3uE1YWfX77TsKdBThcEqaqtL (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/69.161.221.36/tcp/4001 /ip4/69.161.221.36/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0]
+	C0:/ip4/192.168.0.249/tcp/9450<-->/ip4/69.161.221.36/tcp/4001(Direction:Outbound, Transient:false, 持续:19.3756684s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWKK8ALdMm7ubobKcaAnN8VgUKYLobQ5xaAmyWiyL5YBRU (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/95.179.192.146/tcp/4001 /ip4/95.179.192.146/tcp/4001/ws /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0]
+	C0:/ip4/192.168.0.249/tcp/9445<-->/ip4/95.179.192.146/tcp/4001(Direction:Outbound, Transient:false, 持续:19.4998929s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWPU7sTiuCzvMYi862L7vF7JhDk5Ee4CNU3rvywh5tpgRQ (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws /ip4/208.85.18.252/tcp/4001 /ip4/208.85.18.252/tcp/4001/ws]
+	Protocols:[/horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService]
+	C0:/ip4/192.168.0.249/tcp/9451<-->/ip4/208.85.18.252/tcp/4001(Direction:Outbound, Transient:false, 持续:19.4899232s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWN72vG8cfLrT3LX8pF2WDYoLetiR5TkRPUu4x3FoBbb4G (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/139.84.241.187/tcp/4001/ws /ip4/139.84.241.187/tcp/4001 /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0]
+	C0:/ip4/192.168.0.249/tcp/9446<-->/ip4/139.84.241.187/tcp/4001(Direction:Outbound, Transient:false, 持续:19.0875432s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWGenintfRZyR7U3FdPXvnzDg4w8bSPEa8Yu51tDGgwUx3 (Connected) hrelay@v0.0.0-20250618080031-063903cb14b1
+	ADDRS:[/ip4/141.11.139.150/tcp/4001 /ip4/141.11.139.150/tcp/40011/ws]
+	Protocols:[/libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService /horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop]
+	C0:/ip4/192.168.0.249/tcp/9443<-->/ip4/141.11.139.150/tcp/4001(Direction:Outbound, Transient:false, 持续:19.486186s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+12D3KooWGXNE7qfcShaFfetHNni79VxLrTTswK1Jo94VX81ZN2yX (Connected) hrelay@aa110bcf1
+	ADDRS:[/ip4/139.180.182.231/tcp/4001/ws /ip4/139.180.182.231/tcp/4001 /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+	Protocols:[/horigin/kad/1.0.0 /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /ipfs/ping/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /sgrpc/space.heiyu.hportal.relay.RelayService]
+	C0:/ip4/192.168.0.249/tcp/9453<-->/ip4/139.180.182.231/tcp/4001(Direction:Outbound, Transient:false, 持续:19.2876193s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+
+
+共14个peer,14条物理链接,0条逻辑连接

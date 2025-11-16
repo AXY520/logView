@@ -1,0 +1,27 @@
+start	2025-11-16 17:55:07
+	44.458µs
+	1.17225ms
+	1.448292ms
+	1.434667ms
+buildinfo.txt	1.925584ms
+memory.txt	3.583375ms
+tuninfo.txt	4.696791ms
+env.txt	5.220666ms
+boxes.json	5.350333ms
+clientinfo.json	5.798708ms
+peers.txt	5.261166ms
+stderr.log	7.847625ms
+log.json	9.704625ms
+ifconfig.txt	17.034042ms
+scutil.dns.txt	20.252416ms
+scutil.list.txt	21.44825ms
+scutil.nwi.txt	21.620459ms
+punchhole.log	24.705375ms
+netstat.txt	26.364625ms
+heap.pprof	35.640542ms
+pc_render.old.log	36.710208ms
+box_home.txt	143.649458ms
+other.txt	853.923583ms
+relay.log	3.002289084s
+nettype.json	5.144224292s
+over	5.268545167s

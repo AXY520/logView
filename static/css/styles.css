@@ -1,0 +1,407 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 按钮样式 */
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* 图标按钮 */
+.btn-icon {
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+}
+
+/* 容器布局 */
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.panel-header {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.panel-header h2 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.panel-controls {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.file-info {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.panel-content {
+    flex: 1;
+    overflow: auto;
+    padding: 1rem;
+}
+
+/* 日志列表面板 */
+.log-list-panel {
+    flex: 0 0 300px;
+}
+
+.log-items {
+    list-style: none;
+}
+
+.log-item {
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log-item:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff;
+    transform: translateX(5px);
+}
+
+.log-item.active {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+}
+
+.log-id {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.log-time {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.log-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* 文件树面板 */
+.file-tree-panel {
+    flex: 0 0 350px;
+}
+
+.tree-container {
+    font-size: 0.9rem;
+}
+
+/* 搜索框样式 */
+.search-container {
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.tree-node {
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.tree-node:hover {
+    background-color: #f0f0f0;
+}
+
+.tree-node.directory {
+    font-weight: 600;
+    color: #2196f3; /* 文件夹用蓝色 */
+}
+
+.tree-node.file {
+    font-weight: normal;
+    color: #4caf50; /* 文件用绿色 */
+}
+
+.tree-node.active {
+    background-color: #e3f2fd;
+    color: #007bff;
+}
+
+.tree-node .toggle {
+    width: 16px;
+    text-align: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    color: #666;
+    font-size: 0.8rem;
+    display: none; /* 隐藏展开三角图标 */
+}
+
+.tree-node .icon {
+    width: 16px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-right: 0.3rem;
+}
+
+.tree-node .node-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.tree-node .node-size {
+    font-size: 0.8rem;
+    color: #666;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+}
+
+/* 搜索高亮 */
+.tree-node.highlighted {
+    background-color: #fff3cd;
+    border-left: 3px solid #ffc107;
+}
+
+.tree-children {
+    overflow: hidden;
+    transition: none; /* 移除动画延迟 */
+}
+
+.tree-children.collapsed {
+    display: none;
+}
+
+.tree-children.expanded {
+    display: block;
+}
+
+/* 文件内容面板 */
+.file-content-panel {
+    flex: 1;
+}
+
+.content-container {
+    height: 100%;
+}
+
+.content-text {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    max-height: 100%;
+    overflow: auto;
+}
+
+/* JSON内容样式 */
+.content-text.json-content {
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+/* 空状态和加载状态 */
+.empty-state, .loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.empty-state i, .loading i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.loading i {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error-message {
+    text-align: center;
+    padding: 2rem;
+    color: #dc3545;
+}
+
+/* 模态框样式 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.close:hover {
+    color: #000;
+}
+
+#downloadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#downloadForm label {
+    font-weight: 600;
+}
+
+#logIdInput {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .panel {
+        margin-bottom: 1rem;
+    }
+    
+    .log-list-panel, .file-tree-panel {
+        flex: none;
+    }
+}

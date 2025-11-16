@@ -1,0 +1,24 @@
+my(12D3KooWP2dvP4gzqbHEm3UH6fff9RQgip4dDZ5oBLoinuxfu55U)
+	protocols:[/libp2p/circuit/relay/0.2.0/stop /ipfs/id/1.0.0 /ipfs/id/push/1.0.0 /hportal/tun/0.0.1 /remotesocks/socks5/0.0.1 /hportal/sgrpc/0.0.1 /sgrpc/space.heiyu.hportal.HClientService]
+
+12D3KooWNCdXo5kyLSXHvJgNH4XUYBQxmGq4esWBUms6GGJYmby7 (Connected) metaverse_hserver@0.7.2
+	ADDRS:[/ip6/2409:8a00:6050:d5f0:19a4:6c85:58c8:b493/udp/5500/quic-v1 /ip4/192.168.1.5/tcp/5500 /ip4/192.168.49.1/tcp/5500 /ip4/192.168.49.1/udp/5500/quic-v1 /ip4/192.168.1.5/udp/5500/quic-v1 /p2p/12D3KooWGDaCjwJPAfeLGLKwUFtr7hxVt1FeqvZxdGpVWaDYpWAM/p2p-circuit /ip6/2409:8a00:6050:d5f0:19a4:6c85:58c8:b493/tcp/5500]
+	Protocols:[/hportal/boxsrvs/0.0.2 /hportal/tun/0.0.1 /ipfs/id/1.0.0 /libp2p/circuit/relay/0.2.0/hop /libp2p/circuit/relay/0.2.0/stop /nearbybox/info /sgrpc/space.heiyu.hportal.HServerService /sgrpc/space.heiyu.hportal.LoginHServerService /hportal/connreaper/0.0.1 /ipfs/id/push/1.0.0]
+	C0:/ip4/192.168.1.3/tcp/62760<-->/ip4/192.168.1.5/tcp/5500(Direction:Outbound, Transient:false, 持续:2m11.047744667s)
+		Connection State:{"StreamMultiplexer":"/yamux/1.0.0","Security":"/noise","Transport":"tcp","UsedEarlyMuxerNegotiation":true}
+		S0:/hportal/tun/0.0.1(Outbound,Transisent:false)持续:1m56.879234917s
+		S1:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:1m55.669027583s
+			Name: map[serviceName:cloud.lazycat.runtime.bridge.basic]
+		S2:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:39.193208542s
+			Name: map[serviceName:cloud.lazycat.sys.runtime.proxy]
+		S3:/sgrpc/space.heiyu.hportal.LoginHServerService(Outbound,Transisent:false)持续:2m11.040750417s
+		S4:/sgrpc/space.heiyu.hportal.HServerService(Outbound,Transisent:false)持续:2m6.306297708s
+		S5:/hportal/boxsrvs/0.0.2(Outbound,Transisent:false)持续:129.132542ms
+			Name: map[serviceName:cloud.lazycat.os.recovery]
+
+
+12D3KooWAN8a5wM1ijWDvncAhhj71X6swXqYt319kiHzYgeZyR6o (NotConnected) <nil>
+	ADDRS:[/ip4/110.42.99.21/tcp/4001/ws /ip4/110.42.99.21/tcp/4001 /ip4/127.0.0.1/tcp/4001 /ip4/127.0.0.1/tcp/4001/ws]
+12D3KooWP4oy8QRQfNCdDx9h3YYtNStWiDEn9yj5yhjGnpy3k65k (NotConnected) <nil>
+	ADDRS:[/ip4/119.91.142.202/udp/32000/quic-v1 /ip4/127.0.0.1/tcp/32000 /ip4/127.0.0.1/tcp/32000/ws /ip4/172.20.0.4/tcp/32000/ws /ip4/172.20.0.4/udp/32000/quic-v1 /ip4/119.91.142.202/tcp/32000 /ip4/119.91.142.202/tcp/32000/ws /ip4/127.0.0.1/udp/32000/quic-v1 /ip4/172.20.0.4/tcp/32000]
+共3个peer,1条物理链接,6条逻辑连接

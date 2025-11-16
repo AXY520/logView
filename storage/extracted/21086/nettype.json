@@ -1,0 +1,14 @@
+{
+  "HasPublicIPv4": false,
+  "HasPublicIPv6": false,
+  "MappedAddressForTCP": [
+    "tcp: 192.168.0.249:9512 -> 162.156.88.46:9512 via 45.63.83.38:3478",
+    "tcp: 192.168.0.249:9512 -> 162.156.88.46:9512 via 45.32.130.255:3479"
+  ],
+  "MappedAddressForUDP": [
+    "udp: 192.168.0.249:53995 -> 162.156.88.46:53995 via 45.63.83.38:3478",
+    "udp: 192.168.0.249:53995 -> 162.156.88.46:53995 via 45.32.130.255:3479"
+  ],
+  "NATMappingTypeForTCP": 0,
+  "NATMappingTypeForUDP": 0
+}

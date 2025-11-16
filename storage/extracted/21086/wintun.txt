@@ -1,0 +1,88 @@
+2025/11/15 15:44:04.711841 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 15:44:04.766243 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 15:44:04.767422 tun_windows.go:104: Info: Extracting driver
+2025/11/15 15:44:04.768969 tun_windows.go:104: Info: Installing driver
+2025/11/15 15:44:05.195251 tun_windows.go:104: Info: Creating adapter
+2025/11/15 15:44:05.346833 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 15:44:05.346833 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:05:33.470749 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:05:33.550611 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:05:33.687258 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:05:33.723998 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:05:33.725000 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:05:33.726261 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:05:34.092222 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:05:34.298997 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:05:34.298997 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:06:29.907351 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:06:29.959985 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:06:30.101042 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:06:30.139083 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:06:30.139216 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:06:30.139723 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:06:30.523156 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:06:30.727117 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:06:30.727117 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:07:02.497304 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:07:02.557116 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:07:02.716109 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:07:02.755187 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:07:02.755511 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:07:02.756012 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:07:03.195401 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:07:03.400778 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:07:03.400778 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:07:29.457221 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:07:29.510519 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:07:29.653221 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:07:29.691771 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:07:29.692778 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:07:29.693288 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:07:30.077299 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:07:30.285079 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:07:30.285079 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:10:18.217992 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:10:18.291132 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:10:18.434278 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:10:18.473315 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:10:18.473315 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:10:18.474324 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:10:18.848512 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:10:19.054786 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:10:19.054786 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:16:23.747727 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:16:23.842268 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:16:24.027050 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:16:24.070683 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:16:24.071351 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:16:24.071871 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:16:24.468437 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:16:24.679786 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:16:24.679786 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 16:20:46.917036 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 16:20:47.030440 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 16:20:47.185589 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 16:20:47.222258 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 16:20:47.223872 tun_windows.go:104: Info: Extracting driver
+2025/11/15 16:20:47.224382 tun_windows.go:104: Info: Installing driver
+2025/11/15 16:20:47.540485 tun_windows.go:104: Info: Creating adapter
+2025/11/15 16:20:47.765802 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 16:20:47.765802 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 22:15:34.428479 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 22:15:34.608212 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 22:15:34.803783 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 22:15:34.846379 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 22:15:34.847635 tun_windows.go:104: Info: Extracting driver
+2025/11/15 22:15:34.848707 tun_windows.go:104: Info: Installing driver
+2025/11/15 22:15:35.304497 tun_windows.go:104: Info: Creating adapter
+2025/11/15 22:15:35.535483 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 22:15:35.535483 remotetun_windows.go:121: failed to get interface: Element not found.
+2025/11/15 22:31:52.716231 tun_windows.go:104: Info: Removed orphaned adapter "home-portal"
+2025/11/15 22:31:52.917555 tun_windows.go:104: Info: Removing driver oem98.inf
+2025/11/15 22:31:53.087471 tun_windows.go:118: Creating tun: home-portal
+2025/11/15 22:31:53.127588 tun_windows.go:104: Info: Installing driver 0.14
+2025/11/15 22:31:53.128590 tun_windows.go:104: Info: Extracting driver
+2025/11/15 22:31:53.129122 tun_windows.go:104: Info: Installing driver
+2025/11/15 22:31:53.581244 tun_windows.go:104: Info: Creating adapter
+2025/11/15 22:31:53.821897 tun_windows.go:140: failed to get interface: Element not found.
+2025/11/15 22:31:53.821897 remotetun_windows.go:121: failed to get interface: Element not found.
