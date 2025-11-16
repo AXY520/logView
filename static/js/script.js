@@ -44,14 +44,36 @@ function formatTimeAgo(timestamp) {
 
 // DOM加载完成后初始化
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, initializing...');
+    
     // 初始化组件
     initializeComponents();
     
     // 绑定事件
     bindEvents();
     
-    // 加载日志列表
+    // 立即尝试加载日志列表
+    console.log('Loading log list on page load...');
     loadLogList();
+    
+    // 如果第一次加载失败，稍后再次尝试
+    setTimeout(() => {
+        const itemsEl = document.getElementById('logItems');
+        if (itemsEl && itemsEl.children.length === 0) {
+            console.log('Retrying log list load...');
+            loadLogList();
+        }
+    }, 500);
+});
+
+// 同时也监听window的load事件作为备用
+window.addEventListener('load', function() {
+    console.log('Window fully loaded, checking log list...');
+    const itemsEl = document.getElementById('logItems');
+    if (itemsEl && itemsEl.children.length === 0) {
+        console.log('Window load: retrying log list load...');
+        loadLogList();
+    }
 });
 
 // 初始化组件
@@ -238,20 +260,36 @@ function loadLogList() {
     const emptyEl = document.getElementById('logListEmpty');
     const itemsEl = document.getElementById('logItems');
     
+    // 检查元素是否存在
+    if (!loadingEl || !emptyEl || !itemsEl) {
+        console.error('Log list elements not found');
+        return;
+    }
+    
     // 显示加载状态
     loadingEl.style.display = 'block';
     emptyEl.style.display = 'none';
     itemsEl.innerHTML = '';
     
     fetch('/api/logs')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
         .then(data => {
             loadingEl.style.display = 'none';
             
-            if (data.length === 0) {
+            console.log('Loaded logs:', data); // 添加调试日志
+            
+            if (!data || data.length === 0) {
                 emptyEl.style.display = 'block';
                 return;
             }
+            
+            // 清空现有内容
+            itemsEl.innerHTML = '';
             
             // 渲染日志列表
             data.forEach(log => {
@@ -272,7 +310,7 @@ function loadLogList() {
                 // 添加点击事件
                 li.addEventListener('click', function(e) {
                     if (!e.target.closest('.delete-btn')) {
-                        selectLog(log.log_id);
+                        selectLog(log.log_id, this);
                     }
                 });
                 
@@ -289,18 +327,22 @@ function loadLogList() {
         .catch(error => {
             loadingEl.style.display = 'none';
             console.error('Error loading logs:', error);
+            // 显示错误信息
+            itemsEl.innerHTML = `<div class="error-message">加载日志列表失败: ${error.message}</div>`;
         });
 }
 
 // 选择日志
-function selectLog(logId) {
+function selectLog(logId, element) {
     currentLogId = logId;
     
     // 更新UI选中状态
     document.querySelectorAll('.log-item').forEach(item => {
         item.classList.remove('active');
     });
-    event.currentTarget.classList.add('active');
+    if (element) {
+        element.classList.add('active');
+    }
     
     // 加载文件树
     loadFileTree(logId);
