@@ -550,6 +550,7 @@ function filterFiles(searchTerm) {
         restoreInitialFolderStates();
     } else {
         // 有搜索词时的过滤逻辑
+        let hasVisibleNodes = false;
         nodes.forEach(node => {
             const fileName = node.getAttribute('data-name');
             
@@ -557,6 +558,7 @@ function filterFiles(searchTerm) {
                 // 匹配的文件
                 node.style.display = '';
                 node.classList.add('highlighted');
+                hasVisibleNodes = true;
                 
                 // 展开并显示所有父级目录
                 let parent = node.closest('.tree-children');
@@ -579,9 +581,11 @@ function filterFiles(searchTerm) {
         
         // 隐藏空的容器
         document.querySelectorAll('.tree-children').forEach(container => {
-            const visibleChildren = container.querySelectorAll('.tree-node[style=""]');
+            const visibleChildren = container.querySelectorAll('.tree-node:not([style*="display: none"])');
             if (visibleChildren.length === 0) {
                 container.style.display = 'none';
+            } else {
+                container.style.display = '';
             }
         });
     }
